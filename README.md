@@ -69,6 +69,10 @@ Wyniki:
 - nadaje morsem
 - jak na razie bez sukcesu
 
+## ISS :x:
+
+- http://www.rtl-sdr.com/receiving-iss-data-comms-rtl-sdr/
+
 ## GPS :x:
 
 - potrzebna antena (5 USD)
