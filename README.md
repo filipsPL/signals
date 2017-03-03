@@ -39,11 +39,13 @@ Wyniki:
 
 - https://dolske.wordpress.com/2014/04/21/satellite-radio/
 - decoding: http://www.dxatlas.com/cwskimmer/
+- jak na razie bez sukcesu
 
 ## HO-68 :x:
 
 - https://dolske.wordpress.com/2014/04/21/satellite-radio/
 - nadaje morsem
+- jak na razie bez sukcesu
 
 ## GPS :x:
 
@@ -68,6 +70,13 @@ Wyniki:
 # Audio
 
 ## Pogotowie Ratunkowe Warszawa :white_check_mark:
+
+- łatwe
+
+## CB-Radio :x:
+
+- nie mogę namierzyć dobrej częstotliwości
+
 
 # Samoloty
 
