@@ -99,7 +99,14 @@ Wyniki:
 - http://www.rtl-sdr.com/dumpvdl2-lightweight-vdl2-decoder/
 - https://github.com/szpajder/dumpvdl2
 
+spektrogram z gqrx:
+
 ![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/VDL2/spectro.png)
+
+`./dumpvdl2 --rtlsdr 0 --gain 49 --correction 64`
+
+![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/VDL2/dumpvdl2.png)
+
 
 -----
 
