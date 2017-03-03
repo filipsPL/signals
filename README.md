@@ -186,7 +186,7 @@ spektrogram z gqrx:
 
 - https://sourceforge.net/projects/qtmm/
 
-![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/AFSK1200/AFSK1200.png)
+![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200.png)
 
 -----
 
