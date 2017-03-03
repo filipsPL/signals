@@ -1,5 +1,25 @@
-# signals
-signal processing and todo
+Sygnały do złapania za pomocą RTL-SDR
+==============================
+
+# Spis treści
+
+- [signals](#signals)
+- [Satelity](#satelity)
+  * [NOAA :white_check_mark:](#noaa--white-check-mark-)
+  * [Meteor :x:](#meteor--x-)
+  * [FO-29 :x:](#fo-29--x-)
+  * [HO-68 :x:](#ho-68--x-)
+  * [GPS :x:](#gps--x-)
+- [Naziemne](#naziemne)
+  * [Sondy meteorologiczne :x:](#sondy-meteorologiczne--x-)
+  * [Radiofax :x:](#radiofax--x-)
+  * [Stacja pogodowa 433 MHz :seedling:](#stacja-pogodowa-433-mhz--seedling-)
+- [Audio](#audio)
+  * [Pogotowie Ratunkowe Warszawa :white_check_mark:](#pogotowie-ratunkowe-warszawa--white-check-mark-)
+- [Samoloty](#samoloty)
+  * [ADS-B :white_check_mark:](#ads-b--white-check-mark-)
+  * [VHF Data Link mode 2 (VDL2) :x:](#vhf-data-link-mode-2--vdl2---x-)
+- [Przydatny software](#przydatny-software)
 
 
 # Satelity
