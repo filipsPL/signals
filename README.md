@@ -41,6 +41,10 @@ Wyniki:
 
 - odbiornik UKF/KF ?
 
+## Stacja pogodowa 433 MHz :seedling:
+
+- złapane ale nie zdekodowane
+
 # Audio
 
 ## Pogotowie Ratunkowe Warszawa :white_check_mark:
@@ -53,3 +57,9 @@ Wyniki:
 
 - http://www.rtl-sdr.com/dumpvdl2-lightweight-vdl2-decoder/
 - https://github.com/szpajder/dumpvdl2
+
+-----
+
+# Przydatny software
+- https://github.com/jopohl/urh - Universal Radio Hacker: investigate wireless protocols like a boss 
+
