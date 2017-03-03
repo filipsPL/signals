@@ -21,13 +21,19 @@ Sygnały do złapania za pomocą RTL-SDR
   * [VHF Data Link mode 2 (VDL2) :x:](#vhf-data-link-mode-2--vdl2---x-)
 - [Przydatny software](#przydatny-software)
 
+# Użyty sprzęt i software
+
+- DVB-T dongle: Rafael Micro R820T tuner aka Realtek Semiconductor Corp. RTL2838 DVB-T
+- antena szerokopasmowa Magnum Scan Stick 2000
+- Linux Mint
+- gqrx (audio, satelity NOAA...), chyba, że zaznaczono inaczej.
 
 # Satelity
 
 ## NOAA :white_check_mark:
 
 - software: `gqrx`, `xwxtoimg`
-- hardware: `Realtek Semiconductor Corp. RTL2838 DVB-T`
+
 Wyniki:
 
 ![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx_20170217_170354_137620000_sox-norm.jpg) 
@@ -85,14 +91,15 @@ Wyniki:
 ## ADS-B :white_check_mark:
 
 - Software: `dump1090`
-- hardware: `Realtek Semiconductor Corp. RTL2838 DVB-T`
 
-![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/dump1090.png) 
+![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/ads-b/dump1090.png) 
 
 ## VHF Data Link mode 2 (VDL2) :x:
 
 - http://www.rtl-sdr.com/dumpvdl2-lightweight-vdl2-decoder/
 - https://github.com/szpajder/dumpvdl2
+
+![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/VDL2/spectro.png)
 
 -----
 
