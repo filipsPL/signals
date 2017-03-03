@@ -1,9 +1,8 @@
 Sygnały do złapania za pomocą RTL-SDR
 ==============================
 
-# Spis treści
+# Podsumowanie
 
-- [signals](#signals)
 - [Satelity](#satelity)
   * [NOAA :white_check_mark:](#noaa--white-check-mark-)
   * [Meteor :x:](#meteor--x-)
@@ -77,13 +76,36 @@ Wyniki:
 
 # Audio
 
-## Pogotowie Ratunkowe Warszawa :white_check_mark:
+## Nasłuch
 
-- łatwe
+### Pogotowie Ratunkowe Warszawa :white_check_mark:
 
-## CB-Radio :x:
+- software used: `gqrx`, mode: Narrow FM, f = 168523800 Hz
+- rtl_sdr: `rtl_fm -p 61 -M fm -s 170k -o 4 -A fast -r 32k -l 40 -E deemp -f 168523800  | play -r 32k -t raw -e s -b 16 -c 1 -V1 -`
 
-- nie mogę namierzyć dobrej częstotliwości
+### Okęcie Informacje o stanie pasa :white_check_mark:
+
+- `gqrx`: f=120450600 Hz, AM
+
+### Wieża Warszawa Okęcie (OKE) :white_check_mark:
+
+- `gqrx`: f=118299200 Hz, AM
+
+### Kontrola płyty OKE Warszawa :white_check_mark:
+
+- `gqrx`: f=121599300 Hz, AM
+
+### VOLMET - stan pogody dla europejskich portów lotniczych :white_check_mark:
+
+- `gqrx`: f=127599900 Hz, AM
+
+### Polska ACC TRZ / Warszawa Radar civ :white_check_mark:
+
+- `gqrx`: f=134874900 Hz, AM
+
+### CB-Radio :x:
+
+- nie mogę namierzyć dobrej częstotliwości, modulacji ...
 
 
 # Samoloty
