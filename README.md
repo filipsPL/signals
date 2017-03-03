@@ -79,6 +79,8 @@ Wyniki:
 ## Sondy meteorologiczne :x:
 
 - plus: poszukiwanie "zużytej" sondy
+- http://www.radiosondy.fora.pl/
+
 
 
 ## Radiofax :x:
