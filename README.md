@@ -124,6 +124,36 @@ Wyniki:
 
 - nie mogę namierzyć dobrej częstotliwości, modulacji ...
 
+```
+Częstotliwości kanałów CB :
+
+kanał            częstotliwość (MHz)                kanał                częstotliwość (MHz)
+1                     26.960                                  21                     27.210
+2                     26.970                                  22                     27.220
+3                     26.980                                  23                     27.250
+4                     27.000                                  24                     27.230
+5                     27.210                                  25                     27.240
+6                     27.020                                  26                     27.260
+7                     27.030                                  27                     27.270
+8                     27.050                                  28                     27.280
+9                     27.060                                  29                     27.290
+10                   27.070                                  30                     27.300 
+11                   27.080                                  31                     27.310
+12                   27.100                                  32                     27.320
+13                   27.110                                  33                     27.330
+14                   27.120                                  34                     27.340
+15                   27.130                                  35                     27.350
+16                   27.150                                  36                     27.360
+17                   27.160                                  37                     27.370
+18                   27.170                                  38                     27.380
+19                   27.180                                  39                     27.390
+20                   27.200                                  40                     27.400
+```
+> AM (modulacja amplitudy) najbardziej popularna modulacja, stosowana w Polsce (i innych krajach tez) , obowiązuje na podstawowej czrterdziestce, ponieważ 
+praktycznie wszystkie radia CB mają ten rodzaj modulacji; moga mieć też inne, ale zawsze mają AM. 
+
+Za: http://radioamator.elektroda.eu/poradycb.html
+
 
 # Samoloty
 
@@ -145,6 +175,12 @@ spektrogram z gqrx:
 `./dumpvdl2 --rtlsdr 0 --gain 49 --correction 64`
 
 ![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/VDL2/dumpvdl2.png)
+
+# Inne
+
+## AFSK1200
+
+- https://sourceforge.net/projects/qtmm/
 
 
 -----
