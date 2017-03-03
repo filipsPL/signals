@@ -6,6 +6,8 @@ signal processing and todo
 
 ## NOAA :white_check_mark:
 
+Wyniki:
+
 ![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx_20170217_170354_137620000_sox-norm.jpg)
 ![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx_20170217_170354_137620000_sox-norm_termal.jpg)
 ![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/noaa-18-gqrx_20170217_163600_137912800_sox-norm-mcir.jpg)
@@ -25,15 +27,29 @@ signal processing and todo
 
 ## GPS :x:
 
+- potrzebna antena (5 USD)
 - http://www.rtl-sdr.com/rtl-sdr-tutorial-gps-decoding-plotting/
 
 # Naziemne
 
 ## Sondy meteorologiczne :x:
 
+- plus: poszukiwanie "zużytej" sondy
+
+
 ## Radiofax :x:
 
+- odbiornik UKF/KF ?
 
 # Audio
 
 ## Pogotowie Ratunkowe Warszawa :white_check_mark:
+
+# Samoloty
+
+## ADS-B :white_check_mark:
+
+## VHF Data Link mode 2 (VDL2) :x:
+
+- http://www.rtl-sdr.com/dumpvdl2-lightweight-vdl2-decoder/
+- https://github.com/szpajder/dumpvdl2
