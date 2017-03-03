@@ -94,7 +94,7 @@ Wyniki:
 
 ![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/ads-b/dump1090.png) 
 
-## VHF Data Link mode 2 (VDL2) :x:
+## VHF Data Link mode 2 (VDL2) :white_check_mark:
 
 - http://www.rtl-sdr.com/dumpvdl2-lightweight-vdl2-decoder/
 - https://github.com/szpajder/dumpvdl2
