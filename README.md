@@ -1,6 +1,9 @@
 Sygnały do złapania za pomocą RTL-SDR
 ==============================
 
+Czyli mój album-notatnik nasłuchowca-radio(bardzo)amatora.
+
+
 Table of Contents
 =================
 
