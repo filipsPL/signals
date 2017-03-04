@@ -193,6 +193,8 @@ spektrogram z gqrx:
 
 - http://www.rtl-sdr.com/rtl-sdr-radio-scanner-tutorial-receiving-airplane-data-with-acars/
 - command: `./acarsdeco2 --gain 49.6 --freq-correction 61 --freq 131550000 --freq 131725000`
+- log: [20170304](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/acars/acars-20170304.txt)
+
 
 ![acars](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/acars/acars.png)
 
