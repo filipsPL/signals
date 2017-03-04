@@ -57,11 +57,18 @@ Wyniki:
 
 ## Meteor :x:
 
-## FO-29 :x:
+- chyba dość trudne, trzeba mieć specjalną/dobrą antenę (?)
+
+## FO-29 :white_check_mark: :x:
 
 - https://dolske.wordpress.com/2014/04/21/satellite-radio/
-- decoding: http://www.dxatlas.com/cwskimmer/
-- jak na razie bez sukcesu
+- decoding: http://www.dxatlas.com/cwskimmer/ :x:
+
+- udało się bez dekodowania: Mode: USB / CW-L, było słychać morsa (?). f=435,795 MHz (sterowane przez gpredict) (Mode U CW Beacon)
+
+![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/fo-29/fo-29-1.png)
+
+to te mizerne punkty po środku widma...
 
 ## HO-68 :x:
 
