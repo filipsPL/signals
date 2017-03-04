@@ -187,11 +187,14 @@ spektrogram z gqrx:
 
 ![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/VDL2/dumpvdl2.png)
 
-## ACARS :x:
+## ACARS :white_check_mark:
 
 > ACARS  is an acronym for Aircraft Communications Addressing and Reporting System which is a digital communications system that aircraft use to send and receive short messages to and from ground stations.
 
 - http://www.rtl-sdr.com/rtl-sdr-radio-scanner-tutorial-receiving-airplane-data-with-acars/
+- command: `./acarsdeco2 --gain 49.6 --freq-correction 61 --freq 131550000 --freq 131725000`
+
+![acars](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/acars/acars.png)
 
 # Inne
 
@@ -199,7 +202,7 @@ spektrogram z gqrx:
 
 - https://sourceforge.net/projects/qtmm/
 
-![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200.png)
+![afsk](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200.png)
 
 -----
 
