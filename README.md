@@ -258,6 +258,8 @@ Spektrogram gqrx:
 ### Nagrywanie i dekodowanie
 
 - `rtl_fm -f 144800000 -s 22050 -o 4 -p 61 | multimon-ng -a AFSK1200 -A -t raw -`
+- można nie podawać protokułu: `rtl_fm -f 144800000 -s 22050 -o 4 -p 61 | multimon-ng -A -t raw -` - też działa :-)
+ - :bulb: może zatem można monitorować wiele częstotliwości pod kątem różnych transmisji?
 - [log](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200-20170503-log.txt)
 
 ![afsk](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200-terminal.png)
