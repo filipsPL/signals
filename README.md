@@ -28,12 +28,15 @@ Table of Contents
       * [VOLMET \- stan pogody dla europejskich portów lotniczych <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#volmet---stan-pogody-dla-europejskich-port%C3%B3w-lotniczych-white_check_mark)
       * [Polska ACC TRZ / Warszawa Radar civ <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#polska-acc-trz--warszawa-radar-civ-white_check_mark)
       * [CB\-Radio <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#cb-radio-x)
-  * [Samoloty](#samoloty)
-    * [ADS\-B <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#ads-b-white_check_mark)
-    * [VHF Data Link mode 2 (VDL2) <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#vhf-data-link-mode-2-vdl2-white_check_mark)
-    * [ACARS <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#acars-white_check_mark)
-  * [Inne](#inne)
-    * [AFSK1200](#afsk1200)
+    * [Tetra <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#tetra-x)
+    * [POCSAG <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#pocsag-x)
+    * [STQC <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#stqc-x)
+  * [Samoloty](#samoloty)                                                                                                                              
+    * [ADS\-B <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#ads-b-white_check_mark)                                                                                                                                                               
+    * [VHF Data Link mode 2 (VDL2) <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#vhf-data-link-mode-2-vdl2-white_check_mark)                                                                                                                      
+    * [ACARS <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#acars-white_check_mark)                                                                                                                                                                
+  * [Inne](#inne)                                                                                                                                                                
+    * [AFSK1200](#afsk1200)                                                                                                                                                      
   * [Przydatny software](#przydatny-software)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
@@ -53,6 +56,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 - software: `gqrx`, `xwxtoimg`
 
 Wyniki:
+
+![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx.png)
+![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/NOAA15.png)
 
 ![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx_20170217_170354_137620000_sox-norm.jpg) 
 ![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx_20170217_170354_137620000_sox-norm_termal.jpg)
@@ -174,6 +180,27 @@ praktycznie wszystkie radia CB mają ten rodzaj modulacji; moga mieć też inne,
 Za: http://radioamator.elektroda.eu/poradycb.html
 
 
+## Tetra :x:
+
+- https://github.com/sq5bpf/telive
+
+## POCSAG :x:
+
+- pagery
+- http://www.sigidwiki.com/wiki/POCSAG
+> 47.000 MHz - 47.250 MHz 	European Union Standardized
+> 169.400 MHz - 169.800 MHz 	European Union Standardized
+
+## STQC :x:
+
+- Polish standard used mostly by firefighters
+- Soft: https://github.com/sq5bpf/multimon-ng-stqc
+- Readme: https://github.com/sq5bpf/multimon-ng-stqc/blob/master/README_STQC
+
+> częstotliwość nadawcza TX 148.725 kanał 6, odiorcza RX 148.825 kanał 14.
+> 148,8250 MHz to częstotliwość Rx dla syren OSP. 148,7250 MHz to z kolei częstotliwość Tx dla syren OSP. 
+> Żeby wychwycić kanał wojewódzki, powiatowy i inne kanały pasma PSP musisz skanować zakres 148,6500- 149,3500 MHz.
+
 # Samoloty
 
 ## ADS-B :white_check_mark:
@@ -210,9 +237,13 @@ spektrogram z gqrx:
 
 ## AFSK1200
 
+> Audio frequency-shift keying (AFSK). Used by amateur radio hams for packet radio, Automatic Packet Reporting System (APRS) and telemetry.
+
 - https://sourceforge.net/projects/qtmm/
 
 ![afsk](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200.png)
+
+
 
 -----
 
