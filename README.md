@@ -100,7 +100,11 @@ to te mizerne punkty po środku widma...
 
 ## Radiofax :x:
 
+> Radiofax, also known as weatherfax (portmanteau word from the words "weather facsimile") and HF fax (due to its common use in the short waves), is an analogue mode for transmitting monochrome images. It was the predecessor to slow-scan television (SSTV). Prior to the advent of the commercial telephone line "fax" machine, it was known, more traditionally, by the term "radiofacsimile". The cover of the regular NOAA publication on frequencies and schedules states "Worldwide Marine Radiofacsimile Broadcast Schedules". [wikipedia](https://en.wikipedia.org/wiki/Radiofax)
+
 - odbiornik UKF/KF ?
+- Soft: http://www.w1hkj.com/ ? http://www.hffax.de/html/software.htm ?
+- http://59nord.pl/grib-dla-norwegii/
 
 ## Stacja pogodowa 433 MHz :seedling:
 
