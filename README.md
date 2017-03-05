@@ -201,6 +201,11 @@ Za: http://radioamator.elektroda.eu/poradycb.html
 > 148,8250 MHz to częstotliwość Rx dla syren OSP. 148,7250 MHz to z kolei częstotliwość Tx dla syren OSP. 
 > Żeby wychwycić kanał wojewódzki, powiatowy i inne kanały pasma PSP musisz skanować zakres 148,6500- 149,3500 MHz.
 
+## D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA 
+
+- http://www.rtl-sdr.com/tag/mototrbo/ - pod windowsa :-(
+
+
 # Samoloty
 
 ## ADS-B :white_check_mark:
@@ -235,15 +240,26 @@ spektrogram z gqrx:
 
 # Inne
 
-## AFSK1200
+## AFSK1200 :white_check_mark:
 
 > Audio frequency-shift keying (AFSK). Used by amateur radio hams for packet radio, Automatic Packet Reporting System (APRS) and telemetry.
 
-- https://sourceforge.net/projects/qtmm/
+- https://sourceforge.net/projects/qtmm/ (nie kompiluje się u mnie)
+- multimon-ng: https://github.com/sq5bpf/multimon-ng-stqc (modyfikacja sq5bpf)
+- mapa APRS (?) - można zobaczyć, kto nadaje w okolicy i porównać z logami: http://aprs.fi/#!lat=52.2&lng=21.0
+- f=144.800 MHz, mode: Narrow FM
+
+Spektrogram gqrx:
 
 ![afsk](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200.png)
+![afsk](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200-1.png)
 
 
+### Nagrywanie i dekodowanie
+
+- `rtl_fm -f 144800000 -s 22050 -o 4 -p 61 | multimon-ng -a AFSK1200 -A -t raw -`
+
+![afsk](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200-terminal.png)
 
 -----
 
