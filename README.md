@@ -99,6 +99,21 @@ to te mizerne punkty po środku widma...
 
 - A set of tools to parse Iridium frames https://github.com/muccc/iridium-toolkit (?)
 
+## PRATHAM :x:
+
+> a sign from PRATHAM on 145.980. The signals are weak but you can decode the signals. Now lets try to received the AFSK 1200 signals when the satellite is over there second ground-station in France.
+
+- http://www.pe0sat.vgnet.nl/2016/a-sign-from-pratham/
+- f = 145.980 MHz
+- na razie bez sukcesu
+
+## Fox-01 == AO-85
+
+- https://amsat-uk.org/satellites/communications/ao-85-fox-1a/
+- current status: http://www.amsat.org/tlm/health.php?id=1&port=
+- 145.978 MHz (+/- 3 kHz Doppler shift) FM Downlink - nie ma w gpredict! (?)
+
+
 # Naziemne
 
 ## Sondy meteorologiczne :x:
@@ -216,7 +231,12 @@ Za: http://radioamator.elektroda.eu/poradycb.html
 > łączność za pomocą przesyłanego tekstu (podobnie jak RTTY). Bardzo odporna na zakłócenia. Na jednym „kanale” może pracować kilka stacji (z przesuniętą nieznacznie podnośną) nie zakłócając się wzajemnie. Info dla CB radiowców – jest to także na 27.500USB. Ja preferuję 28.120 MHz– oj dzieje się tam.... Programy - Digipan, WINpsk, MixW, itp. 
 
 
+## DECT :x:
 
+> DECT is an acronym for ‘Digital Enhanced Cordless Telecommunications’, and is the wireless standard used by modern digital cordless phones. In most countries DECT communications take place at 1880 – 1900 MHz, and in the USA at 1920 – 1930 MHz. So in order to receive these frequencies you’ll need an RTL-SDR with an E4000 chip, or some other compatible SDR that can tune this high.
+
+- soft: https://github.com/znuh/re-DECTed
+- potrzeba innego czipa z większym zakresem częstotliwości
 
 # Samoloty
 
@@ -283,6 +303,10 @@ Spektrogram gqrx:
 ## APRS przez satelitę :x:
 
 > Na 145.825 „śmiga” nawet satelita NO-44 specjalnie skonstruowany dla APRSu. Programy – UIVIEW , AGWTRACKER współpracują z AGWPE – symulującym modem PR. 
+
+> NO-44 operates in a negative power budget meaning it comes alive in mid-day sun on every orbit but fully runs down its batteries 45 minutes later in the next eclipse. It has to be in sun long enough to get enough charge to be able to provide the peak transmit power for the packet transmitter. 
+
+http://www.pe0sat.vgnet.nl/satellite/amateur-radio-satellites/no-44/
 
 
 
