@@ -89,6 +89,7 @@ to te mizerne punkty po środku widma...
 ## ISS :x:
 
 - http://www.rtl-sdr.com/receiving-iss-data-comms-rtl-sdr/
+- f = 145.825 143.625 143.635
 
 ## GPS :x:
 
