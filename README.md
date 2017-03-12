@@ -338,7 +338,21 @@ http://www.pe0sat.vgnet.nl/satellite/amateur-radio-satellites/no-44/
 -----
 
 # Przydatny software
+
+## pomiar ppm
+
+- `rtl_test -p`
+- zwróć wartość ppm po 5-ciominutowym pomiarze: ```
+echo `timeout 5m rtl_test -p 2> /dev/null | tail -1 | awk 'END {print $NF}'`
+```
+
+
+## Inne
+
 - https://github.com/jopohl/urh - Universal Radio Hacker: investigate wireless protocols like a boss 
+
+
+
 
 # Ciekawe do rozkminienia
 
