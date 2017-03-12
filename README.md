@@ -101,6 +101,7 @@ to te mizerne punkty po środku widma...
 
 - http://www.rtl-sdr.com/receiving-iss-data-comms-rtl-sdr/
 - f = 145.825 143.625 143.635
+- Voice and SSTV transmissions take place on 145.800 MHz FM, the AX.25 packet may be heard on 437.550 MHz. (https://amsat-uk.org/beginners/how-to-hear-the-iss/)
 
 ## GPS :x:
 
