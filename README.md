@@ -24,21 +24,21 @@ Table of Contents
     * [Stacja pogodowa 433 MHz <g\-emoji alias="seedling" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/1f331\.png" ios\-version="6\.0">🌱</g\-emoji>](#stacja-pogodowa-433-mhz-seedling)
   * [Audio](#audio)
     * [Nasłuch](#nas%C5%82uch)
-      * [Pogotowie Ratunkowe Warszawa <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#pogotowie-ratunkowe-warszawa-white_check_mark)
-      * [Okęcie Informacje o stanie pasa <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#ok%C4%99cie-informacje-o-stanie-pasa-white_check_mark)
-      * [Wieża Warszawa Okęcie (OKE) <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#wie%C5%BCa-warszawa-ok%C4%99cie-oke-white_check_mark)
-      * [Kontrola płyty OKE Warszawa <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#kontrola-p%C5%82yty-oke-warszawa-white_check_mark)
-      * [VOLMET \- stan pogody dla europejskich portów lotniczych <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#volmet---stan-pogody-dla-europejskich-port%C3%B3w-lotniczych-white_check_mark)
-      * [Polska ACC TRZ / Warszawa Radar civ <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#polska-acc-trz--warszawa-radar-civ-white_check_mark)                                                                         
-      * [CB\-Radio <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#cb-radio-x)
-    * [Tetra <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#tetra-x)
+      * [Pogotowie Ratunkowe Warszawa <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#pogotowie-ratunkowe-warszawa-white_check_mark)                                                                                                                
+      * [Okęcie Informacje o stanie pasa <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#ok%C4%99cie-informacje-o-stanie-pasa-white_check_mark)                                                                                                     
+      * [Wieża Warszawa Okęcie (OKE) <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#wie%C5%BCa-warszawa-ok%C4%99cie-oke-white_check_mark)                                                                                                          
+      * [Kontrola płyty OKE Warszawa <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#kontrola-p%C5%82yty-oke-warszawa-white_check_mark)                                                                                                             
+      * [VOLMET \- stan pogody dla europejskich portów lotniczych <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#volmet---stan-pogody-dla-europejskich-port%C3%B3w-lotniczych-white_check_mark)                                                    
+      * [Polska ACC TRZ / Warszawa Radar civ <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#polska-acc-trz--warszawa-radar-civ-white_check_mark)                                                                                                   
+      * [CB\-Radio <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#cb-radio-x)      
+    * [Tetra <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#tetra-white_check_mark)                                                                                                                                                                
     * [POCSAG <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#pocsag-x)             
     * [STQC <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#stqc-x)                 
     * [D\-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2\-TDMA](#d-star-nxdn4800-nxdn9600-dmrmototrbo-p25-phase-1-x2-tdma)                                              
     * [PSK31, 62 <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#psk31-62-x)        
     * [DECT <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#dect-x)                 
   * [Samoloty](#samoloty)                                                                                                                                                        
-    * [ADS\-B <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#ads-b-white_check_mark)                                                                                                                                                               
+    * [ADS\-B <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#ads-b-white_check_mark)
     * [VHF Data Link mode 2 (VDL2) <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#vhf-data-link-mode-2-vdl2-white_check_mark)
     * [ACARS <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#acars-white_check_mark)
   * [Inne](#inne)
@@ -48,6 +48,7 @@ Table of Contents
     * [APRS przez satelitę <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#aprs-przez-satelit%C4%99-x)
   * [Przydatny software](#przydatny-software)
   * [Ciekawe do rozkminienia](#ciekawe-do-rozkminienia)
+
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
@@ -212,9 +213,14 @@ praktycznie wszystkie radia CB mają ten rodzaj modulacji; moga mieć też inne,
 Za: http://radioamator.elektroda.eu/poradycb.html
 
 
-## Tetra :x:
+## Tetra :white_check_mark:
 
-- https://github.com/sq5bpf/telive
+- Software: https://github.com/sq5bpf/telive
+- Mój skrypt do uruchomienia telive (jeden skrypt, otwiera wszystkie okienka, 6 kanałów, bez gnuradio): [link](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/runtetra.sh) [link](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/runtetra.sh)
+- plik z częstotliwościami - Warszawa:[link](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/telive_frequency_report.txt)
+
+![rys-tetra](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/tetra-metro.png)
+
 
 ## POCSAG :x:
 
