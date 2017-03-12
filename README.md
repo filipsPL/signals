@@ -3,6 +3,8 @@ Sygnały do złapania za pomocą RTL-SDR
 
 Czyli mój album-notatnik nasłuchowca-radio(bardzo)amatora.
 
+> **Nie wymaga pozwolenia używanie urządzeń radiowych przeznaczonych wyłącznie do odbioru.** Ustawa z dnia 16 lipca 2004 r., Prawo telekomunikacyjne (Dz. U. Nr 171, poz.1800) DZIAŁ VI, Rozdział 2, Art. 144. p. 1.
+
 
 Table of Contents
 =================
