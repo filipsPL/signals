@@ -9,19 +9,19 @@ Czyli mój album-notatnik nasłuchowca-radio(bardzo)amatora.
 Table of Contents
 =================
 
-  * [Użyty sprzęt i software](#u%C5%BCyty-sprz%C4%99t-i-software)                                                                                                                
-  * [Satelity](#satelity)                                                                                                                                                        
-    * [NOAA <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#noaa-white_check_mark)                                                                                                                                                                  
-    * [Meteor <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#meteor-x)             
-    * [FO\-29 <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji> <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#fo-29-white_check_mark-x)                  
-    * [HO\-68 <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#ho-68-x)              
-    * [ISS <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#iss-x)                   
-    * [GPS <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#gps-x)                   
-    * [Iridium <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#iridium-x)           
-    * [PRATHAM <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#pratham-x)           
-    * [Fox\-01 == AO\-85 <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#fox-01--ao-85-x)                                                                                                                                                                            
-    * [SO\-50](#so-50)                                                                                                                                                           
-  * [Naziemne](#naziemne)                                                                                                                                                        
+  * [Użyty sprzęt i software](#u%C5%BCyty-sprz%C4%99t-i-software)
+  * [Satelity](#satelity)
+    * [NOAA <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji>](#noaa-white_check_mark)
+    * [Meteor <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#meteor-x)
+    * [FO\-29 <g\-emoji alias="white\_check\_mark" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/2705\.png" ios\-version="6\.0">✅</g\-emoji> <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#fo-29-white_check_mark-x)
+    * [HO\-68 <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#ho-68-x)
+    * [ISS <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#iss-x)
+    * [GPS <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#gps-x)
+    * [Iridium <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#iridium-x)
+    * [PRATHAM <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#pratham-x)
+    * [Fox\-01 == AO\-85 <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#fox-01--ao-85-x)
+    * [SO\-50](#so-50)
+  * [Naziemne](#naziemne)
     * [Sondy meteorologiczne <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#sondy-meteorologiczne-x)
     * [Radiofax <g\-emoji alias="x" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/274c\.png" ios\-version="6\.0">❌</g\-emoji>](#radiofax-x)
     * [Stacja pogodowa 433 MHz <g\-emoji alias="seedling" fallback\-src="https://assets\-cdn\.github\.com/images/icons/emoji/unicode/1f331\.png" ios\-version="6\.0">🌱</g\-emoji>](#stacja-pogodowa-433-mhz-seedling)
@@ -53,7 +53,6 @@ Table of Contents
     * [pomiar ppm](#pomiar-ppm)
     * [Inne](#inne-1)
   * [Ciekawe do rozkminienia](#ciekawe-do-rozkminienia)
-
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
@@ -158,6 +157,8 @@ to te mizerne punkty po środku widma...
 - odbiornik UKF/KF ?
 - Soft: http://www.w1hkj.com/ ? http://www.hffax.de/html/software.htm ?
 - http://59nord.pl/grib-dla-norwegii/
+- software: http://arachnoid.com/python/weatherreader/
+- https://ranous.wordpress.com/2015/07/03/how-to-receive-marine-radiofax-charts/
 
 ## Stacja pogodowa 433 MHz :seedling:
 
@@ -259,6 +260,8 @@ Za: http://radioamator.elektroda.eu/poradycb.html
 ## PSK31, 62 :x:
 
 > łączność za pomocą przesyłanego tekstu (podobnie jak RTTY). Bardzo odporna na zakłócenia. Na jednym „kanale” może pracować kilka stacji (z przesuniętą nieznacznie podnośną) nie zakłócając się wzajemnie. Info dla CB radiowców – jest to także na 27.500USB. Ja preferuję 28.120 MHz– oj dzieje się tam.... Programy - Digipan, WINpsk, MixW, itp. 
+
+Pasma UKF: 144,315 MHz (SSB/USB) 144,600 MHz (FM) [wikipedia](https://pl.wikipedia.org/wiki/PSK31)
 
 
 ## DECT :x:
