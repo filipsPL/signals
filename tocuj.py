@@ -24,4 +24,4 @@ with open(fname) as f:
 	    link = re.sub("^-|-$|\n", "", link)
 
 
-	    print "%s[%s](%s)" % (header, name, link)
+	    print "   %s[%s](#%s)" % (header, name, link)
