@@ -61,6 +61,7 @@ Table of Contents
 - antena szerokopasmowa Magnum Scan Stick 2000
 - Linux Mint
 - gqrx (audio, satelity NOAA...), chyba, że zaznaczono inaczej.
+  - przesyłanie dźwięku przez UDP, dekodowanie dowolnym innym programem, np: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
 
 # Satelity
 
@@ -161,6 +162,7 @@ to te mizerne punkty po środku widma...
 ## Stacja pogodowa 433 MHz :seedling:
 
 - złapane ale nie zdekodowane
+- może będzie łatwiej, bo sam budowałem tą stację i programowałem atmegę ;)
 
 # Audio
 
@@ -241,6 +243,8 @@ Za: http://radioamator.elektroda.eu/poradycb.html
 > 47.000 MHz - 47.250 MHz 	European Union Standardized
 > 169.400 MHz - 169.800 MHz 	European Union Standardized
 
+- `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | multimon-ng -t raw -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -f alpha -` :question_mark:
+
 ## STQC :x:
 
 - Polish standard used mostly by firefighters
@@ -254,6 +258,78 @@ Za: http://radioamator.elektroda.eu/poradycb.html
 ## D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA 
 
 - http://www.rtl-sdr.com/tag/mototrbo/ - pod windowsa :-(
+- DSD: linux: https://github.com/szechyjs/dsd/wiki
+ - opis kompilacj i instalacji pod Ubuntu - działa super: https://www.george-smart.co.uk/scrapbook/digital_speech_decoder/
+ - ogólna komenda: `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | dsd -i - -w dsd_output.wav`
+ - lub nasłuchując przez UDP danych z gqrx: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
+
+ 
+### -X2-TDMA :white_check_mark
+
+- `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | dsd -i - -w dsd_output.wav`
+
+```
+Sync:  -X2-TDMA   mod: QPSK inlvl: 78% src:        0 tg:     0  slot0  [slot1]  MBC          
+Sync:  -X2-TDMA   mod: QPSK inlvl: 104% src:        0 tg:     0  slot0  [SLOT1]  VOICE e:========R=======R========R================R=======R======R
+Sync: (-X2-TDMA)  mod: QPSK inlvl: 153% src:        0 tg:     0  slot0  [slot1]  VOICE e:====R========================R====R====R====RM=====R====R====
+Sync:  -X2-TDMA   mod: QPSK inlvl: 86% src:        0 tg:     0  slot0  [slot1]  MBC
+```
+
+### NXDN96 :white_check_mark
+
+- `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | dsd -i - -w dsd_output.wav`
+
+```
+Sync:  +NXDN96    mod: GFSK inlvl: 48% VOICE e:========T
+Sync: no sync
+Sync:  -NXDN96    mod: QPSK inlvl: 41% DATA    
+Sync: no sync
+Sync:  +NXDN96    mod: QPSK inlvl: 33% DATA    
+Sync: no sync
+```
+
+### D-STAR :x:
+
+### DMR/MotoTRBO :white_check_mark:
+
+```
+Sync:  +DMR       mod: QPSK inlvl: 108%  slot0  [SLOT1]  VOICE e:=========R====R====R===E====R====R======R=====RM============R======
+Sync: (+DMR)      mod: C4FM inlvl: 65%  slot0  [slot1]  VOICE e:====R=====R===========R==========R=======R==========R====
+Sync: no sync
+Sync:  +DMR       mod: QPSK inlvl: 127%  slot0  [SLOT1]  VOICE e:===E============================R=========
+Sync: (+DMR)      mod: GFSK inlvl: 68% [slot0]  slot1   VOICE e:=====R======R=======E=============R====================T
+```
+
+### P25 Phase 1 :white_check_mark:
+
+- gqrx f = 167187100 i streaming przez UDP: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
+
+```
+Sync:  +P25p1     mod: GFSK inlvl:  9% nac:  2F0 src:        0 tg:     0  PDU
+Sync:  +P25p1     mod: C4FM inlvl:  8% nac:  2F0 src:        0 tg:     0  TSDU
+Sync:  +P25p1     mod: GFSK inlvl:  8% nac:  2F0 src:        0 tg:     0  TSDU
+Sync:  +P25p1     mod: GFSK inlvl:  8% nac:  2F0 src:        0 tg:     0  PDU
+Sync:  +P25p1     mod: GFSK inlvl:  6% nac:  2F0 src:        0 tg:     0  TSDU
+Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  TSDU
+Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  PDU
+Sync:  +P25p1     mod: C4FM inlvl:  8% nac:  2F0 src:        0 tg:     0  PDU
+Sync:  +P25p1     mod: C4FM inlvl:  6% nac:  2F0 src:        0 tg:     0  TSDU
+Sync:  +P25p1     mod: GFSK inlvl:  7% nac:  2F0 src:        0 tg:     0  TSDU
+Sync:  +P25p1     mod: GFSK inlvl:  8% nac:  2F0 src:        0 tg:     0  PDU
+Sync:  +P25p1     mod: QPSK inlvl: 11% nac:  8F8 src:        0 tg:     0  (PDU)
+Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  TSDU
+Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  CF8 src:        0 tg:     0  (TSDU)
+Sync:  +P25p1     mod: QPSK inlvl:  9% nac:  2F0 src:        0 tg:     0  TDU
+Sync:  +P25p1     mod: QPSK inlvl:  9% nac:  2F0 src:        0 tg:     0  TSDU
+Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  TSDU
+Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  PDU
+Sync:  +P25p1     mod: C4FM inlvl:  8% nac:  2F0 src:        0 tg:     0  PDU
+Sync:  +P25p1     mod: C4FM inlvl:  5% nac:  2F0 src:        0 tg:     0  TDU
+Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  TSDU
+Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  TSDU
+Sync:  +P25p1     mod: QPSK inlvl: 11% nac:   F8 src:        0 tg:     0  (TSDU)
+Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  PDU
+```
 
 ## PSK31, 62 :x:
 

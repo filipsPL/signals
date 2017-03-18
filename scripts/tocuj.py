@@ -3,7 +3,7 @@
 
 import re
 
-fname="README.md"
+fname="../README.md"
 
 with open(fname) as f:
     for line in f:
@@ -19,7 +19,7 @@ with open(fname) as f:
 	    name = re.sub("^#+ |\n", "", line)
 
 	    #link = name.replace(" ", "-").replace(":", "-")
-	    link = re.sub(" |:|\(|\)|\,", "-", name)
+	    link = re.sub(" |:|\(|\)|\,|/", "-", name)
 	    link = re.sub("-+", "-", link)
 	    link = re.sub("^-|-$|\n", "", link)
 	    link = link.lower()
