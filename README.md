@@ -33,12 +33,17 @@ Table of Contents
     * [Wieża Warszawa Okęcie (OKE) :white_check_mark:](#wieża-warszawa-okęcie-oke-white_check_mark)
     * [Kontrola płyty OKE Warszawa :white_check_mark:](#kontrola-płyty-oke-warszawa-white_check_mark)
     * [VOLMET - stan pogody dla europejskich portów lotniczych :white_check_mark:](#volmet-stan-pogody-dla-europejskich-portów-lotniczych-white_check_mark)
-    * [Polska ACC TRZ / Warszawa Radar civ :white_check_mark:](#polska-acc-trz-/-warszawa-radar-civ-white_check_mark)
+    * [Polska ACC TRZ / Warszawa Radar civ :white_check_mark:](#polska-acc-trz-warszawa-radar-civ-white_check_mark)
     * [CB-Radio :white_check_mark:](#cb-radio-white_check_mark)
   * [Tetra :white_check_mark:](#tetra-white_check_mark)
   * [POCSAG :x:](#pocsag-x)
   * [STQC :x:](#stqc-x)
-  * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr/mototrbo-p25-phase-1-x2-tdma)
+  * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)
+    * [-X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)
+    * [NXDN96 :white_check_mark:](#nxdn96-white_check_mark)
+    * [D-STAR :x:](#d-star-x)
+    * [DMR/MotoTRBO :white_check_mark:](#dmr-mototrbo-white_check_mark)
+    * [P25 Phase 1 :white_check_mark:](#p25-phase-1-white_check_mark)
   * [PSK31, 62 :x:](#psk31-62-x)
   * [DECT :x:](#dect-x)
 * [Samoloty](#samoloty)
@@ -53,7 +58,6 @@ Table of Contents
   * [pomiar ppm](#pomiar-ppm)
   * [Inne](#inne)
 * [Ciekawe do rozkminienia](#ciekawe-do-rozkminienia)
-
 
 # Użyty sprzęt i software
 
@@ -264,7 +268,7 @@ Za: http://radioamator.elektroda.eu/poradycb.html
  - lub nasłuchując przez UDP danych z gqrx: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
 
  
-### -X2-TDMA :white_check_mark
+### -X2-TDMA :white_check_mark:
 
 - `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | dsd -i - -w dsd_output.wav`
 
@@ -275,7 +279,7 @@ Sync: (-X2-TDMA)  mod: QPSK inlvl: 153% src:        0 tg:     0  slot0  [slot1] 
 Sync:  -X2-TDMA   mod: QPSK inlvl: 86% src:        0 tg:     0  slot0  [slot1]  MBC
 ```
 
-### NXDN96 :white_check_mark
+### NXDN96 :white_check_mark:
 
 - `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | dsd -i - -w dsd_output.wav`
 
@@ -295,7 +299,6 @@ Sync: no sync
 ```
 Sync:  +DMR       mod: QPSK inlvl: 108%  slot0  [SLOT1]  VOICE e:=========R====R====R===E====R====R======R=====RM============R======
 Sync: (+DMR)      mod: C4FM inlvl: 65%  slot0  [slot1]  VOICE e:====R=====R===========R==========R=======R==========R====
-Sync: no sync
 Sync:  +DMR       mod: QPSK inlvl: 127%  slot0  [SLOT1]  VOICE e:===E============================R=========
 Sync: (+DMR)      mod: GFSK inlvl: 68% [slot0]  slot1   VOICE e:=====R======R=======E=============R====================T
 ```
