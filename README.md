@@ -39,7 +39,7 @@ Table of Contents
   * [POCSAG :x:](#pocsag-x)
   * [STQC :x:](#stqc-x)
   * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)
-    * [-X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)
+    * [X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)
     * [NXDN96 :white_check_mark:](#nxdn96-white_check_mark)
     * [D-STAR :x:](#d-star-x)
     * [DMR/MotoTRBO :white_check_mark:](#dmr-mototrbo-white_check_mark)
@@ -246,7 +246,10 @@ Za: http://radioamator.elektroda.eu/poradycb.html
 - http://www.sigidwiki.com/wiki/POCSAG
 > 47.000 MHz - 47.250 MHz 	European Union Standardized
 > 169.400 MHz - 169.800 MHz 	European Union Standardized
+> Warszawa, 468.3375. Częstota ta należy do MetroBipu (system 2, z Marriotta)
 
+
+- f=139987500 ?, 468337500 ?
 - `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | multimon-ng -t raw -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -f alpha -` :question_mark:
 
 ## STQC :x:
@@ -268,7 +271,7 @@ Za: http://radioamator.elektroda.eu/poradycb.html
  - lub nasłuchując przez UDP danych z gqrx: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
 
  
-### -X2-TDMA :white_check_mark:
+### X2-TDMA :white_check_mark:
 
 - `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | dsd -i - -w dsd_output.wav`
 
@@ -277,6 +280,8 @@ Sync:  -X2-TDMA   mod: QPSK inlvl: 78% src:        0 tg:     0  slot0  [slot1]  
 Sync:  -X2-TDMA   mod: QPSK inlvl: 104% src:        0 tg:     0  slot0  [SLOT1]  VOICE e:========R=======R========R================R=======R======R
 Sync: (-X2-TDMA)  mod: QPSK inlvl: 153% src:        0 tg:     0  slot0  [slot1]  VOICE e:====R========================R====R====R====RM=====R====R====
 Sync:  -X2-TDMA   mod: QPSK inlvl: 86% src:        0 tg:     0  slot0  [slot1]  MBC
+Sync:  -X2-TDMA   mod: QPSK inlvl: 137% src:        0 tg:     0  slot0  [SLOT1]  VOICE e:========R=====R======R=====R====E=========R====R=========R
+Sync: (-X2-TDMA)  mod: QPSK inlvl: 130% src:        0 tg:     0 [slot0]  SLOT1   VOICE e:====R========================E======================R
 ```
 
 ### NXDN96 :white_check_mark:
@@ -290,6 +295,7 @@ Sync:  -NXDN96    mod: QPSK inlvl: 41% DATA
 Sync: no sync
 Sync:  +NXDN96    mod: QPSK inlvl: 33% DATA    
 Sync: no sync
+Sync:  +NXDN96    mod: GFSK inlvl: 42% VOICE e:========
 ```
 
 ### D-STAR :x:
@@ -301,6 +307,14 @@ Sync:  +DMR       mod: QPSK inlvl: 108%  slot0  [SLOT1]  VOICE e:=========R====R
 Sync: (+DMR)      mod: C4FM inlvl: 65%  slot0  [slot1]  VOICE e:====R=====R===========R==========R=======R==========R====
 Sync:  +DMR       mod: QPSK inlvl: 127%  slot0  [SLOT1]  VOICE e:===E============================R=========
 Sync: (+DMR)      mod: GFSK inlvl: 68% [slot0]  slot1   VOICE e:=====R======R=======E=============R====================T
+Sync:  +DMR       mod: QPSK inlvl: 65% [SLOT0]  slot1   VOICE e:==========R==================R==========R====R=
+Sync: (+DMR)      mod: GFSK inlvl: 58% [SLOT0]  slot1   VOICE e:=========R====R============R===E===============T=E===
+Sync: no sync
+Sync:  +DMR       mod: QPSK inlvl: 114% [SLOT0]  slot1   VOICE e:===============R===========E==================R
+Sync: (+DMR)      mod: C4FM inlvl: 70%  slot0  [slot1]  VOICE e:====R========R=======R==========R======R=====R===E====
+Sync: no sync
+Sync:  +DMR       mod: QPSK inlvl: 73%  slot0  [SLOT1]  VOICE e:====================R==============R===========R
+Sync: (+DMR)      mod: GFSK inlvl: 43% [slot0]  SLOT1   VOICE e:====R======R====R=======R=========================T====R====
 ```
 
 ### P25 Phase 1 :white_check_mark:
@@ -321,17 +335,9 @@ Sync:  +P25p1     mod: GFSK inlvl:  7% nac:  2F0 src:        0 tg:     0  TSDU
 Sync:  +P25p1     mod: GFSK inlvl:  8% nac:  2F0 src:        0 tg:     0  PDU
 Sync:  +P25p1     mod: QPSK inlvl: 11% nac:  8F8 src:        0 tg:     0  (PDU)
 Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  TSDU
-Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  CF8 src:        0 tg:     0  (TSDU)
-Sync:  +P25p1     mod: QPSK inlvl:  9% nac:  2F0 src:        0 tg:     0  TDU
-Sync:  +P25p1     mod: QPSK inlvl:  9% nac:  2F0 src:        0 tg:     0  TSDU
-Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  TSDU
-Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  PDU
-Sync:  +P25p1     mod: C4FM inlvl:  8% nac:  2F0 src:        0 tg:     0  PDU
-Sync:  +P25p1     mod: C4FM inlvl:  5% nac:  2F0 src:        0 tg:     0  TDU
-Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  TSDU
-Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  TSDU
-Sync:  +P25p1     mod: QPSK inlvl: 11% nac:   F8 src:        0 tg:     0  (TSDU)
-Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  PDU
+
+Sync:  -P25p1     mod: QPSK inlvl: 172% nac:  FFC src:        0 tg:     0  duid:EE *Unknown DUID*
+Sync:  +P25p1     mod: QPSK inlvl: 161% nac:  3B0 src:        0 tg:     0  duid:EE *Unknown DUID*
 ```
 
 ## PSK31, 62 :x:
@@ -339,6 +345,10 @@ Sync:  +P25p1     mod: QPSK inlvl: 10% nac:  2F0 src:        0 tg:     0  PDU
 > łączność za pomocą przesyłanego tekstu (podobnie jak RTTY). Bardzo odporna na zakłócenia. Na jednym „kanale” może pracować kilka stacji (z przesuniętą nieznacznie podnośną) nie zakłócając się wzajemnie. Info dla CB radiowców – jest to także na 27.500USB. Ja preferuję 28.120 MHz– oj dzieje się tam.... Programy - Digipan, WINpsk, MixW, itp. 
 
 Pasma UKF: 144,315 MHz (SSB/USB) 144,600 MHz (FM) [wikipedia](https://pl.wikipedia.org/wiki/PSK31)
+
+- soft: https://sourceforge.net/projects/linpsk/
+ - psk31lx (jest w repo)
+ - fldigi
 
 
 ## DECT :x:
