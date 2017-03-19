@@ -26,6 +26,8 @@ Table of Contents
   * [Sondy meteorologiczne :x:](#sondy-meteorologiczne-x)
   * [Radiofax :x:](#radiofax-x)
   * [Stacja pogodowa 433 MHz :seedling:](#stacja-pogodowa-433-mhz-seedling)
+  * [POCSAG :x:](#pocsag-x)
+  * [STQC :x:](#stqc-x)
 * [Audio](#audio)
   * [Nasłuch](#nasłuch)
     * [Pogotowie Ratunkowe Warszawa :white_check_mark:](#pogotowie-ratunkowe-warszawa-white_check_mark)
@@ -35,29 +37,28 @@ Table of Contents
     * [VOLMET - stan pogody dla europejskich portów lotniczych :white_check_mark:](#volmet-stan-pogody-dla-europejskich-portów-lotniczych-white_check_mark)
     * [Polska ACC TRZ / Warszawa Radar civ :white_check_mark:](#polska-acc-trz-warszawa-radar-civ-white_check_mark)
     * [CB-Radio :white_check_mark:](#cb-radio-white_check_mark)
-  * [Tetra :white_check_mark:](#tetra-white_check_mark)
-  * [POCSAG :x:](#pocsag-x)
-  * [STQC :x:](#stqc-x)
-  * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)
-    * [X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)
-    * [NXDN96 :white_check_mark:](#nxdn96-white_check_mark)
-    * [D-STAR :x:](#d-star-x)
-    * [DMR/MotoTRBO :white_check_mark:](#dmr-mototrbo-white_check_mark)
-    * [P25 Phase 1 :white_check_mark:](#p25-phase-1-white_check_mark)
-  * [PSK31, 62 :x:](#psk31-62-x)
-  * [DECT :x:](#dect-x)
-* [Samoloty](#samoloty)
-  * [ADS-B :white_check_mark:](#ads-b-white_check_mark)
-  * [VHF Data Link mode 2 (VDL2) :white_check_mark:](#vhf-data-link-mode-2-vdl2-white_check_mark)
-  * [ACARS :white_check_mark:](#acars-white_check_mark)
-* [Inne](#inne)
-  * [AFSK1200 :white_check_mark:](#afsk1200-white_check_mark)
-  * [APRS na CB :x:](#aprs-na-cb-x)
-  * [APRS przez satelitę :x:](#aprs-przez-satelitę-x)
-* [Przydatny software](#przydatny-software)
-  * [pomiar ppm](#pomiar-ppm)
-  * [Inne](#inne)
+  * [Tetra :white_check_mark:](#tetra-white_check_mark)                                                                                                                          
+  * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)                                                
+    * [X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)                                                                                                                    
+    * [NXDN96 :white_check_mark:](#nxdn96-white_check_mark)                                                                                                                      
+    * [D-STAR :x:](#d-star-x)                                                                                                                                                    
+    * [DMR/MotoTRBO :white_check_mark:](#dmr-mototrbo-white_check_mark)                                                                                                          
+    * [P25 Phase 1 :white_check_mark:](#p25-phase-1-white_check_mark)                                                                                                            
+  * [PSK31, 62 :x:](#psk31-62-x)                                                                                                                                                 
+  * [DECT :x:](#dect-x)                                                                                                                                                          
+* [Samoloty](#samoloty)                                                                                                                                                          
+  * [ADS-B :white_check_mark:](#ads-b-white_check_mark)                                                                                                                          
+  * [VHF Data Link mode 2 (VDL2) :white_check_mark:](#vhf-data-link-mode-2-vdl2-white_check_mark)                                                                                
+  * [ACARS :white_check_mark:](#acars-white_check_mark)                                                                                                                          
+* [Inne](#inne)                                                                                                                                                                  
+  * [AFSK1200 :white_check_mark:](#afsk1200-white_check_mark)                                                                                                                    
+  * [APRS na CB :x:](#aprs-na-cb-x)                                                                                                                                              
+  * [APRS przez satelitę :x:](#aprs-przez-satelitę-x)                                                                                                                            
+* [Przydatny software](#przydatny-software)                                                                                                                                      
+  * [pomiar ppm](#pomiar-ppm)                                                                                                                                                    
+  * [Inne](#inne)                                                                                                                                                                
 * [Ciekawe do rozkminienia](#ciekawe-do-rozkminienia)
+
 
 # Użyty sprzęt i software
 
@@ -168,6 +169,30 @@ to te mizerne punkty po środku widma...
 - złapane ale nie zdekodowane
 - może będzie łatwiej, bo sam budowałem tą stację i programowałem atmegę ;)
 
+## POCSAG :x:
+
+- pagery
+- http://www.sigidwiki.com/wiki/POCSAG
+> 47.000 MHz - 47.250 MHz 	European Union Standardized
+> 169.400 MHz - 169.800 MHz 	European Union Standardized
+> Warszawa, 468.3375. Częstota ta należy do MetroBipu (system 2, z Marriotta)
+
+
+- f=139987500 ?, 468337500 ?
+- `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | multimon-ng -t raw -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -f alpha -` :question_mark:
+
+## STQC :x:
+
+- Polish standard used mostly by firefighters
+- Soft: https://github.com/sq5bpf/multimon-ng-stqc
+- Readme: https://github.com/sq5bpf/multimon-ng-stqc/blob/master/README_STQC
+
+> częstotliwość nadawcza TX 148.725 kanał 6, odiorcza RX 148.825 kanał 14.
+> 148,8250 MHz to częstotliwość Rx dla syren OSP. 148,7250 MHz to z kolei częstotliwość Tx dla syren OSP. 
+> Żeby wychwycić kanał wojewódzki, powiatowy i inne kanały pasma PSP musisz skanować zakres 148,6500- 149,3500 MHz.
+
+
+
 # Audio
 
 ## Nasłuch
@@ -240,28 +265,6 @@ Za: http://radioamator.elektroda.eu/poradycb.html
 ![rys-tetra](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/tetra-metro.png)
 
 
-## POCSAG :x:
-
-- pagery
-- http://www.sigidwiki.com/wiki/POCSAG
-> 47.000 MHz - 47.250 MHz 	European Union Standardized
-> 169.400 MHz - 169.800 MHz 	European Union Standardized
-> Warszawa, 468.3375. Częstota ta należy do MetroBipu (system 2, z Marriotta)
-
-
-- f=139987500 ?, 468337500 ?
-- `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | multimon-ng -t raw -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -f alpha -` :question_mark:
-
-## STQC :x:
-
-- Polish standard used mostly by firefighters
-- Soft: https://github.com/sq5bpf/multimon-ng-stqc
-- Readme: https://github.com/sq5bpf/multimon-ng-stqc/blob/master/README_STQC
-
-> częstotliwość nadawcza TX 148.725 kanał 6, odiorcza RX 148.825 kanał 14.
-> 148,8250 MHz to częstotliwość Rx dla syren OSP. 148,7250 MHz to z kolei częstotliwość Tx dla syren OSP. 
-> Żeby wychwycić kanał wojewódzki, powiatowy i inne kanały pasma PSP musisz skanować zakres 148,6500- 149,3500 MHz.
-
 ## D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA 
 
 - http://www.rtl-sdr.com/tag/mototrbo/ - pod windowsa :-(
@@ -269,6 +272,7 @@ Za: http://radioamator.elektroda.eu/poradycb.html
  - opis kompilacj i instalacji pod Ubuntu - działa super: https://www.george-smart.co.uk/scrapbook/digital_speech_decoder/
  - ogólna komenda: `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | dsd -i - -w dsd_output.wav`
  - lub nasłuchując przez UDP danych z gqrx: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
+ - rozmowy głosowe są szyfrowane/kodowane, więc to co można nasłuchać to raczej bezładne dźwięki
 
  
 ### X2-TDMA :white_check_mark:
