@@ -62,11 +62,13 @@ Table of Contents
 
 # Użyty sprzęt i software
 
+- Warszawa, QTH locator: [KO02MD54](http://ostol.pl/mapa-qth-lokatorow?qth=KO02MD&from=&t=roadmap)
 - DVB-T dongle: Rafael Micro R820T tuner aka Realtek Semiconductor Corp. RTL2838 DVB-T
 - antena szerokopasmowa Magnum Scan Stick 2000
 - Linux Mint
 - gqrx (audio, satelity NOAA...), chyba, że zaznaczono inaczej.
   - przesyłanie dźwięku przez UDP, dekodowanie dowolnym innym programem, np: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
+
 
 # Satelity
 
@@ -179,7 +181,7 @@ to te mizerne punkty po środku widma...
 
 
 - f=139987500 ?, 468337500 ?
-- `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | multimon-ng -t raw -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -f alpha -` :question_mark:
+- `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | multimon-ng -t raw -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -f alpha -` :question:
 
 ## STQC :x:
 
