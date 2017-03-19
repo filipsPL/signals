@@ -62,12 +62,13 @@ Table of Contents
 
 # Użyty sprzęt i software
 
-- Warszawa, QTH locator: [KO02MD54](http://ostol.pl/mapa-qth-lokatorow?qth=KO02MD&from=&t=roadmap)
+- Lokalizacja: Warszawa, QTH locator: [KO02MD54](http://ostol.pl/mapa-qth-lokatorow?qth=KO02MD&from=&t=roadmap)
 - DVB-T dongle: Rafael Micro R820T tuner aka Realtek Semiconductor Corp. RTL2838 DVB-T
 - antena szerokopasmowa Magnum Scan Stick 2000
 - Linux Mint
-- gqrx (audio, satelity NOAA...), chyba, że zaznaczono inaczej.
+- `gqrx` (audio, satelity NOAA...)
   - przesyłanie dźwięku przez UDP, dekodowanie dowolnym innym programem, np: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
+- `rtl_fm`
 
 
 # Satelity
