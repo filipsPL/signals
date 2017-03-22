@@ -69,6 +69,7 @@ Table of Contents
 - `gqrx` (audio, satelity NOAA...)
   - przesyłanie dźwięku przez UDP, dekodowanie dowolnym innym programem, np: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
 - `rtl_fm`
+- `multimon-ng` - wersja sq5bpf: https://github.com/sq5bpf/multimon-ng-stqc
 
 
 # Satelity
@@ -180,9 +181,20 @@ to te mizerne punkty po środku widma...
 > 169.400 MHz - 169.800 MHz 	European Union Standardized
 > Warszawa, 468.3375. Częstota ta należy do MetroBipu (system 2, z Marriotta)
 
-
 - f=139987500 ?, 468337500 ?
 - `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | multimon-ng -t raw -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -f alpha -` :question:
+
+
+- f=469150000 - centrum onkologii Warszawa
+- `rtl_fm -g 49.6 -f 469150000 -s 22050 -o 4 -p 61 | multimon-ng -t raw -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -f alpha -`
+
+```
+POCSAG512: Address:    2468  Function: 0
+POCSAG512: Numeric: 3046 
+POCSAG512: Alpha: <ETX>H
+POCSAG512: Address:    2468  Function: 0
+```
+
 
 ## STQC :x:
 
@@ -405,8 +417,9 @@ spektrogram z gqrx:
 
 - https://sourceforge.net/projects/qtmm/ (nie kompiluje się u mnie)
 - multimon-ng: https://github.com/sq5bpf/multimon-ng-stqc (modyfikacja sq5bpf)
-- mapa APRS (?) - można zobaczyć, kto nadaje w okolicy i porównać z logami: http://aprs.fi/#!lat=52.2&lng=21.0
+- mapa APRS (?) - można zobaczyć, kto nadaje w okolicy i porównać z logami: http://aprs.fi/
 - f=144.800 MHz, mode: Narrow FM
+ - [jak założyć iGate APRS](http://sq7mru.blogspot.com/2013/08/aprs-igate-rx-z-tunera-dvb-t.html)
 
 Spektrogram gqrx:
 
@@ -451,6 +464,12 @@ http://www.pe0sat.vgnet.nl/satellite/amateur-radio-satellites/no-44/
 ```
 echo `timeout 5m rtl_test -p 2> /dev/null | tail -1 | awk 'END {print $NF}'`
 ```
+
+## Skanowanie częstotliwości
+
+- [rtl_power](http://kmkeen.com/rtl-power/)
+  - `rtl_power -p 61 -f 118M:137M:8k -g 50 -i 2 -e 10m airband.csv`
+  - `heatmap.py airband.csv airband.png` ([heatmap.py](https://github.com/keenerd/rtl-sdr-misc/blob/master/heatmap/heatmap.py))
 
 
 ## Inne
