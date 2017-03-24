@@ -37,28 +37,29 @@ Table of Contents
     * [VOLMET - stan pogody dla europejskich portów lotniczych :white_check_mark:](#volmet-stan-pogody-dla-europejskich-portów-lotniczych-white_check_mark)
     * [Polska ACC TRZ / Warszawa Radar civ :white_check_mark:](#polska-acc-trz-warszawa-radar-civ-white_check_mark)
     * [CB-Radio :white_check_mark:](#cb-radio-white_check_mark)
-  * [Tetra :white_check_mark:](#tetra-white_check_mark)                                                                                                                          
-  * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)                                                
-    * [X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)                                                                                                                    
-    * [NXDN96 :white_check_mark:](#nxdn96-white_check_mark)                                                                                                                      
-    * [D-STAR :x:](#d-star-x)                                                                                                                                                    
-    * [DMR/MotoTRBO :white_check_mark:](#dmr-mototrbo-white_check_mark)                                                                                                          
-    * [P25 Phase 1 :white_check_mark:](#p25-phase-1-white_check_mark)                                                                                                            
-  * [PSK31, 62 :x:](#psk31-62-x)                                                                                                                                                 
-  * [DECT :x:](#dect-x)                                                                                                                                                          
-* [Samoloty](#samoloty)                                                                                                                                                          
-  * [ADS-B :white_check_mark:](#ads-b-white_check_mark)                                                                                                                          
-  * [VHF Data Link mode 2 (VDL2) :white_check_mark:](#vhf-data-link-mode-2-vdl2-white_check_mark)                                                                                
-  * [ACARS :white_check_mark:](#acars-white_check_mark)                                                                                                                          
-* [Inne](#inne)                                                                                                                                                                  
-  * [AFSK1200 :white_check_mark:](#afsk1200-white_check_mark)                                                                                                                    
-  * [APRS na CB :x:](#aprs-na-cb-x)                                                                                                                                              
-  * [APRS przez satelitę :x:](#aprs-przez-satelitę-x)                                                                                                                            
-* [Przydatny software](#przydatny-software)                                                                                                                                      
-  * [pomiar ppm](#pomiar-ppm)                                                                                                                                                    
-  * [Inne](#inne)                                                                                                                                                                
+  * [Tetra :white_check_mark:](#tetra-white_check_mark)
+  * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)
+    * [X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)
+    * [NXDN96 :white_check_mark:](#nxdn96-white_check_mark)
+    * [D-STAR :x:](#d-star-x)
+    * [DMR/MotoTRBO :white_check_mark:](#dmr-mototrbo-white_check_mark)
+    * [P25 Phase 1 :white_check_mark:](#p25-phase-1-white_check_mark)
+  * [PSK31, 62 :x:](#psk31-62-x)
+  * [DECT :x:](#dect-x)
+* [Samoloty](#samoloty)
+  * [ADS-B :white_check_mark:](#ads-b-white_check_mark)
+  * [VHF Data Link mode 2 (VDL2) :white_check_mark:](#vhf-data-link-mode-2-vdl2-white_check_mark)
+  * [ACARS :white_check_mark:](#acars-white_check_mark)
+* [Inne](#inne)
+  * [AFSK1200 :white_check_mark:](#afsk1200-white_check_mark)
+  * [APRS na CB :x:](#aprs-na-cb-x)
+  * [APRS przez satelitę :x:](#aprs-przez-satelitę-x)
+  * [SSTV](#sstv)
+* [Przydatny software](#przydatny-software)
+  * [pomiar ppm](#pomiar-ppm)
+  * [Skanowanie częstotliwości](#skanowanie-częstotliwości)
+  * [Inne](#inne)
 * [Ciekawe do rozkminienia](#ciekawe-do-rozkminienia)
-
 
 # Użyty sprzęt i software
 
@@ -182,9 +183,6 @@ to te mizerne punkty po środku widma...
 > Warszawa, 468.3375. Częstota ta należy do MetroBipu (system 2, z Marriotta)
 
 - f=139987500 ?, 468337500 ?
-- `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | multimon-ng -t raw -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -f alpha -` :question:
-
-
 - f=469150000 - centrum onkologii Warszawa
 - `rtl_fm -g 49.6 -f 469150000 -s 22050 -o 4 -p 61 | multimon-ng -t raw -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -f alpha -`
 
@@ -193,6 +191,24 @@ POCSAG512: Address:    2468  Function: 0
 POCSAG512: Numeric: 3046 
 POCSAG512: Alpha: <ETX>H
 POCSAG512: Address:    2468  Function: 0
+
+POCSAG1200: Address:  102264  Function: 2
+POCSAG512: Address: 2023536  Function: 3
+POCSAG512: Alpha: /ä<CORRUPT>
+POCSAG2400: Address: 1104760  Function: 1
+POCSAG512: Address: <CORRUPT>  Function: <CORRUPT>
+POCSAG512: Alpha: +<ENQ>
+POCSAG512: Address:    2456  Function: 0
+POCSAG512: Address: 1051041  Function: 3
+POCSAG512: Address: 2001520  Function: 2
+POCSAG2400: Address: <CORRUPT>  Function: <CORRUPT>
+POCSAG2400: Alpha: e1
+POCSAG2400: Address:  103320  Function: 2
+POCSAG1200: Address: <CORRUPT>  Function: <CORRUPT>
+POCSAG1200: Alpha: /<VT>
+POCSAG1200: Address: 1565672  Function: 1
+POCSAG1200: Address: 1419592  Function: 2
+POCSAG2400: Address: 2011192  Function: 1
 ```
 
 
@@ -451,7 +467,20 @@ rtl_fm -f 144800000 -s 22050 -o 4 -p 61 | multimon-ng -a AFSK1200 -A -t raw - | 
 
 http://www.pe0sat.vgnet.nl/satellite/amateur-radio-satellites/no-44/
 
+## SSTV
 
+> SSTV (ang. Slow Scan TeleVision) – jeden ze sposobów przesyłania obrazów drogą radiową. Jest to system telewizyjny, wykorzystywany najczęściej do łączności amatorskiej w zakresie fal krótkich. https://pl.wikipedia.org/wiki/SSTV
+
+```
+3,730 – 3,740	LSB
+7,035 – 7,045	LSB
+14,225 – 14,235	USB
+21,335 – 21,345	USB
+28,675 – 28,685	USB
+27,700 – 27,800 (poza pasmem CB w Polsce)	LSB i USB
+```
+
+- soft: qsstv
 
 -----
 
