@@ -432,13 +432,13 @@ spektrogram z gqrx:
 - http://wiki.glidernet.org/ - Open Glider Network 
  - Software: http://wiki.glidernet.org/links#toc7
 - uruchomienie:
- - edycja `conf.conf` wg załączonoego template
- - `./ogn-decode conf.conf`
- - `./ogn-rf conf.conf`
+  - edycja `conf.conf` wg załączonoego template
+  - `./ogn-decode conf.conf`
+  - `./ogn-rf conf.conf`
 - mapy:
- - http://live.glidernet.org/ - co i gdzie lata
- - http://ognrange.onglide.com/ - odbiorniki
-- :x: jak na razie nie udało mi się zaobserwować żadnych obiektów, ale system działa i stacja nasłuchowa się wyświetla :white_check_mark:
+  - http://live.glidernet.org/ - co i gdzie lata
+  - http://ognrange.onglide.com/ - odbiorniki
+- jak na razie nie udało mi się zaobserwować żadnych obiektów :x:, ale system działa i stacja nasłuchowa się wyświetla :white_check_mark:
 
 
 # Inne
