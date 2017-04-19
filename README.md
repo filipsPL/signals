@@ -37,27 +37,28 @@ Table of Contents
     * [VOLMET - stan pogody dla europejskich portów lotniczych :white_check_mark:](#volmet-stan-pogody-dla-europejskich-portów-lotniczych-white_check_mark)
     * [Polska ACC TRZ / Warszawa Radar civ :white_check_mark:](#polska-acc-trz-warszawa-radar-civ-white_check_mark)
     * [CB-Radio :white_check_mark:](#cb-radio-white_check_mark)
-  * [Tetra :white_check_mark:](#tetra-white_check_mark)
-  * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)
-    * [X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)
-    * [NXDN96 :white_check_mark:](#nxdn96-white_check_mark)
-    * [D-STAR :x:](#d-star-x)
-    * [DMR/MotoTRBO :white_check_mark:](#dmr-mototrbo-white_check_mark)
-    * [P25 Phase 1 :white_check_mark:](#p25-phase-1-white_check_mark)
-  * [PSK31, 62 :x:](#psk31-62-x)
-  * [DECT :x:](#dect-x)
-* [Samoloty](#samoloty)
-  * [ADS-B :white_check_mark:](#ads-b-white_check_mark)
-  * [VHF Data Link mode 2 (VDL2) :white_check_mark:](#vhf-data-link-mode-2-vdl2-white_check_mark)
-  * [ACARS :white_check_mark:](#acars-white_check_mark)
-* [Inne](#inne)
-  * [AFSK1200 :white_check_mark:](#afsk1200-white_check_mark)
-  * [APRS na CB :x:](#aprs-na-cb-x)
-  * [APRS przez satelitę :x:](#aprs-przez-satelitę-x)
-  * [SSTV](#sstv)
-* [Przydatny software](#przydatny-software)
-  * [pomiar ppm](#pomiar-ppm)
-  * [Skanowanie częstotliwości](#skanowanie-częstotliwości)
+  * [Tetra :white_check_mark:](#tetra-white_check_mark)                                                                                                                          
+  * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)                                                
+    * [X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)                                                                                                                    
+    * [NXDN96 :white_check_mark:](#nxdn96-white_check_mark)                                                                                                                      
+    * [D-STAR :x:](#d-star-x)                                                                                                                                                    
+    * [DMR/MotoTRBO :white_check_mark:](#dmr-mototrbo-white_check_mark)                                                                                                          
+    * [P25 Phase 1 :white_check_mark:](#p25-phase-1-white_check_mark)                                                                                                            
+  * [PSK31, 62 :x:](#psk31-62-x)                                                                                                                                                 
+  * [DECT :x:](#dect-x)                                                                                                                                                          
+* [Samoloty i inne latające](#samoloty-i-inne-latające)                                                                                                                          
+  * [ADS-B :white_check_mark:](#ads-b-white_check_mark)                                                                                                                          
+  * [VHF Data Link mode 2 (VDL2) :white_check_mark:](#vhf-data-link-mode-2-vdl2-white_check_mark)                                                                                
+  * [ACARS :white_check_mark:](#acars-white_check_mark)                                                                                                                          
+  * [FLARM :x:](#flarm-x)                                                                                                                                                        
+* [Inne](#inne)                                                                                                                                                                  
+  * [AFSK1200 :white_check_mark:](#afsk1200-white_check_mark)                                                                                                                    
+  * [APRS na CB :x:](#aprs-na-cb-x)                                                                                                                                              
+  * [APRS przez satelitę :x:](#aprs-przez-satelitę-x)                                                                                                                            
+  * [SSTV](#sstv)                                                                                                                                                                
+* [Przydatny software](#przydatny-software)                                                                                                                                      
+  * [pomiar ppm](#pomiar-ppm)                                                                                                                                                    
+  * [Skanowanie częstotliwości](#skanowanie-częstotliwości)                                                                                                                      
   * [Inne](#inne)
 * [Ciekawe do rozkminienia](#ciekawe-do-rozkminienia)
 
@@ -393,7 +394,7 @@ Pasma UKF: 144,315 MHz (SSB/USB) 144,600 MHz (FM) [wikipedia](https://pl.wikiped
 - soft: https://github.com/znuh/re-DECTed
 - potrzeba innego czipa z większym zakresem częstotliwości
 
-# Samoloty
+# Samoloty i inne latające
 
 ## ADS-B :white_check_mark:
 
@@ -424,6 +425,21 @@ spektrogram z gqrx:
 
 
 ![acars](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/acars/acars.png)
+
+## FLARM :x:
+
+> FLARM is an EASA-approved[1] electronic system used to selectively alert pilots to potential collisions between aircraft. It is not formally an implementation of ADS-B, as it is optimized for the specific needs of light aircraft, not for long-range communication or ATC interaction. FLARM is a portmanteau of "flight" and "alarm".
+- http://wiki.glidernet.org/ - Open Glider Network 
+ - Software: http://wiki.glidernet.org/links#toc7
+- uruchomienie:
+ - edycja `conf.conf` wg załączonoego template
+ - `./ogn-decode conf.conf`
+ - `./ogn-rf conf.conf`
+- mapy:
+ - http://live.glidernet.org/ - co i gdzie lata
+ - http://ognrange.onglide.com/ - odbiorniki
+- :x: jak na razie nie udało mi się zaobserwować żadnych obiektów, ale system działa i stacja nasłuchowa się wyświetla :white_check_mark:
+
 
 # Inne
 
