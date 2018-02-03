@@ -1,0 +1,484 @@
+Pełny Band Plan - podane informacje są jawne i dostępne w internecie.
+Słuchać do woli.
+Zakres [MHz] Przeznaczenie w Polsce Modulacja Odstęp Użytkownik
+0,0000 - 30,0000 kHz Fale bardzo długie - VLF zakłócenia elektromagnetyczne, komunikacja wojskowa, nawigacja, z
+90,0000 - 110,0000 kHz Radionawigacja
+110,0000 - 112,0000 kHz Służba stała, komunikacja morska, radionawigacja
+112,0000 - 115,0000 kHz Radionawigacja
+115,0000 - 126,0000 kHz Radionawigacja, służba stała, komunikacja morska
+126,0000 - 129,0000 kHz Radionawigacja
+129,0000 - 130,0000 kHz Służba stała, komunikacja morska, radionawigacja
+130,0000 - 135,7000 kHz Służba stała, komunikacja morska
+
+135,7000 - 136,0000 kHz Cywilne - pasmo amatorskie CW, QRSS emisje testowe
+136,0000 - 137,4000 kHz Cywilne - pasmo amatorskie CW
+137,4000 - 137,6000 kHz Cywilne - pasmo amatorskie emisje cyfrowe bez CW
+137,6000 - 137,8000 kHz Cywilne - pasmo amatorskie CW, QRSS
+137,7000 kHz Cywilne - pasmo amatorskie środek aktywności QRSS
+
+137,8000 - 148,5000 kHz Służba stała, komunikacja morska
+148,5000 - 255,0000 kHz Cywilne AM ? Radiodyfuzja
+255,0000 - 283,5000 kHz Radionawigacja lotnicza + radiodyfuzja
+283,5000 - 325,0000 kHz Radionawigacja lotnicza i morska
+325,0000 - 405,0000 kHz Radionawigacja lotnicza
+405,0000 - 415,0000 kHz Radionawigacja
+415,0000 - 495,0000 kHz Radionawigacja lotnicza, komunikacja morska
+495,0000 - 505,0000 kHz Służba ruchoma - komunikacja ratunkowa i wywoławcza
+505,0000 - 526,50000 kHz Radionawigacja lotnicza, komunikacja morska
+526,5000 kHz - 1,6065 MHz Cywilne AM ? Radiodyfuzja
+1,6065 - 1,6250 Służba stała, ruchoma lądowa, komunikacja morska
+1,6250 - 1,6350 Radiolokacja
+1,6350 - 1,8000 Służba stała, ruchoma lądowa, komunikacja morska
+1,8000 - 1,8100 Radiolokacja
+
+1,8100 - 1,8380 Cywilne - pasmo amatorskie 160m CW 200 Hz
+1,8360 Cywilne - pasmo amatorskie 160m Środek aktywności QRP
+1,8380 - 1,8400 Cywilne - pasmo amatorskie 160m 500 Hz emisje cyfrowe bez Packet Radio
+1,8400 - 1,8420 Cywilne - pasmo amatorskie 160m LSB 2,7 kHz LSB + emisje cyfrowe bez Packet Radio
+1,8420 - 2,0000 Cywilne - pasmo amatorskie 160m LSB 2,7 kHz
+
+2,0000 - 2,0450 Cywilne/Rządowe Służba stała i ruchoma
+2,0450 - 2,1600 Służba stała, ruchoma i komunikacja morska
+2,1600 - 2,1700 Radiolokacja
+2,1700 - 2,1735 Komunikacja morska
+2,1735 - 2,1905 Służba ruchoma - ratunkowa i wywoławcza
+2,1905 - 2,1940 Komunikacja morska
+2,1940 - 2,3000 Służba stała i ruchoma
+2,3000 - 2,4980 Cywilne AM 5 kHz * Radiodyfuzja - pasmo 120m - tylko w tropikach
+* Służba stała i
+2,4980 - 2,5020 Sygnały wzorca czasu i częstotliwości
+2,5020 - 2,6250 Służba stała i ruchoma
+2,6250 - 2,6500 Komunikacja morska i radionawigacja morska
+2,6500 - 2,8500 Służba stała i ruchoma
+2,8500 - 3,1550 Cywilne/Rządowe Komunikacja lotnicza
+3,1550 - 3,2000 Cywilne/Rządowe Służba lądowa stała i ruchoma
+3,2000 - 3,4000 Cywilne AM 5 kHz * Radiodyfuzja - pasmo 90m - tylko w tropikach
+* Służba stała i r
+3,4000 - 3,5000 Cywilne/Rządowe Komunikacja lotnicza
+
+3,5000 - 3,5100 Cywilne - pasmo amatorskie 80m CW 200 Hz łączności międzykontynentalne
+3,5100 - 3,5600 Cywilne - pasmo amatorskie 80m CW 200 Hz praca w zawodach
+3,5550 Cywilne - pasmo amatorskie 80m Środek aktywności CW QRS
+3,5600 - 3,5800 Cywilne - pasmo amatorskie 80m CW 200 Hz
+3,5600 Cywilne - pasmo amatorskie 80m Środek aktywności CW QRP
+3,5800 - 3,5900 Cywilne - pasmo amatorskie 80m 500 Hz emisje cyfrowe
+3,5900 - 3,6000 Cywilne - pasmo amatorskie 80m 500 Hz Emisje cyfrowe, szczególnie PacketRadio
+3,6000 - 3,6200 Cywilne - pasmo amatorskie 80m 2,7 kHz Wszystkie emisje
+3,6200 - 3,6500 Cywilne - pasmo amatorskie 80m CW, LSB 2,7 khz praca w zawodach
+3,6500 - 3,7000 Cywilne - pasmo amatorskie 80m CW, LSB 2,7kHz
+3,6900 Cywilne - pasmo amatorskie 80m Środek aktywności SSB QRP
+3,7000 - 3,7500 Cywilne - pasmo amatorskie 80m CW, LSB 2,7 kHz praca w zawodach
+3,7350 Cywilne - pasmo amatorskie 80m Środek aktywności SSB Contest
+3,7300 - 3,7400 Cywilne - pasmo amatorskie 80m 2,7 kHz SSTV, FAX
+3,7400 - 3,7750 Cywilne - pasmo amatorskie 80m CW, LSB 2,7 kHz praca w zawodach
+3,7600 Cywilne - pasmo amatorskie 80m Środek aktywności SSB Region 1
+3,7750 - 3,8000 Cywilne - pasmo amatorskie 80m CW, LSB 2,7 kHz praca w zawodach, łączności międzykontynentalne
+
+3,8000 - 3,9000 * Komunikacja lotnicza - poza wytyczonymi szlakami
+* Służba stała
+3,9000 - 3,9500 Cywilne * Radiodyfuzja - tylko w Azji
+* Komunikacja lotnicza - poza wytyc
+3,9500 - 4,0000 Cywilne * Radiodyfuzja - tylko Azja i Europa
+* Służba stała
+4,0000 - 4,0630 Służba stała i ruchoma morska
+4,0630 - 4,4380 Cywilne/Rządowe Pasmo morskie
+4,4380 - 4,6500 Służba stała i ruchoma
+4,6500 - 4,7500 Cywilne/Rządowe Komunikacja lotnicza - gł. VOLMET
+4,7500 - 4,8500 Cywilne/Rządowe * Radiodyfuzja - pasmo 60m (tylko w tropikach)
+* Służba stała i r
+4,8500 - 4,9950 * Radiodyfuzja - pasmo 60m (tylko w tropikach)
+* Służba stała i r
+4,9950 - 5,0050 Sygnały wzorca czasu i częstotliwości
+5,0050 - 5,0600 Cywilne * Radiodyfuzja - pasmo 60m (tylko w tropikach)
+* Służba stała
+5,0060 - 5,4500 Służba stała i ruchoma
+5,4500 - 5,4800 Cywilne/Rządowe * Komunikacja lotnicza - poza wytyczonymi szlakami
+* Służba stała
+5,4800 - 5,7300 Komunikacja lotnicza
+5,7300 - 5,9000 Służba stała i ruchoma lądowa
+5,9000 - 6,2000 Cywilne AM 5 kHz Radiodyfuzja - pasmo 49m
+6,2000 - 6,5250 Komunikacja morska
+6,5250 - 6,7650 Cywilne/Rządowe Komunikacja lotnicza
+6,7650 - 7,0000 Cywilne/Rządowe Służba stała i ruchoma
+6,8900 - 6,9900 Cywilne AM 5 kHz Radiodyfuzja na zasadzie drugiej ważności
+
+7,0000 - 7,0350 Cywilne - pasmo amatorskie 40m CW 200 Hz
+7,0300 Cywilne - pasmo amatorskie 40m Środek aktywności CW QRP
+7,0350 - 4,0400 Cywilne - pasmo amatorskie 40m 500 Hz Emisje cyfrowe bez Packet Radio, SSTV, FAX
+7,0400 - 7,0450 Cywilne - pasmo amatorskie 40m 2,7 kHz Emisje LSB, cyfrowe bez Packet Radio, SSTV, FAX
+7,0430 Cywilne - pasmo amatorskie 40m Środek aktywności
+7,0450 - 7,2000 Cywilne - pasmo amatorskie 40m LSB 2,7 kHz
+7,0600 Cywilne - pasmo amatorskie 40m Środek aktywności Region 1
+7,0900 Cywilne - pasmo amatorskie 40m SSB Środek aktywności SSB QRP
+
+7,1000 - 7,2000 Cywilne - pasmo amatorskie 41m Tylko Region 1 i 3
+7,1000 - 7,6000 Cywilne AM Radiodyfuzja - pasmo 41m
+7,3000 - 8,1950 Służba stała i ruchoma
+8,1950 - 8,8150 Komunikacja morska
+8,8150 - 9,0400 Cywilne/Rządowe Komunikacja lotnicza
+9,0400 - 9,5000 Służba stała
+9,2500 - 9,4000 Cywilne AM Radiodyfuzja - pasmo 31m - na zasadzie drugiej ważności
+9,4000 - 9,9000 Cywilne AM Radiodyfuzja - pasmo 31m
+9,9000 - 9,9950 Służba stała
+9,9950 - 10,0050 Stacje wzorca czasu i częstotliwości
+10,0050 - 10,1000 Cywilne/Rządowe Komunikacja lotnicza
+
+10,1000 - 10,1400 Cywilne - pasmo amatorskie 30m CW 200 Hz
+10,1160 Cywilne - pasmo amatorskie 30m Środek aktywności CW QRP
+10,1400 - 10,1500 Cywilne - pasmo amatorskie 30m 500 Hz Emisje cyfrowe bez Packet Radio
+
+10,1500 - 11,1750 Służba stała i ruchoma
+11,1750 - 11,4000 Cywilne/Rządowe Komunikacja lotnicza
+11,4000 - 11,6000 Służba stała
+11,6000 - 12,1000 Cywilne AM 5 kHz Radiodyfuzja - pasmo 25m
+12,1000 - 12,2300 Służba stała
+12,2300 - 13,2000 Komunikacja morska
+13,2000 - 13,3600 Cywilne/Rządowe Komunikacja lotnicza
+13,3600 - 13,5700 Służba stała i ruchoma (13,1360-13,4100 także radioastronomia)
+13,5700 - 13,8700 Cywilne AM 5 kHz Radiodyfuzja - pasmo 22m
+13,8700 - 14,0000 Służba stała i ruchoma
+
+14,000 - 14,0700 Cywilne - pasmo amatorskie 20m 200 Hz praca w zawodach
+14,0550 Cywilne - pasmo amatorskie 20m Środek aktywności CW QRS
+14,0600 Cywilne - pasmo amatorskie 20m Środek aktywności CW QRP
+14,0700 - 14,0800 Cywilne - pasmo amatorskie 20m 500 Hz Emisje CW i cyfrowe, praca w zawodach
+14,0800 - 14,08900 Cywilne - pasmo amatorskie 20m 500 Hz Emisje CW i cyfrowe
+14,0890 - 14,0990 Cywilne - pasmo amatorskie 20m Emisje cyfrowe (zalecana emisja Packet Radio nie automatyczna)
+14,0990 - 14,1010 Cywilne - pasmo amatorskie 20m Radiolatarnie
+14,1010 - 14,1120 Cywilne - pasmo amatorskie 20m 2,7 kHz Wszystkie emisje
+14,1120 - 14,1250 Cywilne - pasmo amatorskie 20m USB 2,7 kHz
+14,1250 - 14,3000 Cywilne - pasmo amatorskie 20m USB 2,7 kHz Emisja USB, praca w zawodach
+14,1950 Cywilne - pasmo amatorskie 20m Środek aktywności SSB ekspedycji DX
+14,2300 Cywilne - pasmo amatorskie 20m Wywołanie SSTV i FAX
+14,2850 Cywilne - pasmo amatorskie 20m Środek aktywności SSB QRP
+14,3000 - 14,3500 Cywilne - pasmo amatorskie 20m USB 2,7 kHz
+14,3000 Cywilne - pasmo amatorskie 20m Global Emergency Centre
+
+14,3500 - 14,9900 Służba stała i ruchoma
+14,9900 - 15,0100 Stacje wzorca czasu i częstotliwości
+15,0100 - 15,1000 Cywilne/Rządowe Komunikacja lotnicza (OR - poza wyznaczonymi szlakami)
+15,1000 - 15,8000 Cywilne AM 5 kHz Radiodyfuzja - pasmo 19m
+15,8000 - 16,3600 Służba stała
+16,3600 - 17,4100 Komunikacja morska
+17,4100 - 17,4800 Służba stała
+17,4800 - 17,9000 Cywilne AM 5 kHz Radiodyfuzja - pasmo 17m
+17,9000 - 18,0300 Cywilne/Rządowe Komunikacja lotnicza
+18,0300 - 18,0680 Służba stała
+
+18,0680 - 18,1000 Cywilne - pasmo amatorskie 17m CW 200 Hz
+18,0860 Cywilne - pasmo amatorskie 17m Środek aktywności CW QRP
+18,1000 - 18,1090 Cywilne - pasmo amatorskie 17m 500 Hz Emisje cyfrowe
+18,1090 - 18,1110 Cywilne - pasmo amatorskie 17m Radiolatarnie
+18,1110 - 18,1680 Cywilne - pasmo amatorskie 17m USB 2,7 kHz
+18,1600 Cywilne - pasmo amatorskie 17m Global Emergency Centre
+
+
+18,1680 - 18,7800 Służba stała i ruchoma
+18,7800 - 18,9000 Komunikacja morska
+18,9000 - 19,0200 Cywilne AM 5 kHz Radiodyfuzja - mało używane
+19,0200 - 19,6800 Służba stała
+19,6800 - 19,8000 Komunikacja morska
+19,8000 - 19,9900 Służba stała
+19,9900 - 20,0100 Wzorce czasu i częstotliwości
+20,0100 - 21,0000 Służba stała i ruchoma
+
+21,0000 - 21,0800 Cywilne - pasmo amatorskie 15m CW 200 Hz
+21,0550 Cywilne - pasmo amatorskie 15m Środek aktywności CW QRS
+21,0600 Cywilne - pasmo amatorskie 15m Środek aktywności CW QRPS
+21,0800 - 21,1000 Cywilne - pasmo amatorskie 15m 500 Hz Emisje cyfrowe
+21,1000 - 21,1200 Cywilne - pasmo amatorskie 15m 2,7 kHz Emisje cyfrowe, zalecane Packet Radio
+21,1200 - 21,1490 Cywilne - pasmo amatorskie 15m CW 500 Hz
+21,1490 - 21,1510 Cywilne - pasmo amatorskie 15m Radiolatarnie
+21,1510 - 21,4500 Cywilne - pasmo amatorskie 15m USB 2,7 kHz
+21,2850 Cywilne - pasmo amatorskie 15m Środek aktywności SSB QRP
+21,3400 Cywilne - pasmo amatorskie 15m Wywołanie SSTV i FAX
+21,3600 Cywilne - pasmo amatorskie 15m Global Emergency Centre
+
+21,4500 - 21,8500 Cywilne Radiodyfuzja - głównie Azja-Pacyfik
+21,8500 - 21,9240 Służba stała
+21,9240 - 22,0000 Cywilne/Rządowe Komunikacja lotnicza (na wytyczonych szlakach)
+22,0000 - 22,8550 Komunikacja morska
+22,8550 - 23,2000 Służba stała i ruchoma
+23,2000 - 23,3500 Cywilne/Rządowe Komunikacja lotnicza poza wytyczonymi szlakami i służba stała
+23,3500 - 24,8900 Służba stała i lądowa ruchoma
+
+24,8900 - 24,9200 Cywilne - pasmo amatorskie 12m CW 200 Hz Środek aktywności CW QRP
+24,9060 Cywilne - pasmo amatorskie 12m
+24,9200 - 24,9290 Cywilne - pasmo amatorskie 12m 500 Hz Emisje cyfrowe
+24,9290 - 24,9310 Cywilne - pasmo amatorskie 12m Radiolatarnie
+24,9310 - 24,9900 Cywilne - pasmo amatorskie 12m USB 2,7 kHz
+
+24,9900 - 25,0100 Sygnały wzorca czasu i częstotliwości
+25,0100 - 25,0700 Służba stała i lądowa
+25,0700 - 25,2100 Komunikacja morska
+25,2100 - 25,5500 Służba stała i ruchoma
+25,5500 - 25,6700 Radioastronomia
+25,6700 - 26,1000 Cywilne Radiodyfuzja pasmo 11m - b. mało używane
+26,1000 - 26,1750 Komunikacja morska
+26,1750 - 26,9600 Służba stała i ruchoma
+26,9600 - 27,4000 Cywilne - pasmo obywatelskie 11m 10 kHz pasmo CB w Polsce
+27,4000 - 28,0000 Służba stała i ruchoma, pomoce meteorologiczne
+
+28,0000 - 28,0500 Cywilne - pasmo amatorskie 10m CW 200 Hz
+28,0500 - 28,1200 Cywilne - pasmo amatorskie 10m 500 Hz Emisje cyfrowe
+28,0550 Cywilne - pasmo amatorskie 10m Środek aktywności CW QRS
+28,0600 Cywilne - pasmo amatorskie 10m Środek aktywności CW QRP
+28,1200 - 28,1500 Cywilne - pasmo amatorskie 10m 500 Hz Emisje cyfrowe, zalecane Packet Radio
+28,1500 - 28,1900 Cywilne - pasmo amatorskie 10m CW 500 Hz
+28,1900 - 28,1990 Cywilne - pasmo amatorskie 10m Radiolatarnie regionalne
+28,1990 - 28,2010 Cywilne - pasmo amatorskie 10m Radiolatarnie ogólnoświatowe
+28,2010 - 28,2250 Cywilne - pasmo amatorskie 10m Radiolatarnie
+28,2250 - 29,2000 Cywilne - pasmo amatorskie 10m FM 2,7 kHz
+28,3600 Cywilne - pasmo amatorskie 10m Środek aktywności SSB QRP (???? - chyba blad, bo pasmo jest FM)
+28,6800 Cywilne - pasmo amatorskie 10m Wywołanie SSTV i FAX
+29,2000 - 29,3000 Cywilne - pasmo amatorskie 10m 6 kHz Emisje FM i cyfrowe (zalecany Packet Radio NBFM)
+29,3000 - 29,5100 Cywilne - pasmo amatorskie 10m FM 6 kHz
+29,5100 - 29,7000 Cywilne - pasmo amatorskie 10m USB 6 kHz
+
+30,0000 - 33,0000 Rządowe FM 25 kHz Wojsko (taktyczne)
+33,0000 - 35,0000 Cywilne -sieci dyspozytorskie FM 25 kHz Firmy budowlane, transportowe, ochrona, itp, [simplex]
+35,0250 - 40,0000 Rządowe FM 25 kHz Wojsko (taktyczne)
+40,2800 - 40,4800 Cywilne Zdalne sterowanie
+40,6800 - 40,8550 Cywilne Bezprzewodowe Poszukiwanie Osób (BPO)
+40,8800 - 41,0050 Cywilne Monitoring sieci alarmowych
+41,0150 - 48,0000 Rządowe FM 25 kHz Wojsko (taktyczne)
+48,0000 - 50,0000 Cywilne - sieci dyspozytorskie FM 12,5 kHzLasy Państwowe, Służba Drogowa, Parki Narodowe;
+Taxi, firmy ochro
+
+50,0000 – 50,0200 Cywilne - Pasmo Amatorskie 6m CW 500 Hz Telegrafia
+50,0200 – 50,0800 Cywilne - Pasmo Amatorskie 6m Radiolatarnie
+50,0800 – 50,1000 Cywilne - Pasmo Amatorskie 6m CW 500 Hz Telegrafia
+50,1000 – 50,1300 Cywilne - Pasmo Amatorskie 6m CW/SSB 2,7 kHz Łączności międzykontynentalne
+50,1100 Cywilne - Pasmo Amatorskie 6m SSB Wywołanie DX
+50,1500 Cywilne - Pasmo Amatorskie 6m SSB SSB środek aktywności
+50,1850 Cywilne - Pasmo Amatorskie 6m SSB SSB środek aktywności crossband
+50,2000 Cywilne - Pasmo Amatorskie 6m SSB SSB środek aktywności Meteor Scatter
+50,2000 - 50,2600 Cywilne - Pasmo Amatorskie 6m 2,7 kHz Emisje cyfrowe
+50,2500 Cywilne - Pasmo Amatorskie 6m Środek aktywności PSK31
+50,2550 Cywilne - Pasmo Amatorskie 6m Środek aktywności JT44
+50,2600 - 50,2800 Cywilne - Pasmo Amatorskie 6m PSK 2,7 kHz Emisja cyfrowa
+50,2700 Cywilne - Pasmo Amatorskie 6m Wywołanie FSK441
+50,2800 - 50,5000 Cywilne - Pasmo Amatorskie 6m 2,7 kHz Emisje cyfrowe
+50,5000 - 50,6200 Cywilne - Pasmo Amatorskie 6m 10 kHz Emisje cyfrowe SSTV, FAX, RTTY
+50,5100 Cywilne - Pasmo Amatorskie 6m Środek aktywności SSTV AFSK
+50,5500 Cywilne - Pasmo Amatorskie 6m Częstotliwość robocza FAX
+50,6000 Cywilne - Pasmo Amatorskie 6m FSK Środek aktywności RTTY
+50,6200 – 50,7500 Cywilne - Pasmo Amatorskie 6m Emisje cyfrowe
+50,7500 - 51,2100 Cywilne - Pasmo Amatorskie 6m 10 kHz Wszystkie rodzaje emisji
+51,2100 – 51,3900 Cywilne - Pasmo Amatorskie 6m FM 10 kHz Wejścia przemienników: kanały F21-F39
+51,3900 - 51,4100 Cywilne - Pasmo Amatorskie 6m Pasmo ochronne
+51,4100 – 51,5900 Cywilne - Pasmo Amatorskie 6m FM 10 kHz Kanały simplex: F41-F59
+51,5100 Cywilne - Pasmo Amatorskie 6m Wywołanie FM
+51,5900 - 51,7900 Cywilne - Pasmo Amatorskie 6m 10 kHz Wszystkie rodzaje emisji
+51,7900 - 51,8100 Cywilne - Pasmo Amatorskie 6m Pasmo ochronne
+51,8100 – 51,9900 Cywilne - Pasmo Amatorskie 6m FM 10 kHz Wyjścia przemienników: kanały RF81-RF99
+51,9900 - 52,0000 Cywilne - Pasmo Amatorskie 6m Pasmo ochronne
+
+52,0000 - 68,0000 Rządowe FM 25 kHz Wojsko (taktyczne)
+68,0000 - 69,2000 Cywilne FM 12,5 kHzSieci dyspozytorskie [duosimplex]
+69,2000 - 69,9000 Rządowy FM 25 kHz Wojsko (taktyczne)
+69,9000 - 70,0000 Cywilne FM 12,5 kHzSieci dyspozytorskie [duosimplex]
+
+70,0000 - 70,0500 Cywilne - Pasmo Amatorskie 4m Radiolatarnie
+70,0300 Cywilne - Pasmo Amatorskie 4m Radiolatarnie osobiste
+70,0500 - 70,2500 Cywilne - Pasmo Amatorskie 4m CW, SSB
+70,1500 Cywilne - Pasmo Amatorskie 4m Wywołanie Meteor scatter
+70,1850 Cywilne - Pasmo Amatorskie 4m Środek aktywności cross-band
+70,2000 Cywilne - Pasmo Amatorskie 4m Wywołanie CW, SSB
+70,2500 - 70,2940 Cywilne - Pasmo Amatorskie 4m Wszystkie emisje
+70,2600 Cywilne - Pasmo Amatorskie 4m Wywołanie AM/FM
+70,2940 - 70,5000 Cywilne - Pasmo Amatorskie 4m 12,5 kHzWszystkie emisje, kanały NBFM
+70,3000 Cywilne - Pasmo Amatorskie 4m Środek aktywności RTTY, FAX
+70,3125 Cywilne - Pasmo Amatorskie 4m Środek aktywności Packet Radio
+70,4500 Cywilne - Pasmo Amatorskie 4m Wywołanie FM
+
+70,5000 - 73,3000 Cywilne 12,5 kHzSieci dyspozytorskie [duosimplex]
+73,3000 - 74,1000 Rządowe FM 25 kHz
+74,1000 - 74,8000 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, transport [duosimplex]
+74,8000 - 75,2000 Lotnictwo Radionawigacja lotnicza
+75,2000 - 77,5000 Rządowe FM 25 kHz Wojsko (taktyczne)
+77,5000 - 79,0000 Cywilne FM 12,5 kHz Sieci taxi, ochrony mienia, transport, GOPR [duosimplex]
+79,0000 - 79,7000 Rządowe FM 25 kHz Wojsko (taktyczne)
+79,7000 - 83,9000 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, transport, GOPR [duosimplex]
+83,9000 - 84,6000 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, transport [duosimplex]
+84,6000 - 85,0000 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, transport [duosimplex]
+85,0000 - 87,5000 Rządowe FM 25 kHz Wojsko (taktyczne)
+88,0000 - 108,0000 Cywilne WFM Radiodyfuzja
+108,0000 - 118,0000 Lotnictwo Radionawigacja lotnicza
+118,0000 - 137,0000 Lotnictwo AM 25/12,5/Lotnictwo cywilne i wojskowe
+137,0000 - 144,0000 Rządowe AM 25/12,5/Wojsko (lotnictwo)
+
+144,0000 - 144,1100 Cywilne - Pasmo Amatorskie 2m CW 500 Hz Emisja EME
+144,0500 Cywilne - Pasmo Amatorskie 2m Wywołanie CW
+144,1000 Cywilne - Pasmo Amatorskie 2m Emisja losowa MS
+144,1100 - 144,1500 Cywilne - Pasmo Amatorskie 2m CW 500 Hz Emisja MGM
+144,1380 Cywilne - Pasmo Amatorskie 2m Środek aktywności PSK31
+144,1500 - 144,1800 Cywilne - Pasmo Amatorskie 2m 2,7 kHz Emisja CW, SSB, MGM
+144,1800 - 144,1950 Cywilne - Pasmo Amatorskie 2m CW, SSB 2,7 kHz
+144,1950 - 144,2050 Cywilne - Pasmo Amatorskie 2m 2,7 kHz Emisja losowa MS SSB
+144,2050 - 144,3600 Cywilne - Pasmo Amatorskie 2m CW, SSB 2,7 kHz
+144,3000 Cywilne - Pasmo Amatorskie 2m Wywołanie SSB
+144,3600 - 144,3990 Cywilne - Pasmo Amatorskie 2m 2,7 kHz Emisja CW, SSB, MGM
+144,3700 Cywilne - Pasmo Amatorskie 2m Wywołanie losowe FSK441
+144,4000 - 144,4910 Cywilne - Pasmo Amatorskie 2m 500 Hz Radiolatarnie
+144,4770 Cywilne - Pasmo Amatorskie 2m Radiolatarnia SR2VHJ
+144,4905 +/- 500 Hz Cywilne - Pasmo Amatorskie 2m Radiolatarnie WSPR
+144,4910 - 144,5000 Cywilne - Pasmo Amatorskie 2m Pasmo ochronne
+144,4900 Cywilne - Pasmo Amatorskie 2m Sarex uplink (?? - pasmie ochronnym?)
+144,5000 - 144,6300 Cywilne - Pasmo Amatorskie 2m 20 kHz Wszystkie emisje
+144,5000 Cywilne - Pasmo Amatorskie 2m Wywołanie SSTV
+144,5250 Cywilne - Pasmo Amatorskie 2m Odp, SSB na ATV
+144,6000 Cywilne - Pasmo Amatorskie 2m Wywołanie RTTY
+144,6300 - 144,6600 Cywilne - Pasmo Amatorskie 2m 20 kHz Wyjście transpondera liniowego
+144,6600 - 144,6900 Cywilne - Pasmo Amatorskie 2m 20 kHz Wejście transpondera liniowego
+144,6900 - 144,7940 Cywilne - Pasmo Amatorskie 2m 20 kHz Wszystkie emisje
+144,7000 Cywilne - Pasmo Amatorskie 2m Wywołanie FAX
+144,7500 Cywilne - Pasmo Amatorskie 2m Wywołanie ATV
+144,7940 - 144,9900 Cywilne - Pasmo Amatorskie 2m 12 kHz Emisje cyfrowe, APRS, MGM
+144,8000 Cywilne - Pasmo Amatorskie 2m APRS
+144,9900 - 144,9940 Cywilne - Pasmo Amatorskie 2m Pasmo ochronne
+144,9940 - 145,1940 Cywilne - Pasmo Amatorskie 2m FM 12 kHz Wejścia przemienników FM Kanały V00-V15 (144,9900 - 145,1875)
+145,1940 - 145,2060 Cywilne - Pasmo Amatorskie 2m FM 12 kHz Komunikacja kosmiczna
+145,2060 - 145,5935 Cywilne - Pasmo Amatorskie 2m FM 20/12,5 Kanały emisji simpleksowej - V16-V47
+145,3000 Cywilne - Pasmo Amatorskie 2m Lokalne RTTY
+145,5000 Cywilne - Pasmo Amatorskie 2m Wywołanie stacji mobilowych
+145,5935 - 145,5940 Cywilne - Pasmo Amatorskie 2m Pasmo ochronne
+145,5940 - 145,7935 Cywilne - Pasmo Amatorskie 2m FM 12 kHz Wyjścia przemienników - Kanały R0-R7x
+145,7940 - 145,8060 Cywilne - Pasmo Amatorskie 2m FM 20/12 kHEmisja FM, komunikacja satelitarna FM
+145,8060 - 146,0000 Cywilne - Pasmo Amatorskie 2m 20/12 kHWyłącznie komunikacja satelitarna
+
+146,0000 - 147,7000 Rządowe FM 12,5 kHzwg. KTPC jest do 147.800, ale od .700 już są straże miejskie
+147,7000 - 147,9625 Cywilne FM 12,5 kHzStraże gminne i miejskie
+147,9750 - 148,6500 Rządowe FM 12,5 kHzSieć Zarządzania Urzędów Wojewódzkich
+148,6625 - 149,3375 Rządowe FM 12,5 kHzPaństwowa Straż Pożarna
+149,3500 - 150,0500 Rządowe FM 12,5 kHzMSWiA: Policja, PSP i inne służby
+150,0500 - 152,0000 Cywilne FM 12,5 kHzPKP [simplex, duosimplex]
+151,6250 - 151,7750 Rządowe ?? ?? ?? Zapisane w krajowej tablicy przeznaczeń częstotliwości
+151,7750 - 152,0000 Cywilne FM 12,5 kHzPKP [simplex, duosimplex]
+152,0000 - 153,0000 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, budownictwo, transport, monitoring si
+153,0000 - 154,7750 Cywilne FM 12,5 kHzPKP [simplex, duosimplex]
+154,7750 - 156,0000 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, budownictwo, transport, monitoring si
+156,0000 - 157,4250 Cywilne FM 12,5 kHzŻegluga morska i śródlądowa, WOPR [simplex, duosimplex]
+157,4500 - 157,9500 Rządowe FM 12,5 kHzWojsko (logistyka)
+157,9500 - 158,5750 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, budownictwo, transport, monitoring si
+158,5750 - 158,9500 Rządowe FM 12,5 kHzWojsko (logistyka)
+158,9500 - 159,2000 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, budownictwo, transport, monitoring si
+159,2000 - 159,4000 Rządowe ?? Zapisane w krajowej tablicy przeznaczeń częstotliwości
+159,4000 - 159,6250 Rządowe ??
+159,6250 - 159,9000 Cywilne FM 12,5 kHz
+159,9000 - 160,6000 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, budownictwo, transport, monitoring si
+160,6500 - 160,9750 Cywilne FM 12,5 kHzŻegluga morska i śródlądowa [simplex, duosimplex]
+160,9750 - 161,4750 Rządowe ?? Zapisane w krajowej tablicy przeznaczeń częstotliwości
+161,4750 - 162,0250 Cywilne FM 12,5 kHzŻegluga morska i śródlądowa [simplex, duosimplex]
+162,0250 - 162,2500 Rządowe ?? Zapisane w krajowej tablicy przeznaczeń częstotliwości
+162,8000 - 163,1250 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, budownictwo, transport, monitoring si
+163,1375 - 163,2000 Rządowe FM 12,5 kHzSieć Zarządzania Urzędów Wojewódzkich
+163,2125 - 164,1000 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, budownictwo, transport, monitoring si
+164,1000 - 164,3500 Cywilne FM 12,5 kHzByłe pasmo TPSA
+164,3500 - 164,5000 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, budownictwo, transport, monitoring si
+164,5125 - 167,4875 Rządowe FM 12,5 kHzPolicja Państwowa, Straż Graniczna, PSP, BOR, ABW, CBS i inne słu
+167,5000 - 168,5000 Cywilne FM 12,5 kHzByłe pasmo TPSA
+168,5250 - 169,1500 Rządowe / Cywilne FM 12,5 kHzSłużba zdrowia [simplex,dusimplex]
+169,1625 - 169,4000 Rządowe FM 12,5 kHzWojsko (logistyka / służby medyczne)
+169,4000 - 169,4250 Cywilne FM 12,5 kHzsystemy zdalnego odczytu liczników (do mocy 500mW), systemy śledz
+169,4250 - 169,8125 Cywilne FM 12,5 kHzSieć Pager, standard ERMES - po nowelizacji w 2007 moze tu byc ws
+169,8125 - 170,5875 Cywilne FM 12,5 kHzSieci taxi, ochrony mienia, budownictwo, transport, monitoring si
+170,6000 - 170,8875 Rządowe FM 12,5 kHzSłużba Celna i Słuzba Więzienna
+170,9000 - 172,0000 Cywilne FM 12,5 Sieci taxi, ochrony mienia, budownictwo, transport, monitoring si
+172,0125 - 173,9875 Rządowe FM 12,5 kHzPolicja, Straż Graniczna, inne służby
+174,0000 - 225,0000 Cywilne Radiodyfuzja
+225,0000 - 328,6000 Rządowe AM 25 kHz Wojsko - lotnictwo
+328,6000 - 335,4000 ?? ?? ?? Radionawigacja lotnicza, ILS
+335,4000 - 380,0000 Rządowe AM 25 kHz Wojsko - lotnictwo
+380,0000 - 383,0000 Rządowe TETRA - Policja i inne słuzby
+390,0000 - 393,0000 Rządowe TETRA - Policja i inne słuzby
+406,0000 - 406,1000 Rządowe/Cywilne Radiopławy do lokalizacji awarii EPIRBs (komunikacja morska)
+410,0000 - 412,0000 Rządowe FM 12,5 kHzWojsko (sieci dyspozytorskie) [simplex, duosimplex]
+412,0000 - 412,5000 Cywilne Systemy szerokopasmowe (???)
+412,5000 - 415,0000 Cywilne Nordisk Polska - CDMA420
+415,0000 - 415,0625 Pasmo ochronne
+415,0625 - 416,2000 Cywilne 25 kHz TETRA cywilna
+416,2000 - 417,8750 Cywilne FM 12,5 kHzSieci dyspozytorskie - [simplex, duosimplex, duplex] - odst, +10
+417,5000 - 418,5000 Cywilne FM 12,5 kHzTrunking Energetyki - MPT1327, uplink - downlink +10 MHz
+418,5000 - 419,0000 Cywilne Sieci dyspozytorskie - [simplex, duosimplex, duplex] - odst, +10
+419,0000 - 419,2125 Cywilne PGNiG + Exatel
+419,2125 - 420,0000 Cywilne FM 12,5 kHzSieci dyspozytorskie - [simplex, duosimplex, duplex] - odst, +10
+420,0000 - 422,0000 Rządowe FM 12,5 kHzWojsko (sieci dyspozytorskie) [simplex, duosimplex]
+422,0000 - 422,5000 Cywilne Systemy szerokopasmowe (???)
+422,5000 - 425,0000 Cywilne Nordisk Polska - CDMA420
+425,0000 - 425,0625 Pasmo ochronne
+425,0625 - 426,2000 Cywilne TETRA cywilna
+426,2000 - 427,5000 Cywilne FM 12,5 kHzSieci dyspozytorskie - [simplex, duosimplex, duplex] - odst, -10
+427,5000 - 428,5000 Cywilne FM 12,5 kHzTrunking Energetyki - MPT1327, downlink - uplink -10 MHz
+428,5000 - 429,0000 Cywilne FM 12,5 kHzSieci dyspozytorskie - [simplex, duosimplex, duplex] - odst, -10
+429,0000 - 429,2125 Cywilne PGNiG + Exatel
+429,2125 - 429,9875 Cywilne FM 12,5 kHzSieci dyspozytorskie - [simplex, duosimplex, duplex] - odst, -10
+
+430,0000 Cywilne - Pasmo Amatorskie 70cm Kanał ochronny
+430,0125 - 430,3875 Cywilne - Pasmo Amatorskie 70cm FM 12,5 kHzWyjścia przemienników NBFM U001-U031
+430,3870 Cywilne - Pasmo Amatorskie 70cm Kanał ochronny
+430,4000 - 430,5875 Cywilne - Pasmo Amatorskie 70cm 12,5 kHzEmisje cyfrowe
+430,6000 - 430,9250 Cywilne - Pasmo Amatorskie 70cm Wejścia przemienników Packet Radio Kanały PR52-PR65
+430,9375 Cywilne - Pasmo Amatorskie 70cm Kanał ochronny
+430,9500 - 431,0250 Cywilne - Pasmo Amatorskie 70cm Wejścia przemienników multi-mode Kanały R66-R69
+431,0375 Cywilne - Pasmo Amatorskie 70cm Kanał ochronny
+431,0500 - 431,8250 Cywilne - Pasmo Amatorskie 70cm FM 12,5 kHzWyjścia przemienników FM
+431,8500 - 431,9875 Cywilne - Pasmo Amatorskie 70cm FM 12,5 kHzWyjścia przemienników NBFM Kanały U148-U159
+432,0000 - 432,1375 Cywilne - Pasmo Amatorskie 70cm 500 Hz Emisje CW/EME
+432,0500 Cywilne - Pasmo Amatorskie 70cm Środek aktywności CW
+432,1500 - 432,5875 Cywilne - Pasmo Amatorskie 70cm Wejścia przemienników liniowych
+432,2000 Cywilne - Pasmo Amatorskie 70cm Środek aktywności SSB
+432,3500 Cywilne - Pasmo Amatorskie 70cm Środkowy kanał łączności mikrofalowych
+432,3700 Cywilne - Pasmo Amatorskie 70cm Wywołanie losowe FSK441
+432,5000 Cywilne - Pasmo Amatorskie 70cm Emisja SSTV wąskopasmowa
+432,6000 - 432,7875 Cywilne - Pasmo Amatorskie 70cm Wyjścia przemienników liniowych
+432,6000 Cywilne - Pasmo Amatorskie 70cm Emisja RTTY FSK/PSK
+432,7000 Cywilne - Pasmo Amatorskie 70cm Emisja FAX (FSK)
+432,7500 Cywilne - Pasmo Amatorskie 70cm Emisja FSK PSK cyfrowa
+432,8000 - 432,9875 Cywilne - Pasmo Amatorskie 70cm 500 Hz Radiolatarnie
+432,8450 Cywilne - Pasmo Amatorskie 70cm Radiolatarnia SR4UHF
+433,0000 - 433,3875 Cywilne - Pasmo Amatorskie 70cm 25 kHz Wejścia przemienników NBFM Kanały U240-U271
+433,0750 - 434,7750 Cywilne FM 12,5/25 Monitoring sieci alarmowych, zdalne sterowanie, ISM, PMN, LPD
+433,4000 - 434,5875 Cywilne - Pasmo Amatorskie 70cm 25 kHz Kanały przemienników simpleksowych U272-U367
+433,5000 Cywilne - Pasmo Amatorskie 70cm 12,5 kHzKanał wywoławczy dla stacji mobilowych
+434,6000 - 434,9875 Cywilne - Pasmo Amatorskie 70cm 25 kHz Wejścia przemienników NBFM RU368-RU399
+435,0000 - 437,9875 Cywilne - Pasmo Amatorskie 70cm Emisje satelitarne
+436,2750 - 436,3500 Cywilne Pager (chyba sieci wewnętrzne)
+438,0000 - 438,0375 Cywilne - Pasmo Amatorskie 70cm Pasmo ochronne
+438,0500 - 438,1875 Cywilne - Pasmo Amatorskie 70cm Emisje cyfrowe
+438,2000 - 438,5250 Cywilne - Pasmo Amatorskie 70cm Wyjścia przemienników Packet Radio Kanały PR52-PR65
+438,5375 Cywilne - Pasmo Amatorskie 70cm Kanał ochronny
+438,5500 - 438,6250 Cywilne - Pasmo Amatorskie 70cm Wyjścia przemienników multimode Kanały R66-R69
+438,6375 Cywilne - Pasmo Amatorskie 70cm Kanał ochronny
+438,6500 - 439,4250 Cywilne - Pasmo Amatorskie 70cm Wyjścia przemienników FM Kanały R70-R101
+439,4375 - 439,7875 Cywilne - Pasmo Amatorskie 70cm Pasmo ochronne
+439,800 - 439,9875 Cywilne - Pasmo Amatorskie 70cm Emisje cyfrowe
+440,0000 - 446,0000 Rządowe ?? Zapisane w krajowej tablicy przeznaczeń częstotliwości
+446,00625 - 446,09375 Cywilne FM 12,5 kHzRadiotelefony PMR446
+446,1000 - 448,0000 Rządowe ?? Zapisane w krajowej tablicy przeznaczeń częstotliwości
+448,0000 - 450,0000 Cywilne FM 12,5 kHzSieci dyspozytorskie, firmy ochrony mienia, transmisja danych itp
+450,0000 - 452,0000 Rządowe FM 25 kHz Pasmo MSWiA - Policja, Straż Pożarna, itp, Odstęp 10 MHz
+452,0000 - 452,5000 Rządowe Wojsko, odstęp 10 MHz
+452,5000 - 457,0000 Cywilne FM 25 kHz Orange - NMT450, CDMA, Uplink (downlink +10 MHz)
+457,0000 - 458,3125 Cywilne FM 12,5 kHz
+458,3250 - 459,0000 Cywilne FM 12,5 kHz"Sieć trunkingowa TP S,A, ""Radio-Net" (operator sieci "UNI-Net")
+459,0000 - 459,7000 Cywilne FM 12,5 kHzSieci dyspozytorskie, firmy ochrony mienia, komunalne, radiolinie
+459,7000 - 460,0000 Cywilne FM 12,5 kHzDupleksowe sieci transmisji danych - krajowe i regionalne, Uplin
+460,0000 - 462,0000 Rządowe FM 25 kHz Pasmo MSWiA - Policja, Straż Pożarna, itp, Odstęp 10 MHz
+462,0000 - 462,5000 Rządowe Wojsko, odstęp 10 MHz
+462,5000 - 467,0000 Cywilne FM 25 kHz Orange - NMT450, CDMA, Downlink (uplink -10 MHz)
+467,0000 - 468,3250 Cywilne FM 12,5 kHzFirmy Taxi, ochrony mienia, komunalne, kurierskie, budowlane, tra
+468,3250 - 468,9875 Cywilne FM 12,5 kHzSieć trunkingowa TP S,A, "Radio-Net" (operator sieci "UNI-Net"),
+468,9875 - 469,1000 Rządowe?? Zakres wykluczony z wydawanych, publicznych pozwoleń UKE
+469,1000 - 469,7000 Cywilne FM 12,5 kHzSieci dyspozytorskie, firmy ochrony mienia, komunalne, radiolinie
+469,7000 - 470,0000 Cywilne Dupleksowe sieci transmisji danych - krajowe i regionalne, Downl
+470,0000 - 646,0000 Cywilne Radiodyfuzja / Ruchoma (?)
+646,000 - 686,0000 Cywilne / Rządowe Radiodyfuzja, Nawigacja lotnicza, Ruchoma (?)
+686,0000 - 734,0000 Cywilne Radiodyfuzja, Ruchoma (?)
+870,0000 - 876,0000 Rządowe ?? ?? ?? dane z biuletynów UKE
+902,1000 - 903,8700 Cywilne FM 30 kHz Telefony Panasonic KX-T9000 - częstotliwość bazy
+915,0000 - 921,0000 Rządowe ?? ?? ?? dane z biuletynów UKE
+926,1000 - 927,8700 Cywilne FM 30 kHz Telefony Panasonic KX-T9000 - częstotliwość słuchawki
+960 - 1215 Cywilne / Wojskowe (?) ?? ?? Radionawigacja lotnicza, wykorzystywane przez radiodalmierze DME,
+1300 - 1400 Cywilne / Wojskowe (?) ?? ?? Radiolokalizacja i radionawigacja lotnicza, wykorzystywane przez radary kontroli obszaru
+

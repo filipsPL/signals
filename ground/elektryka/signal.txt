@@ -1,0 +1,1 @@
+{Time:2018-01-06T08:07:46.441 SCM:{ID: 5747682 Type:11 Tamper:{Phy:00 Enc:01} Consumption:12486062 CRC:0xAB56}}

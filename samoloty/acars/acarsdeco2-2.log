@@ -1,0 +1,891 @@
+AcarSDeco2 v.20150718
+Using device:  0 mnf: Realtek prod: RTL2838UHIDIR serial: 00000001
+Supported Gains (dB):  0.0 0.9 1.4 2.7 3.7 7.7 8.7 12.5 14.4 15.7 16.6 19.7 20.7 22.9 25.4 28.0 29.7 32.8 33.8 36.4 37.2 38.6 40.2 42.1 43.4 43.9 44.5 48.0 49.6
+Freq: 131.637 MHz
+Freq Correction: 62 ppm
+Gain: 49.6 dB
+RX_ID: 0, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 8 (56), msg. no: S68A
+Aircraft reg: VP-BGG, flight id: SU2090
+Vendor: Bombardier, type: Global Express (GLEX), cn: 9018, carrier: , remarks: 
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:36:51.759]
+
+RX_ID: 1, Freq: 131.725MHz
+ACARS mode: K (75), label: 27 (Weather request for SA)
+Block id: 9 (57), msg. no: M20A
+Aircraft reg: VP-BGG, flight id: SU2090
+Vendor: Bombardier, type: Global Express (GLEX), cn: 9018, carrier: , remarks: 
+
+Message content:-
+POS01AFL2090   /04041039UUEELYBE    
+FUEL   58
+TEMP----
+WDIR26947
+WSPD  34
+LATN 50.880
+LONE 22.784
+ETA1139
+TUR
+ALT36000
+
+
+
+-------------------------------------------------------[2017-06-04 10:39:21.045]
+
+RX_ID: 2, Freq: 131.725MHz
+ACARS mode: 2 (50), label: 18 (General aviation weather report)
+Block id: 8 (56), msg. no: M97A
+Aircraft reg: OKGLF, flight id: OK0001
+
+Message content:-
+(2/OVC
+-------------------------------------------------------[2017-06-04 10:39:45.622]
+
+RX_ID: 3, Freq: 131.725MHz
+ACARS mode: 2 (50), label: 15 (General aviation position report)
+Block id: 7 (55), msg. no: M06A
+Aircraft reg: OEGRF, flight id: GS0001
+Type: Hawker 850XP, carrier: ---, cn: 258813
+
+Message content:-
+(2N53135E 22526271 50400-62(Z
+-------------------------------------------------------[2017-06-04 10:40:09.171]
+
+RX_ID: 4, Freq: 131.725MHz
+ACARS mode: G (71), label: 16 (General aviation weather request)
+Block id: 6 (54), msg. no: M52A
+Aircraft reg: A7-BAF, flight id: QR0707
+Type: Boeing 777, carrier: QTR, cn: 37661
+Airlines: Qatar Airways
+
+Message content:-
+RONEX  ,N 50.505,E  19.558,31999,0488,1911,160\TS104024,040617
+-------------------------------------------------------[2017-06-04 10:40:28.629]
+
+RX_ID: 5, Freq: 131.725MHz
+ACARS mode: 2 (50), label: 15 (General aviation position report)
+Block id: 7 (55), msg. no: M06A
+Aircraft reg: OEGRF, flight id: GS0001
+Type: Hawker 850XP, carrier: ---, cn: 258813
+
+Message content:-
+(2N53135E 22526271 50400-62(Z
+-------------------------------------------------------[2017-06-04 10:40:30.273]
+
+RX_ID: 6, Freq: 131.725MHz
+ACARS mode: G (71), label: 16 (General aviation weather request)
+Block id: 6 (54), msg. no: M52A
+Aircraft reg: A7-BAF, flight id: QR0707
+Type: Boeing 777, carrier: QTR, cn: 37661
+Airlines: Qatar Airways
+
+Message content:-
+RONEX  ,N 50.505,E  19.558,31999,0488,1911,160\TS104024,040617
+-------------------------------------------------------[2017-06-04 10:40:39.709]
+
+RX_ID: 7, Freq: 131.725MHz
+ACARS mode: K (75), label: 16 (General aviation weather request)
+Block id: 3 (51), msg. no: M16A
+Aircraft reg: A7-BAY, flight id: QR0763
+
+Message content:-
+RON-12 ,N 51.966,E  17.385,32001,0488,1758,148\TS104043,040617
+-------------------------------------------------------[2017-06-04 10:40:46.475]
+
+RX_ID: 8, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 2 (50), msg. no: S05A
+Aircraft reg: VP-BDL, flight id: U60728
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:41:08.163]
+
+RX_ID: 9, Freq: 131.725MHz
+ACARS mode: X (88), label: 1L (Off message)
+Block id: 6 (54), msg. no: M87A
+Aircraft reg: C-FTDW, flight id: WGTVS7
+
+Message content:-
+00244213200/GS 0465100/DEP LIEO/DES EPWA/ETA 1124/GW 484/ALT 41000
+CAS 2277/SAT   28.0/FN TVS7747/TFQ 51/DAY 04JUN17/UTC 104126
+LON E 18.783/LAT N 49.314/WD 246/WS  40
+-------------------------------------------------------[2017-06-04 10:41:28.021]
+
+RX_ID: 10, Freq: 131.725MHz
+ACARS mode: X (88), label: _d
+Block id: 4 (52), msg. no: S35A
+Aircraft reg: VP-BGN, flight id: SU2425
+Vendor: Gulfstream, type: Gulfstream 550 (GLF5), cn: 5011, carrier: , remarks: 
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:42:59.998]
+
+RX_ID: 11, Freq: 131.725MHz
+ACARS mode: X (88), label: 26 (SAS: Sigmet message)
+Block id: 6 (54), msg. no: M17A
+Aircraft reg: VP-BGN, flight id: SU2425
+Vendor: Gulfstream, type: Gulfstream 550 (GLF5), cn: 5011, carrier: , remarks: 
+
+Message content:-
+ETA01AFL2425   /04041043LIPEUUEE    
+FUEL   70
+TEMP  27
+WDIR24587
+WSPD  28
+LATN 49.142
+LONE 18.806
+ETA1253
+TUR 
+ALT37000
+
+
+
+-------------------------------------------------------[2017-06-04 10:43:45.457]
+
+RX_ID: 12, Freq: 131.725MHz
+ACARS mode: K (75), label: SA (Media Advisory)
+Block id: 9 (57), msg. no: S99A
+Aircraft reg: A7-BAC, flight id: QR0777
+Type: Boeing 777, carrier: QTR, cn: 36010
+Airlines: Qatar Airways
+
+Message content:-
+0LS104354V
+-------------------------------------------------------[2017-06-04 10:43:56.319]
+
+RX_ID: 13, Freq: 131.725MHz
+ACARS mode: X (88), label: H1 (Message to/from terminal)
+Block id: 7 (55), msg. no: F19A
+Aircraft reg: VP-BGN, flight id: SU2425
+Vendor: Gulfstream, type: Gulfstream 550 (GLF5), cn: 5011, carrier: , remarks: 
+
+Message content:-
+#M1BPRG/FNAFL2425/DTUUEE,24R,64,125328,300E6D
+-------------------------------------------------------[2017-06-04 10:43:57.121]
+
+RX_ID: 14, Freq: 131.725MHz
+ACARS mode: K (75), label: SA (Media Advisory)
+Block id: 9 (57), msg. no: S99A
+Aircraft reg: A7-BAC, flight id: QR0777
+Type: Boeing 777, carrier: QTR, cn: 36010
+Airlines: Qatar Airways
+
+Message content:-
+0LS104354V
+-------------------------------------------------------[2017-06-04 10:44:09.228]
+
+RX_ID: 15, Freq: 131.725MHz
+ACARS mode: K (75), label: SA (Media Advisory)
+Block id: 4 (52), msg. no: S98A
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+0LS104510V
+-------------------------------------------------------[2017-06-04 10:45:11.873]
+
+RX_ID: 16, Freq: 131.725MHz
+ACARS mode: K (75), label: 16 (General aviation weather request)
+Block id: 3 (51), msg. no: M10A
+Aircraft reg: VP-BDL, flight id: U60728
+
+Message content:-
+104605,36995,1358,   9,N 51.119 E 22.388
+-------------------------------------------------------[2017-06-04 10:46:07.171]
+
+RX_ID: 17, Freq: 131.725MHz
+ACARS mode: K (75), label: 16 (General aviation weather request)
+Block id: 3 (51), msg. no: M10A
+Aircraft reg: VP-BDL, flight id: U60728
+
+Message content:-
+104605,36995,1358,   9,N 51.119 E 22.388
+-------------------------------------------------------[2017-06-04 10:46:18.836]
+
+RX_ID: 18, Freq: 131.725MHz
+ACARS mode: K (75), label: 16 (General aviation weather request)
+Block id: 5 (53), msg. no: M41A
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+RON-30 ,N 50.364,E  19.597,31998,0486,1857,163\TS104621,040617
+-------------------------------------------------------[2017-06-04 10:46:24.578]
+
+RX_ID: 19, Freq: 131.725MHz
+ACARS mode: X (88), label: SA (Media Advisory)
+Block id: 8 (56), msg. no: S36A
+Aircraft reg: VP-BGN, flight id: SU2425
+Vendor: Gulfstream, type: Gulfstream 550 (GLF5), cn: 5011, carrier: , remarks: 
+
+Message content:-
+0LH104632V/
+-------------------------------------------------------[2017-06-04 10:46:33.393]
+
+RX_ID: 20, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 7 (55), msg. no: S37A
+Aircraft reg: C-FTDW, flight id: WGTVS7
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:46:59.796]
+
+RX_ID: 21, Freq: 131.725MHz
+ACARS mode: E (69), label: Q0 (ACARS link test)
+Block id: 4 (52), msg. no: S14A
+Aircraft reg: D-ACNN, flight id: LH2551
+Type: Canadair RJ900, carrier: EWG, cn: 15254
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:47:15.999]
+
+RX_ID: 22, Freq: 131.725MHz
+ACARS mode: K (75), label: 39 (Weather request)
+Block id: 0 (48), msg. no: M21A
+Aircraft reg: VP-BGG, flight id: SU2090
+Vendor: Bombardier, type: Global Express (GLEX), cn: 9018, carrier: , remarks: 
+
+Message content:-
+WXR01AFL2090   /04041047UUEELYBE
+MLYBELHBPLBSF
+
+
+-------------------------------------------------------[2017-06-04 10:47:21.303]
+
+RX_ID: 23, Freq: 131.AcarSDeco2 v.20150718
+Using device:  0 mnf: Realtek prod: RTL2838UHIDIR serial: 00000001
+Supported Gains (dB):  0.0 0.9 1.4 2.7 3.7 7.7 8.7 12.5 14.4 15.7 16.6 19.7 20.7 22.9 25.4 28.0 29.7 32.8 33.8 36.4 37.2 38.6 40.2 42.1 43.4 43.9 44.5 48.0 49.6
+Freq: 131.637 MHz
+Freq Correction: 62 ppm
+Gain: 49.6 dB
+RX_ID: 0, Freq: 131.725MHz
+ACARS mode: 2 (50), label: Q0 (ACARS link test)
+Block id: 7 (55), msg. no: S22A
+Aircraft reg: VQ-BLO, flight id: U63171
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:51:11.210]
+
+RX_ID: 1, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 1 (49), msg. no: S39A
+Aircraft reg: VP-BGN, flight id: SU2425
+Vendor: Gulfstream, type: Gulfstream 550 (GLF5), cn: 5011, carrier: , remarks: 
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:51:39.480]
+
+RX_ID: 2, Freq: 131.725MHz
+ACARS mode: A (65), label: Q0 (ACARS link test)
+Block id: 9 (57), msg. no: S24A
+Aircraft reg: VQ-BLO, flight id: U63171
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:52:16.966]
+
+RX_ID: 3, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 2 (50), msg. no: S21A
+Aircraft reg: HA-LYL, flight id: W60545
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:52:55.073]
+
+RX_ID: 4, Freq: 131.725MHz
+ACARS mode: K (75), label: 5V (VDL switch advisory)
+Block id: 3 (51), msg. no: S22A
+Aircraft reg: HA-LYL, flight id: W60545
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:52:57.927]
+
+RX_ID: 5, Freq: 131.725MHz
+ACARS mode: K (75), label: H1 (Message to/from terminal)
+Block id: 6 (54), msg. no: F71A
+Aircraft reg: VP-BGG, flight id: SU2090
+Vendor: Bombardier, type: Global Express (GLEX), cn: 9018, carrier: , remarks: 
+
+Message content:-
+#M1BPRG/FNAFL2090/DTLYBE,12O,87,113954,30C9B1
+-------------------------------------------------------[2017-06-04 10:53:06.923]
+
+RX_ID: 6, Freq: 131.725MHz
+ACARS mode: X (88), label: Q0 (ACARS link test)
+Block id: 6 (54), msg. no: S57A
+Aircraft reg: A9C-KC, flight id: GF0002
+Type: Airbus A330, carrier: GFA, cn: 286
+Airlines: Gulf Air
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:53:24.551]
+
+RX_ID: 7, Freq: 131.725MHz
+ACARS mode: G (71), label: SA (Media Advisory)
+Block id: 7 (55), msg. no: S38A
+Aircraft reg: A7-BAF, flight id: QR0707
+Type: Boeing 777, carrier: QTR, cn: 37661
+Airlines: Qatar Airways
+
+Message content:-
+0LS105325V
+-------------------------------------------------------[2017-06-04 10:53:38.265]
+
+RX_ID: 8, Freq: 131.725MHz
+ACARS mode: K (75), label: 16 (General aviation weather request)
+Block id: 1 (49), msg. no: M69A
+Aircraft reg: A7-BAE, flight id: QR0755
+Type: Boeing 777, carrier: QTR, cn: 36104
+Airlines: Qatar Airways
+
+Message content:-
+RONEX  ,N 50.590,E  19.327,31999,0487,2026,185\TS105403,040617
+-------------------------------------------------------[2017-06-04 10:54:06.753]
+
+RX_ID: 9, Freq: 131.725MHz
+ACARS mode: 2 (50), label: 15 (General aviation position report)
+Block id: 8 (56), msg. no: M07A
+Aircraft reg: OEGRF, flight id: GS0001
+Type: Hawker 850XP, carrier: ---, cn: 258813
+
+Message content:-
+(2N52361E 20327266 49399-61(Z
+-------------------------------------------------------[2017-06-04 10:54:12.056]
+
+RX_ID: 10, Freq: 131.725MHz
+ACARS mode: E (69), label: Q0 (ACARS link test)
+Block id: 7 (55), msg. no: S58A
+Aircraft reg: A9C-KC, flight id: GF0002
+Type: Airbus A330, carrier: GFA, cn: 286
+Airlines: Gulf Air
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:54:25.185]
+
+RX_ID: 11, Freq: 131.725MHz
+ACARS mode: G (71), label: Q0 (ACARS link test)
+Block id: 7 (55), msg. no: S72A
+Aircraft reg: VP-BGG, flight id: SU2090
+Vendor: Bombardier, type: Global Express (GLEX), cn: 9018, carrier: , remarks: 
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:54:51.994]
+
+RX_ID: 12, Freq: 131.725MHz
+ACARS mode: K (75), label: H1 (Message to/from terminal)
+Block id: 2 (50), msg. no: F20A
+Aircraft reg: VP-BGN, flight id: SU2425
+Vendor: Gulfstream, type: Gulfstream 550 (GLF5), cn: 5011, carrier: , remarks: 
+
+Message content:-
+#M1BPRG/FNAFL2425/DTUUEE,24R,75,123620,2E4429
+-------------------------------------------------------[2017-06-04 10:55:16.386]
+
+RX_ID: 13, Freq: 131.725MHz
+ACARS mode: K (75), label: 26 (SAS: Sigmet message)
+Block id: 3 (51), msg. no: M19A
+Aircraft reg: VP-BGN, flight id: SU2425
+Vendor: Gulfstream, type: Gulfstream 550 (GLF5), cn: 5011, carrier: , remarks: 
+
+Message content:-
+ETA01AFL2425   /04041055LIPEUUEE    
+FUEL   65
+TEMP  27
+WDIR26277
+WSPD  34
+LATN 50.141
+LONE 20.544
+ETA1236
+TUR 
+ALT37000
+
+
+
+-------------------------------------------------------[2017-06-04 10:55:20.482]
+
+RX_ID: 14, Freq: 131.725MHz
+ACARS mode: G (71), label: 16 (General aviation weather request)
+Block id: 8 (56), msg. no: M53A
+Aircraft reg: A7-BAF, flight id: QR0707
+Type: Boeing 777, carrier: QTR, cn: 37661
+Airlines: Qatar Airways
+
+Message content:-
+RON-15 ,N 51.973,E  17.371,31997,0486,1911,155\TS105524,040617
+-------------------------------------------------------[2017-06-04 10:55:27.833]
+
+RX_ID: 15, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 1 (49), msg. no: S43A
+Aircraft reg: VP-BHV, flight id: S70796
+Type: Airbus A319, carrier: SBI, cn: 2474
+Airlines: S7 Airlines
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:55:49.556]
+
+RX_ID: 16, Freq: 131.725MHz
+ACARS mode: K (75), label: _d
+Block id: 2 (50), msg. no: S44A
+Aircraft reg: VP-BHV, flight id: S70796
+Type: Airbus A319, carrier: SBI, cn: 2474
+Airlines: S7 Airlines
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:57:02.042]
+
+RX_ID: 17, Freq: 131.725MHz
+ACARS mode: K (75), label: H1 (Message to/from terminal)
+Block id: 3 (51), msg. no: F24A
+Aircraft reg: VP-BHV, flight id: S70796
+Type: Airbus A319, carrier: SBI, cn: 2474
+Airlines: S7 Airlines
+
+Message content:-
+#M1BRESREQ/AK,115/TS105659,040617632B
+-------------------------------------------------------[2017-06-04 10:57:02.663]
+
+RX_ID: 18, Freq: 131.725MHz
+ACARS mode: K (75), label: H1 (Message to/from terminal)
+Block id: 8 (56), msg. no: F12B
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+#M1BR.JFK.TELEX.CAXUN.RW13L.DPK.N61577W009231.N61403W034154.N58338W051311/DQ3600E3F
+-------------------------------------------------------[2017-06-04 10:57:17.218]
+
+RX_ID: 19, Freq: 131.725MHz
+ACARS mode: K (75), label: Q2 (ETA reports)
+Block id: 8 (56), msg. no: M88A
+Aircraft reg: C-FTDW, flight id: WGTVS7
+
+Message content:-
+---1116469904JUN17/UTC 105722/FN TVS7747/DA LIEO/DS EPWA
+LON E 19.932/LAT N 51.207/GW 480/RWY 26R/ETA 1116
+
+-------------------------------------------------------[2017-06-04 10:57:24.166]
+
+RX_ID: 20, Freq: 131.725MHz
+ACARS mode: O (79), label: Q0 (ACARS link test)
+Block id: 9 (57), msg. no: S38A
+Aircraft reg: C-FTDW, flight id: WGTVS7
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:57:30.091]
+
+RX_ID: 21, Freq: 131.725MHz
+ACARS mode: K (75), label: _d
+Block id: 9 (57), msg. no: S05A
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:57:37.880]
+
+RX_ID: 22, Freq: 131.725MHz
+ACARS mode: K (75), label: H1 (Message to/from terminal)
+Block id: 0 (48), msg. no: F13A
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+#M1BPOSN51283E017593,LEN-29,105737,320,RON-30,111057,BINKA,M45,22332,1578/TS105737,040617/RP:DA:OTHH:AA:KJFK:LO:R0:R:34L:F:RONEX225-135..BINKA..KOSEB..KOVIK..GUNPA..N62000W010000..N63000W020000..N62000W030000..
+-------------------------------------------------------[2017-06-04 10:57:39.929]
+
+RX_ID: 23, Freq: 131.725MHz
+ACARS mode: K (75), label: H1 (Message to/from terminal)
+Block id: 0 (48), msg. no: F13A
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+#M1BPOSN51283E017593,LEN-29,105737,320,RON-30,111057,BINKA,M45,22332,1578/TS105737,040617/RP:DA:OTHH:AA:KJFK:LO:R0:R:34L:F:RONEX225-135..BINKA..KOSEB..KOVIK..GUNPA..N62000W010000..N63000W020000..N62000W030000..
+-------------------------------------------------------[2017-06-04 10:57:57.338]
+
+RX_ID: 24, Freq: 131.725MHz
+ACARS mode: K (75), label: H1 (Message to/from terminal)
+Block id: 0 (48), msg. no: F13A
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+#M1BPOSN51283E017593,LEN-29,105737,320,RON-30,111057,BINKA,M45,22332,1578/TS105737,040617/RP:DA:OTHH:AA:KJFK:LO:R0:R:34L:F:RONEX225-135..BINKA..KOSEB..KOVIK..GUNPA..N62000W010000..N63000W020000..N62000W030000..
+-------------------------------------------------------[2017-06-04 10:58:14.745]
+
+RX_ID: 25, Freq: 131.725MHz
+ACARS mode: K (75), label: H1 (Message to/from terminal)
+Block id: 1 (49), msg. no: F13B
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+#M1BN61000W040000..N59000W050000..PORGY..HO..YZV.J582..PQI.J55..ENE:A:PARCH2.ENE:AP:ILS 13L(13L)/PR6305,238,320,1578,,187,38,,,130,P33,P0,,,,,,,M37/DTKJFK,13L,329,185710,0CEF
+-------------------------------------------------------[2017-06-04 10:58:19.244]
+
+RX_ID: 26, Freq: 131.725MHz
+ACARS mode: X (88), label: Q0 (ACARS link test)
+Block id: 8 (56), msg. no: S59A
+Aircraft reg: A9C-KC, flight id: GF0002
+Type: Airbus A330, carrier: GFA, cn: 286
+Airlines: Gulf Air
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:58:44.444]
+
+RX_ID: 27, Freq: 131.725MHz
+ACARS mode: K (75), label: _d
+Block id: 2 (50), msg. no: S06A
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:59:03.897]
+
+RX_ID: 28, Freq: 131.725MHz
+ACARS mode: 2 (50), label: Q6 (Voice-to-ACARS changeover)
+Block id: 2 (50), msg. no: S79A
+Aircraft reg: EI-XLJ, flight id: FV5714
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:59:08.213]
+
+RX_ID: 29, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 3 (51), msg. no: S80A
+Aircraft reg: EI-XLJ, flight id: FV5714
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:59:12.310]
+
+RX_ID: 30, Freq: 131.725MHz
+ACARS mode: A (65), label: Q0 (ACARS link test)
+Block id: 4 (52), msg. no: S06A
+Aircraft reg: VP-BDL, flight id: U60728
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 10:59:40.762]
+
+RX_ID: 31, Freq: 131.725MHz
+ACARS mode: O (79), label: H1 (Message to/from terminal)
+Block id: 0 (48), msg. no: D73A
+Aircraft reg: C-FTDW, flight id: WGTVS7
+
+Message content:-
+#DFBCRZ106C-FTDW04061025N353N603400017674893405500008470847089508966256121551650921091060604147094095106002154011010006014005014219010208UUUUUUUUUU1100000011UUUUUUUUUUUUU39885398450272027202760276092093UUUUUUUU
+-------------------------------------------------------[2017-06-04 10:59:54.695]
+
+RX_ID: 32, Freq: 131.725MHz
+ACARS mode: O (79), label: H1 (Message to/from terminal)
+Block id: 1 (49), msg. no: D73B
+Aircraft reg: C-FTDW, flight id: WGTVS7
+
+Message content:-
+#DFBUU00400040UUUUUUUUUUUUUUUUUUUUUUUUUUUUN00000000025002209460946UUUUUUUU028102830097436231468N0003034231032
+-------------------------------------------------------[2017-06-04 10:59:58.572]
+
+RX_ID: 33, Freq: 131.725MHz
+ACARS mode: K (75), label: H1 (Message to/from terminal)
+Block id: 3 (51), msg. no: F14A
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+#M1BREJPWI,110032,001,,001,/TS110032,0406174222
+-------------------------------------------------------[2017-06-04 11:00:34.632]
+
+RX_ID: 34, Freq: 131.725MHz
+ACARS mode: K (75), label: H1 (Message to/from terminal)
+Block id: 3 (51), msg. no: F14A
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+#M1BREJPWI,110032,001,,001,/TS110032,0406174222
+-------------------------------------------------------[2017-06-04 11:00:51.822]
+
+RX_ID: 35, Freq: 131.725MHz
+ACARS mode: A (65), label: 16 (General aviation weather request)
+Block id: 5 (53), msg. no: M11A
+Aircraft reg: VP-BDL, flight id: U60728
+
+Message content:-
+110106,37006,1358,   8,N 52.323 E 24.942
+-------------------------------------------------------[2017-06-04 11:01:07.619]
+
+RX_ID: 36, Freq: 131.725MHz
+ACARS mode: K (75), label: 16 (General aviation weather request)
+Block id: 4 (52), msg. no: M42A
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+RON-30 ,N 51.838,E  17.431,31999,0486,1857,159\TS110121,040617
+-------------------------------------------------------[2017-06-04 11:01:24.807]
+
+RX_ID: 37, Freq: 131.725MHz
+ACARS mode: 2 (50), label: _d
+Block id: 7 (55), msg. no: M12A
+Aircraft reg: N988GG, flight id: XA0000
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:01:39.145]
+
+RX_ID: 38, Freq: 131.725MHz
+ACARS mode: 2 (50), label: Q0 (ACARS link test)
+Block id: 5 (53), msg. no: S10A
+Aircraft reg: HA-LWA, flight id: W603NW
+Type: Airbus A320, carrier: WZZ, cn: 4223
+Airlines: Wizz Air
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:01:58.198]
+
+RX_ID: 39, Freq: 131.725MHz
+ACARS mode: K (75), label: SA (Media Advisory)
+Block id: 2 (50), msg. no: S71A
+Aircraft reg: A7-BAE, flight id: QR0755
+Type: Boeing 777, carrier: QTR, cn: 36104
+Airlines: Qatar Airways
+
+Message content:-
+0LS110200V
+-------------------------------------------------------[2017-06-04 11:02:01.453]
+
+RX_ID: 40, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 6 (54), msg. no: S11A
+Aircraft reg: HA-LWA, flight id: W603NW
+Type: Airbus A320, carrier: WZZ, cn: 4223
+Airlines: Wizz Air
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:02:04.341]
+
+RX_ID: 41, Freq: 131.725MHz
+ACARS mode: A (65), label: 16 (General aviation weather request)
+Block id: 0 (48), msg. no: M08A
+Aircraft reg: VQ-BLO, flight id: U63171
+
+Message content:-
+110317,36007,1230,  13,N 51.389 E 23.165
+-------------------------------------------------------[2017-06-04 11:03:20.739]
+
+RX_ID: 42, Freq: 131.725MHz
+ACARS mode: K (75), label: H1 (Message to/from terminal)
+Block id: 6 (54), msg. no: F16A
+Aircraft reg: A7-BAM, flight id: QR0701
+Type: Boeing 777, carrier: QTR, cn: 38245
+Airlines: Qatar Airways
+
+Message content:-
+#M1BRESPWI/AC,085/TS110320,040617D894
+-------------------------------------------------------[2017-06-04 11:03:22.350]
+
+RX_ID: 43, Freq: 131.725MHz
+ACARS mode: A (65), label: 16 (General aviation weather request)
+Block id: 0 (48), msg. no: M08A
+Aircraft reg: VQ-BLO, flight id: U63171
+
+Message content:-
+110317,36007,1230,  13,N 51.389 E 23.165
+-------------------------------------------------------[2017-06-04 11:03:32.588]
+
+RX_ID: 44, Freq: 131.725MHz
+ACARS mode: 2 (50), label: 5U (Weather request)
+Block id: 0 (48), msg. no: M15A
+Aircraft reg: N988GG, flight id: XA0000
+
+Message content:-
+001AF   EGTC      N5227.8E02510.3430
+-------------------------------------------------------[2017-06-04 11:04:31.396]
+
+RX_ID: 45, Freq: 131.725MHz
+ACARS mode: K (75), label: SA (Media Advisory)
+Block id: 3 (51), msg. no: S74A
+Aircraft reg: A7-BAE, flight id: QR0755
+Type: Boeing 777, carrier: QTR, cn: 36104
+Airlines: Qatar Airways
+
+Message content:-
+0LS110451V
+-------------------------------------------------------[2017-06-04 11:04:53.485]
+
+RX_ID: 46, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 4 (52), msg. no: S77A
+Aircraft reg: A7-BAE, flight id: QR0755
+Type: Boeing 777, carrier: QTR, cn: 36104
+Airlines: Qatar Airways
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:05:54.121]
+
+RX_ID: 47, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 5 (53), msg. no: S79A
+Aircraft reg: A7-BAE, flight id: QR0755
+Type: Boeing 777, carrier: QTR, cn: 36104
+Airlines: Qatar Airways
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:05:57.998]
+
+RX_ID: 48, Freq: 131.725MHz
+ACARS mode: K (75), label: 1L (Off message)
+Block id: 4 (52), msg. no: M41A
+Aircraft reg: D-AIPC, flight id: LH08AC
+Vendor: Airbus, type: A320-211 (A320), cn: 0071, carrier: LH, remarks: Lufthansa
+Airlines: Lufthansa
+
+Message content:-
+02304216757*BB7JJ3
+-------------------------------------------------------[2017-06-04 11:06:16.867]
+
+RX_ID: 49, Freq: 131.725MHz
+ACARS mode: A (65), label: Q0 (ACARS link test)
+Block id: 2 (50), msg. no: S31A
+Aircraft reg: SP-LWB, flight id: LO0196
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:06:21.146]
+
+RX_ID: 50, Freq: 131.725MHz
+ACARS mode: K (75), label: _d
+Block id: 5 (53), msg. no: S24A
+Aircraft reg: D-AIPC, flight id: LH08AC
+Vendor: Airbus, type: A320-211 (A320), cn: 0071, carrier: LH, remarks: Lufthansa
+Airlines: Lufthansa
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:06:44.515]
+
+RX_ID: 51, Freq: 131.725MHz
+ACARS mode: A (65), label: H1 (Message to/from terminal)
+Block id: 4 (52), msg. no: D78B
+Aircraft reg: SP-LWB, flight id: MU0196
+
+Message content:-
+#DFB.31
+4.5 48 44  91  91 -571105
+-------------------------------------------------------[2017-06-04 11:06:45.322]
+
+RX_ID: 52, Freq: 131.725MHz
+ACARS mode: K (75), label: _d
+Block id: 6 (54), msg. no: S25A
+Aircraft reg: D-AIPC, flight id: LH08AC
+Vendor: Airbus, type: A320-211 (A320), cn: 0071, carrier: LH, remarks: Lufthansa
+Airlines: Lufthansa
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:06:49.197]
+
+RX_ID: 53, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 0 (48), msg. no: S14A
+Aircraft reg: HA-LWA, flight id: W603NW
+Type: Airbus A320, carrier: WZZ, cn: 4223
+Airlines: Wizz Air
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:07:10.921]
+
+RX_ID: 54, Freq: 131.725MHz
+ACARS mode: A (65), label: 16 (General aviation weather request)
+Block id: 5 (53), msg. no: M80A
+Aircraft reg: SP-LWB, flight id: LO0196
+
+Message content:-
+110711,M105396,1152, 110,N 53.660 E 25.880
+-------------------------------------------------------[2017-06-04 11:07:14.210]
+
+RX_ID: 55, Freq: 131.725MHz
+ACARS mode: O (79), label: Q0 (ACARS link test)
+Block id: 0 (48), msg. no: S08A
+Aircraft reg: CEPL21, flight id: XA0001
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:07:26.499]
+
+RX_ID: 56, Freq: 131.725MHz
+ACARS mode: K (75), label: Q0 (ACARS link test)
+Block id: 2 (50), msg. no: S75A
+Aircraft reg: TC-SOA, flight id: XQ008N
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:08:13.590]
+
+RX_ID: 57, Freq: 131.725MHz
+ACARS mode: G (71), label: Q0 (ACARS link test)
+Block id: 1 (49), msg. no: S25A
+Aircraft reg: VQ-BLO, flight id: U63171
+
+Message content:-
+
+-------------------------------------------------------[2017-06-04 11:08:34.867]
+
+RX_ID: 58, Freq: 131.725MHz
+ACARS mode: G (71), label: SA (Media Advisory)
+Block id: 2 (50), msg. no: S26A
+Aircraft reg: VQ-BLO, flight id: U63171
+
+Message content:-
+0EV110835V
+-------------------------------------------------------[2017-06-04 11:08:37.938]
+
+RX_ID: 59, Freq: 131.725MHz
+ACARS mode: 2 (50), label: 15 (General aviation position report)
+Block id: 9 (57), msg. no: M08A
+Aircraft reg: OEGRF, flight id: GS0001
+Type: Hawker 850XP, carrier: ---, cn: 258813
+
+Message content:-
+(2N51559E 18163245 53400-59(Z
+--------------

@@ -223,7 +223,13 @@ POCSAG2400: Address: 2011192  Function: 1
 > 148,8250 MHz to częstotliwość Rx dla syren OSP. 148,7250 MHz to z kolei częstotliwość Tx dla syren OSP. 
 > Żeby wychwycić kanał wojewódzki, powiatowy i inne kanały pasma PSP musisz skanować zakres 148,6500- 149,3500 MHz.
 
+# Nawodne
 
+## AIS
+
+AIS stands for Automatic Identification System, and is used in the marine industry to broadcast vessel GPS coordinates to one another to work as a collision avoidance radar system.
+- https://www.rtl-sdr.com/new-rtl-sdr-software-rtl_ais/
+- software: https://github.com/dgiardini/rtl-ais
 
 # Audio
 
@@ -504,11 +510,63 @@ http://www.pe0sat.vgnet.nl/satellite/amateur-radio-satellites/no-44/
 
 ## pomiar ppm
 
+### rtl_test
+
+- wstępny pomiar ppm
+
 - `rtl_test -p`
 - zwróć wartość ppm po 5-ciominutowym pomiarze:
 ```
 echo `timeout 5m rtl_test -p 2> /dev/null | tail -1 | awk 'END {print $NF}'`
 ```
+
+
+### kalibrate
+
+- potrzebujemy (tj w moim wypadku to jest potrzebne) wstępneg błędu wyznaczonego za pomocą `rtl_test` (u mnie używam 61)
+- jakie "kanały" są dostępne w okolicy:
+
+```
+kal -s GSM900 -e 61
+
+Found 1 device(s):
+  0:  Generic RTL2832U OEM
+
+Using device 0: Generic RTL2832U OEM
+Found Rafael Micro R820T tuner
+Exact sample rate is: 270833.002142 Hz
+[R82XX] PLL not locked!
+kal: Scanning for GSM-900 base stations.
+GSM-900:
+        chan: 22 (939.4MHz - 2.033kHz)  power: 25427.90
+        chan: 25 (940.0MHz - 1.489kHz)  power: 47708.81
+        chan: 64 (947.8MHz - 1.447kHz)  power: 26915.33
+        chan: 111 (957.2MHz - 1.932kHz) power: 24454.37
+        chan: 118 (958.6MHz - 2.076kHz) power: 49272.52
+```
+- wybieramy kanał o jak największej mocy:
+```
+kal -c 118 -e 61
+Found 1 device(s):
+  0:  Generic RTL2832U OEM
+
+Using device 0: Generic RTL2832U OEM
+Found Rafael Micro R820T tuner
+Exact sample rate is: 270833.002142 Hz
+[R82XX] PLL not locked!
+kal: Calculating clock frequency offset.
+Using GSM-900 channel 118 (958.6MHz)
+average         [min, max]      (range, stddev)
+- 2.080kHz              [-2100, -2062]  (38, 9.814130)
+overruns: 0
+not found: 0
+average absolute error: 63.170 ppm
+```
+
+- ostatni punkt jako jednolinijkowiec zwracający wartość ppm: `kal -c 25 -g 49.6 -e 61 2> /dev/null | tail -1 | cut -d " " -f 4`
+
+
+
 
 ## Skanowanie częstotliwości
 

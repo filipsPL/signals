@@ -1,0 +1,11 @@
+*** f=
+decode.go:82: CenterFreq: 
+decode.go:83: SampleRate: 2359296
+decode.go:84: DataRate: 32768
+decode.go:85: ChipLength: 72
+decode.go:86: PreambleSymbols: 21
+decode.go:87: PreambleLength: 3024
+decode.go:88: PacketSymbols: 96
+decode.go:89: PacketLength: 13824
+decode.go:90: Preamble: 111110010101001100000
+main.go:94: GainCount: 29
