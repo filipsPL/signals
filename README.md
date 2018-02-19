@@ -126,12 +126,11 @@ to te mizerne punkty po środku widma...
 ### Voice :white_check_mark:
 
 - złapana z pomocą [automatycznej stacji nagrywającej autowx2](https://github.com/filipsPL/autowx2/) w jadącym samochodzie z anteną na dachu ;-)
+- fragment (kilka s) rozmowy po rosyjsku. To prawdopodobnie jeden z dwóch obecnych na stacji rosjan: Commander Alexander Misurkin lub Anton Shkaplerov
 - [mp3](sat/ISS/20180218-1144_ISS.mp3) - 202kb
 - spektrogram audio (`sox`):
 
 ![spectro](sat/ISS/20180218-1144_ISS-spectrogram.png)
-
-
 
 ## GPS :x:
 
