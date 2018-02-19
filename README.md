@@ -16,7 +16,8 @@ Table of Contents
   * [Meteor :x:](#meteor-x)
   * [FO-29 :white_check_mark: :x:](#fo-29-white_check_mark-x)
   * [HO-68 :x:](#ho-68-x)
-  * [ISS :x:](#iss-x)
+  * [ISS :white_check_mark: :x:](#iss-white_check_mark-x)
+    * [Voice :white_check_mark:](#voice-white_check_mark)
   * [GPS :x:](#gps-x)
   * [Iridium :x:](#iridium-x)
   * [PRATHAM :x:](#pratham-x)
@@ -28,6 +29,8 @@ Table of Contents
   * [Stacja pogodowa 433 MHz :seedling:](#stacja-pogodowa-433-mhz-seedling)
   * [POCSAG :x:](#pocsag-x)
   * [STQC :x:](#stqc-x)
+* [Nawodne](#nawodne)
+  * [AIS](#ais)
 * [Audio](#audio)
   * [Nasłuch](#nasłuch)
     * [Pogotowie Ratunkowe Warszawa :white_check_mark:](#pogotowie-ratunkowe-warszawa-white_check_mark)
@@ -37,28 +40,30 @@ Table of Contents
     * [VOLMET - stan pogody dla europejskich portów lotniczych :white_check_mark:](#volmet-stan-pogody-dla-europejskich-portów-lotniczych-white_check_mark)
     * [Polska ACC TRZ / Warszawa Radar civ :white_check_mark:](#polska-acc-trz-warszawa-radar-civ-white_check_mark)
     * [CB-Radio :white_check_mark:](#cb-radio-white_check_mark)
-  * [Tetra :white_check_mark:](#tetra-white_check_mark)                                                                                                                          
-  * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)                                                
-    * [X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)                                                                                                                    
-    * [NXDN96 :white_check_mark:](#nxdn96-white_check_mark)                                                                                                                      
-    * [D-STAR :x:](#d-star-x)                                                                                                                                                    
-    * [DMR/MotoTRBO :white_check_mark:](#dmr-mototrbo-white_check_mark)                                                                                                          
-    * [P25 Phase 1 :white_check_mark:](#p25-phase-1-white_check_mark)                                                                                                            
-  * [PSK31, 62 :x:](#psk31-62-x)                                                                                                                                                 
-  * [DECT :x:](#dect-x)                                                                                                                                                          
-* [Samoloty i inne latające](#samoloty-i-inne-latające)                                                                                                                          
-  * [ADS-B :white_check_mark:](#ads-b-white_check_mark)                                                                                                                          
-  * [VHF Data Link mode 2 (VDL2) :white_check_mark:](#vhf-data-link-mode-2-vdl2-white_check_mark)                                                                                
-  * [ACARS :white_check_mark:](#acars-white_check_mark)                                                                                                                          
-  * [FLARM :x:](#flarm-x)                                                                                                                                                        
-* [Inne](#inne)                                                                                                                                                                  
-  * [AFSK1200 :white_check_mark:](#afsk1200-white_check_mark)                                                                                                                    
-  * [APRS na CB :x:](#aprs-na-cb-x)                                                                                                                                              
-  * [APRS przez satelitę :x:](#aprs-przez-satelitę-x)                                                                                                                            
-  * [SSTV](#sstv)                                                                                                                                                                
-* [Przydatny software](#przydatny-software)                                                                                                                                      
-  * [pomiar ppm](#pomiar-ppm)                                                                                                                                                    
-  * [Skanowanie częstotliwości](#skanowanie-częstotliwości)                                                                                                                      
+  * [Tetra :white_check_mark:](#tetra-white_check_mark)
+  * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)
+    * [X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)
+    * [NXDN96 :white_check_mark:](#nxdn96-white_check_mark)
+    * [D-STAR :x:](#d-star-x)
+    * [DMR/MotoTRBO :white_check_mark:](#dmr-mototrbo-white_check_mark)
+    * [P25 Phase 1 :white_check_mark:](#p25-phase-1-white_check_mark)
+  * [PSK31, 62 :x:](#psk31-62-x)
+  * [DECT :x:](#dect-x)
+* [Samoloty i inne latające](#samoloty-i-inne-latające)
+  * [ADS-B :white_check_mark:](#ads-b-white_check_mark)
+  * [VHF Data Link mode 2 (VDL2) :white_check_mark:](#vhf-data-link-mode-2-vdl2-white_check_mark)
+  * [ACARS :white_check_mark:](#acars-white_check_mark)
+  * [FLARM :x:](#flarm-x)
+* [Inne](#inne)
+  * [AFSK1200 :white_check_mark:](#afsk1200-white_check_mark)
+  * [APRS na CB :x:](#aprs-na-cb-x)
+  * [APRS przez satelitę :x:](#aprs-przez-satelitę-x)
+  * [SSTV](#sstv)
+* [Przydatny software](#przydatny-software)
+  * [pomiar ppm](#pomiar-ppm)
+    * [rtl_test](#rtl_test)
+    * [kalibrate](#kalibrate)
+  * [Skanowanie częstotliwości](#skanowanie-częstotliwości)
   * [Inne](#inne)
 * [Ciekawe do rozkminienia](#ciekawe-do-rozkminienia)
 
@@ -72,7 +77,7 @@ Table of Contents
   - przesyłanie dźwięku przez UDP, dekodowanie dowolnym innym programem, np: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
 - `rtl_fm`
 - `multimon-ng` - wersja sq5bpf: https://github.com/sq5bpf/multimon-ng-stqc
-
+- do automatycznego nagrywania i procesowania sygnałów satelitarnych (a także wszelkich innych) polecam program do a[utomatycznego nagrywania - autowx2](https://github.com/filipsPL/autowx2/) mojego autorstwa (python/linux)
 
 # Satelity
 
@@ -112,11 +117,21 @@ to te mizerne punkty po środku widma...
 - nadaje morsem
 - jak na razie bez sukcesu
 
-## ISS :x:
+## ISS :white_check_mark: :x:
 
 - http://www.rtl-sdr.com/receiving-iss-data-comms-rtl-sdr/
 - f = 145.825 143.625 143.635
 - Voice and SSTV transmissions take place on 145.800 MHz FM, the AX.25 packet may be heard on 437.550 MHz. (https://amsat-uk.org/beginners/how-to-hear-the-iss/)
+
+### Voice :white_check_mark:
+
+- złapana z pomocą [automatycznej stacji nagrywającej autowx2](https://github.com/filipsPL/autowx2/) w jadącym samochodzie z anteną na dachu ;-)
+- [mp3](sat/ISS/20180218-1144_ISS.mp3) - 202kb
+- spektrogram audio (`sox`):
+
+![spectro](sat/ISS/20180218-1144_ISS-spectrogram.png)
+
+
 
 ## GPS :x:
 
