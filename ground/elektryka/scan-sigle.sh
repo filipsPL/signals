@@ -3,10 +3,11 @@
 ## run rtl_tcp in another window
 
 #freqs=( 912201180 912988500 912397800 912786600 912958400 )
-freqs=(900975400)
-msgtypes=(scm scm+ idm r900 r900bcd)
+freqs=(143720000 144880000)
+#msgtypes=(scm scm+ idm r900 r900bcd)
+msgtypes=(scm)
 
-czas=100s
+czas=3000s
 log="logs-single-freqs.log"
 
 date > $log

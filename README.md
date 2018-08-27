@@ -155,6 +155,18 @@ to te mizerne punkty po środku widma...
 - current status: http://www.amsat.org/tlm/health.php?id=1&port=
 - 145.978 MHz (+/- 3 kHz Doppler shift) FM Downlink - nie ma w gpredict! (?)
 
+## Fox-1B :white_check_mark:
+
+- Fox-1B, AO-91 or AMSAT OSCAR 91
+- 145.960 MHz downlink FM
+- https://en.wikipedia.org/wiki/Fox-1B
+
+![fox-spectrogram](sat/FOX-1B/20180827-1226_FOX-1B-spectrogram.png)
+
+[mp3](sat/FOX-1B/20180827-1226_FOX-1B.mp3) 
+
+
+
 ## SO-50
 
 - 436.795 MHz downlink; http://www.amsat.org/?page_id=1015
@@ -243,7 +255,75 @@ POCSAG2400: Address: 2011192  Function: 1
 
 AIS stands for Automatic Identification System, and is used in the marine industry to broadcast vessel GPS coordinates to one another to work as a collision avoidance radar system.
 - https://www.rtl-sdr.com/new-rtl-sdr-software-rtl_ais/
-- software: https://github.com/dgiardini/rtl-ais
+- software: https://github.com/dgiardini/rtl-ais -- **aisdeco2**
+- :warning: okolice Darłowa, ok 1km od morza, antena szerokopasmowa na dachu domku.
+
+```
+./aisdeco2 --gain 49.6
+2018-08-27 22:17:31.571  INFO     AiSDeco2 v.20180430
+Found Rafael Micro R820T tuner
+[R82XX] PLL not locked!
+Supported Gains (dB):  0.0 0.9 1.4 2.7 3.7 7.7 8.7 12.5 14.4 15.7 16.6 19.7 20.7 22.9 25.4 28.0 29.7 32.8 33.8 36.4 37.2 38.6 40.2 42.1 43.4 43.9 44.5 48.0 49.6
+Freq: 162.000 MHz
+Freq Correction: 0 ppm
+Gain: 49.6 dB
+2018-08-27 22:17:41.432  INFO     !AIVDM,1,1,,A,402OTP1v:=lAb1;fI0O=COi00@Hj,0*34
+2018-08-27 22:17:41.612  INFO     !AIVDM,1,1,,A,402OTq1v:=lAb18b=vO2Ke1000S:,0*6E
+2018-08-27 22:17:42.320  INFO     !AIVDM,1,1,,A,D02OTP0dlFfq6DG6EH0o6D0,0*51                                                                                                                         
+2018-08-27 22:17:44.986  INFO     !AIVDM,1,1,,A,D02OTq0WLFfq6DG6DlPo6D0,0*26                                                                                                                         
+2018-08-27 22:17:51.388  INFO     !AIVDM,1,1,,B,402OTP1v:=lAl1;fI0O=CP100@Na,0*73                                                                                                                    
+2018-08-27 22:17:52.809  INFO     !AIVDM,1,1,,B,33q:uN50001;0T8O9SpuJ49d0DjJ,0*51                                                                                                                    
+2018-08-27 22:18:01.520  INFO     !AIVDM,1,1,,A,402OTP1v:=lB21;fHvO=CPA006Q8,0*2A                                                                                                                    
+2018-08-27 22:18:11.654  INFO     !AIVDM,1,1,,B,402OTq1v:=lB<18b=vO2KdQ006Q8,0*57                                                                                                                    
+2018-08-27 22:18:12.364  INFO     !AIVDM,1,1,,A,D02OTP1k8Ffp00G6DAdo6D0,0*24                                                                                                                         
+2018-08-27 22:18:14.853  INFO     !AIVDM,1,1,,A,D02OTq1ehFfp00G6Erlo6D0,0*61                                                                                                                         
+2018-08-27 22:18:21.610  INFO     !AIVDM,1,1,,A,402OTq1v:=lBF18b=vO2KdA00<0K,0*26                                                                                                                    
+2018-08-27 22:18:25.699  INFO     !AIVDM,1,1,,B,D02OTq1clFfp00G6D7po6D0,0*38                                                                                                                         
+2018-08-27 22:18:25.876  INFO     !AIVDM,1,1,,B,33@UCN50001;3dFO94F18Tpl0Cm:,0*42                                                                                                                    
+2018-08-27 22:18:27.652  INFO     !AIVDM,1,1,,B,D02OTP1W4Ffp00G6EFpo6D0,0*05
+2018-08-27 22:18:31.564  INFO     !AIVDM,1,1,,B,402OTP1v:=lBP1;fHtO=CPQ00D0F,0*34
+2018-08-27 22:18:31.741  INFO     !AIVDM,1,1,,B,402OTq1v:=lBP18b=vO2KdA000S:,0*2D
+2018-08-27 22:18:41.519  INFO     !AIVDM,1,1,,A,402OTP1v:=lBb1;fHtO=CPQ00<0F,0*7D
+2018-08-27 22:18:41.697  INFO     !AIVDM,1,1,,A,402OTq1v:=lBb18b=vO2Kd100D0M,0*0C
+2018-08-27 22:18:42.409  INFO     !AIVDM,1,1,,A,D02OTP0dlFfq6DG6EH0o6D0,0*51
+2018-08-27 22:18:44.897  INFO     !AIVDM,1,1,,A,D02OTq0WLFfq6DG6DlPo6D0,0*26
+2018-08-27 22:18:55.741  INFO     !AIVDM,1,1,,B,D02OTq0UPFfq6DG6E><o6D0,0*04
+2018-08-27 22:19:01.785  INFO     !AIVDM,1,1,,A,402OTq1v:=lC218b=tO2Kd10081M,0*22
+2018-08-27 22:19:02.498  INFO     !AIVDM,1,1,,A,B3q5KT000HBh?k7jHWQp?wQUoP06,0*1C
+2018-08-27 22:19:11.565  INFO     !AIVDM,1,1,,B,402OTP1v:=lC<1;fI0O=CPQ00<0E,0*67
+2018-08-27 22:19:11.741  INFO     !AIVDM,1,1,,B,402OTq1v:=lC<18b=rO2Kd1000S:,0*34
+2018-08-27 22:19:12.451  INFO     !AIVDM,1,1,,A,D02OTP1k8Ffp00G6DAdo6D0,0*24
+2018-08-27 22:19:21.519  INFO     !AIVDM,1,1,,A,402OTP1v:=lCF1;fI2O=CPQ000S:,0*0C
+2018-08-27 22:19:31.474  INFO     !AIVDM,1,1,,B,402OTP1v:=lCP1;fI2O=CPQ00@Bs,0*31
+2018-08-27 22:19:35.741  INFO     !AIVDM,1,1,,A,B3ptOn000@Bh?k7jHiKNSwj5kP06,0*43
+2018-08-27 22:19:41.430  INFO     !AIVDM,1,1,,A,402OTP1v:=lCb1;fI2O=CPi008Hj,0*53
+2018-08-27 22:19:41.785  INFO     !AIVDM,1,1,,A,402OTq1v:=lCb18b=nO2Kdi00@Hq,0*0D
+2018-08-27 22:19:42.321  INFO     !AIVDM,1,1,,A,D02OTP0dlFfq6DG6EH0o6D0,0*51
+2018-08-27 22:19:44.808  INFO     !AIVDM,1,1,,A,D02OTq0WLFfq6DG6DlPo6D0,0*26
+2018-08-27 22:19:51.563  INFO     !AIVDM,1,1,,B,402OTP1v:=lCl1;fI2O=CPQ008Na,0*6B
+2018-08-27 22:19:55.653  INFO     !AIVDM,1,1,,B,D02OTq0UPFfq6DG6E><o6D0,0*04
+2018-08-27 22:19:57.432  INFO     !AIVDM,1,1,,B,D02OTP0PhFfq6DG6D@To6D0,0*0F
+2018-08-27 22:20:01.518  INFO     !AIVDM,1,1,,A,402OTP1v:=lD21;fI0O=CPQ00H1F,0*1B
+2018-08-27 22:20:01.696  INFO     !AIVDM,1,1,,A,402OTq1v:=lD218b=lO2KeA006Q@,0*2F
+2018-08-27 22:20:14.851  INFO     !AIVDM,1,1,,A,D02OTq1ehFfp00G6Erlo6D0,0*61
+2018-08-27 22:20:21.431  INFO     !AIVDM,1,1,,A,402OTP1v:=lDF1;fHvO=CP100D0E,0*46
+2018-08-27 22:20:25.696  INFO     !AIVDM,1,1,,B,D02OTq1clFfp00G6D7po6D0,0*38
+2018-08-27 22:20:30.673  INFO     !AIVDM,2,1,5,A,53q:uN427nee=0g;;?0JuJ0dtjo7;2222222221J0pG4440Ht7Rkk3hT,0*1C
+2018-08-27 22:20:30.673  INFO     !AIVDM,2,2,5,A,VQAp88888888880,2*17
+2018-08-27 22:20:41.519  INFO     !AIVDM,1,1,,A,402OTP1v:=lDb1;fHpO=CP1006Q@,0*72
+2018-08-27 22:20:41.696  INFO     !AIVDM,1,1,,A,402OTq1v:=lDb18b=lO2Kei00<0M,0*31
+2018-08-27 22:20:42.407  INFO     !AIVDM,1,1,,A,D02OTP0dlFfq6DG6EH0o6D0,0*51
+2018-08-27 22:20:44.896  INFO     !AIVDM,1,1,,A,D02OTq0WLFfq6DG6DlPo6D0,0*26
+2018-08-27 22:20:51.475  INFO     !AIVDM,1,1,,B,402OTP1v:=lDl1;fHnO=CP1006Q@,0*61
+2018-08-27 22:20:51.651  INFO     !AIVDM,1,1,,B,402OTq1v:=lDl18b=lO2Kei000S:,0*24
+2018-08-27 22:21:11.561  INFO     !AIVDM,1,1,,B,402OTP1v:=lE<1;fHnO=CP1006QD,0*34
+2018-08-27 22:21:12.274  INFO     !AIVDM,1,1,,A,D02OTP1k8Ffp00G6DAdo6D0,0*24
+2018-08-27 22:21:21.519  INFO     !AIVDM,1,1,,A,402OTP1v:=lEF1;fHnO=CP100@=4,0*27
+2018-08-27 22:21:21.695  INFO     !AIVDM,1,1,,A,402OTq1v:=lEF18b=nO2KeQ000S:,0*36
+2018-08-27 22:21:21.873  INFO     !AIVDM,1,1,,B,H3ptOn1<tIDr0TV222222222220,0*4D
+2018-08-27 22:21:22.050  INFO     !AIVDM,1,1,,B,H3ptOn4T1=3PPPPC@Ckloi102120,0*65
+```
+
 
 # Audio
 
