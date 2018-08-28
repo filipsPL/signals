@@ -25,7 +25,7 @@ Table of Contents
   * [Fox-1B :smile:](#fox-1b-smile)
   * [SO-50](#so-50)
 * [Naziemne](#naziemne)
-  * [Sondy meteorologiczne :x:](#sondy-meteorologiczne-x)
+  * [Sondy meteorologiczne :smile:](#sondy-meteorologiczne-smile)
   * [Radiofax :x:](#radiofax-x)
   * [Stacja pogodowa 433 MHz :seedling:](#stacja-pogodowa-433-mhz-seedling)
   * [POCSAG :x:](#pocsag-x)
@@ -177,12 +177,10 @@ to te mizerne punkty po środku widma...
 
 # Naziemne
 
-## Sondy meteorologiczne :x:
+## Sondy meteorologiczne :smile:
 
 - W Polsce sondy startują z Wrocławia, Łeby (403.0 Mhz) i Legionowa (404.5 Mhz) dwa razy dziennie około godziny 12 i 24 (wg https://radiosondy.pl/)
 - https://radiosondy.info/ - baza odnalezionych sond
-
-
 - plus: poszukiwanie "zużytej" sondy
 - http://www.radiosondy.fora.pl/
 - https://www.rtl-sdr.com/receiving-weather-balloon-data-with-rtl-sdr/
@@ -202,10 +200,64 @@ to te mizerne punkty po środku widma...
 2018-08-28 09:12:49,977 INFO:Scanner #0 - Running frequency scan.
 ^[[B2018-08-28 09:13:20,207 INFO:Scanner #0 - Running frequency scan.
 2018-08-28 09:13:50,135 INFO:Scanner #0 - Running frequency scan.
-... to be continued
+
+...
+
+2018-08-28 12:26:42,112 INFO:Scanner #0 - Detected peaks on 1 frequencies (MHz): [ 401.57]
+2018-08-28 12:26:57,233 INFO:Scanner #0 - Running frequency scan.
+2018-08-28 12:27:27,121 INFO:Scanner #0 - Running frequency scan.
+2018-08-28 12:27:47,162 INFO:Scanner #0 - Detected peaks on 1 frequencies (MHz): [ 401.57]
+2018-08-28 12:28:02,279 INFO:Scanner #0 - Running frequency scan.
+2018-08-28 12:28:32,195 INFO:Scanner #0 - Running frequency scan.
+2018-08-28 12:29:02,163 INFO:Scanner #0 - Running frequency scan.
+2018-08-28 12:29:32,120 INFO:Scanner #0 - Running frequency scan.
+2018-08-28 12:29:52,193 INFO:Scanner #0 - Detected peaks on 1 frequencies (MHz): [ 401.57]
+2018-08-28 12:30:07,307 INFO:Scanner #0 - Running frequency scan.
+2018-08-28 12:30:37,191 INFO:Scanner #0 - Running frequency scan.
+2018-08-28 12:30:57,080 INFO:Scanner #0 - Detected peaks on 1 frequencies (MHz): [ 401.57]
+2018-08-28 12:31:12,200 INFO:Scanner #0 - Running frequency scan.
+2018-08-28 12:31:32,198 INFO:Scanner #0 - Detected peaks on 1 frequencies (MHz): [ 401.57]
+
+...
+
+2018-08-28 14:56:42,706 INFO:Detected new RS41 sonde on 403.000 MHz!
+2018-08-28 14:56:42,707 INFO:Halting Scanner to decode detected radiosonde.
+2018-08-28 14:56:42,707 INFO:Scanner #0 - Waiting for current scan to finish...
+2018-08-28 14:56:52,255 INFO:Scanner #0 - Scanner Thread Closed.
+2018-08-28 14:56:52,256 INFO:SDR #0 has been allocated to Decoder (RS41, 403.000 MHz).
+2018-08-28 14:56:54,240 INFO:Decoder #0 RS41 403.000 - Starting decoder subprocess.
+2018-08-28 14:56:57,502 INFO:Telemetry Logger - Opening new log file: ./log/20180828-125657_P1120693_RS41_403000_sonde.log
+2018-08-28 14:57:30,110 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5431.61N/01805.04EO118/026/A=041244 RS41 Radiosonde 403.000 MHz -15.6m/s http://bit.ly/2Bj4Sfk
+2018-08-28 14:58:00,315 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5431.49N/01805.40EO117/033/A=039926 RS41 Radiosonde 403.000 MHz -10.4m/s http://bit.ly/2Bj4Sfk
+2018-08-28 14:58:30,792 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5431.33N/01805.75EO135/034/A=038546 RS41 Radiosonde 403.000 MHz -16.7m/s http://bit.ly/2Bj4Sfk
+2018-08-28 14:59:00,179 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5431.12N/01806.04EO139/036/A=036988 RS41 Radiosonde 403.000 MHz -16.2m/s http://bit.ly/2Bj4Sfk
+2018-08-28 14:59:30,549 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5430.83N/01806.33EO154/043/A=035477 RS41 Radiosonde 403.000 MHz -15.0m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:00:00,194 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5430.43N/01806.68EO147/056/A=034054 RS41 Radiosonde 403.000 MHz -13.2m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:00:30,202 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5430.06N/01807.07EO153/053/A=032720 RS41 Radiosonde 403.000 MHz -13.3m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:01:00,150 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5429.62N/01807.41EO155/058/A=031417 RS41 Radiosonde 403.000 MHz -12.7m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:01:30,238 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5429.20N/01807.72EO162/058/A=030193 RS41 Radiosonde 403.000 MHz -12.4m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:02:00,547 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5428.70N/01807.98EO160/062/A=028979 RS41 Radiosonde 403.000 MHz -12.1m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:02:30,166 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5428.24N/01808.29EO157/059/A=027858 RS41 Radiosonde 403.000 MHz -11.5m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:03:00,259 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5427.81N/01808.63EO154/050/A=026716 RS41 Radiosonde 403.000 MHz -10.9m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:03:30,558 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5427.44N/01808.89EO160/049/A=025731 RS41 Radiosonde 403.000 MHz -9.9m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:04:00,255 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5427.06N/01809.14EO155/045/A=024629 RS41 Radiosonde 403.000 MHz -9.9m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:04:30,197 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5426.74N/01809.38EO153/039/A=023526 RS41 Radiosonde 403.000 MHz -11.1m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:05:00,141 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5426.43N/01809.64EO152/040/A=022364 RS41 Radiosonde 403.000 MHz -11.7m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:05:30,238 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5426.15N/01809.90EO149/038/A=021283 RS41 Radiosonde 403.000 MHz -12.2m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:06:00,473 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5425.87N/01810.16EO150/037/A=020104 RS41 Radiosonde 403.000 MHz -12.8m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:06:30,195 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5425.60N/01810.44EO146/035/A=018949 RS41 Radiosonde 403.000 MHz -11.3m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:07:00,298 INFO:APRS-IS - Uploaded to APRS-IS: ;P1120693 *111111z5425.36N/01810.70EO148/034/A=018037 RS41 Radiosonde 403.000 MHz -9.5m/s http://bit.ly/2Bj4Sfk
+2018-08-28 15:12:03,717 INFO:Telemetry Logger - Closed log file for P1120693
 
 ```
- 
+
+![aprs.fi](meteosondy/radiosonde_auto_rx/Screenshot_20180828_154140.png)
+
+![aprs.fi](meteosondy/radiosonde_auto_rx/Screenshot_20180828_154204.png)
+
+- logi:
+  - [20180828-110733_P1040717_RS41_402300_sonde.log](meteosondy/radiosonde_auto_rx/20180828-110733_P1040717_RS41_402300_sonde.log)
+  - [20180828-125657_P1120693_RS41_403000_sonde.log](meteosondy/radiosonde_auto_rx/20180828-125657_P1120693_RS41_403000_sonde.log)
 
 
 ## Radiofax :x:
