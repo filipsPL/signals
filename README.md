@@ -12,16 +12,17 @@ Table of Contents
 
 * [Użyty sprzęt i software](#użyty-sprzęt-i-software)
 * [Satelity](#satelity)
-  * [NOAA :white_check_mark:](#noaa-white_check_mark)
+  * [NOAA :smile:](#noaa-smile)
   * [Meteor :x:](#meteor-x)
-  * [FO-29 :white_check_mark: :x:](#fo-29-white_check_mark-x)
+  * [FO-29 :smile: :x:](#fo-29-smile-x)
   * [HO-68 :x:](#ho-68-x)
-  * [ISS :white_check_mark: :x:](#iss-white_check_mark-x)
-    * [Voice :white_check_mark:](#voice-white_check_mark)
+  * [ISS :smile: :x:](#iss-smile-x)
+    * [Voice :smile:](#voice-smile)
   * [GPS :x:](#gps-x)
   * [Iridium :x:](#iridium-x)
   * [PRATHAM :x:](#pratham-x)
   * [Fox-01 == AO-85 :x:](#fox-01-==-ao-85-x)
+  * [Fox-1B :smile:](#fox-1b-smile)
   * [SO-50](#so-50)
 * [Naziemne](#naziemne)
   * [Sondy meteorologiczne :x:](#sondy-meteorologiczne-x)
@@ -30,32 +31,32 @@ Table of Contents
   * [POCSAG :x:](#pocsag-x)
   * [STQC :x:](#stqc-x)
 * [Nawodne](#nawodne)
-  * [AIS](#ais)
+  * [AIS :smile:](#ais-smile)
 * [Audio](#audio)
   * [Nasłuch](#nasłuch)
-    * [Pogotowie Ratunkowe Warszawa :white_check_mark:](#pogotowie-ratunkowe-warszawa-white_check_mark)
-    * [Okęcie Informacje o stanie pasa :white_check_mark:](#okęcie-informacje-o-stanie-pasa-white_check_mark)
-    * [Wieża Warszawa Okęcie (OKE) :white_check_mark:](#wieża-warszawa-okęcie-oke-white_check_mark)
-    * [Kontrola płyty OKE Warszawa :white_check_mark:](#kontrola-płyty-oke-warszawa-white_check_mark)
-    * [VOLMET - stan pogody dla europejskich portów lotniczych :white_check_mark:](#volmet-stan-pogody-dla-europejskich-portów-lotniczych-white_check_mark)
-    * [Polska ACC TRZ / Warszawa Radar civ :white_check_mark:](#polska-acc-trz-warszawa-radar-civ-white_check_mark)
-    * [CB-Radio :white_check_mark:](#cb-radio-white_check_mark)
-  * [Tetra :white_check_mark:](#tetra-white_check_mark)
+    * [Pogotowie Ratunkowe Warszawa :smile:](#pogotowie-ratunkowe-warszawa-smile)
+    * [Okęcie Informacje o stanie pasa :smile:](#okęcie-informacje-o-stanie-pasa-smile)
+    * [Wieża Warszawa Okęcie (OKE) :smile:](#wieża-warszawa-okęcie-oke-smile)
+    * [Kontrola płyty OKE Warszawa :smile:](#kontrola-płyty-oke-warszawa-smile)
+    * [VOLMET - stan pogody dla europejskich portów lotniczych :smile:](#volmet-stan-pogody-dla-europejskich-portów-lotniczych-smile)
+    * [Polska ACC TRZ / Warszawa Radar civ :smile:](#polska-acc-trz-warszawa-radar-civ-smile)
+    * [CB-Radio :smile:](#cb-radio-smile)
+  * [Tetra :smile:](#tetra-smile)
   * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)
-    * [X2-TDMA :white_check_mark:](#x2-tdma-white_check_mark)
-    * [NXDN96 :white_check_mark:](#nxdn96-white_check_mark)
-    * [D-STAR :x:](#d-star-x)
-    * [DMR/MotoTRBO :white_check_mark:](#dmr-mototrbo-white_check_mark)
-    * [P25 Phase 1 :white_check_mark:](#p25-phase-1-white_check_mark)
-  * [PSK31, 62 :x:](#psk31-62-x)
-  * [DECT :x:](#dect-x)
-* [Samoloty i inne latające](#samoloty-i-inne-latające)
-  * [ADS-B :white_check_mark:](#ads-b-white_check_mark)
-  * [VHF Data Link mode 2 (VDL2) :white_check_mark:](#vhf-data-link-mode-2-vdl2-white_check_mark)
-  * [ACARS :white_check_mark:](#acars-white_check_mark)
+    * [X2-TDMA :smile:](#x2-tdma-smile)                                                                                                                                                              
+    * [NXDN96 :smile:](#nxdn96-smile)                                                                                                                                                                
+    * [D-STAR :x:](#d-star-x)                                                                                                                                                                        
+    * [DMR/MotoTRBO :smile:](#dmr-mototrbo-smile)                                                                                                                                                    
+    * [P25 Phase 1 :smile:](#p25-phase-1-smile)                                                                                                                                                      
+  * [PSK31, 62 :x:](#psk31-62-x)                                                                                                                                                                     
+  * [DECT :x:](#dect-x)                                                                                                                                                                              
+* [Samoloty i inne latające](#samoloty-i-inne-latające)                                                                                                                                              
+  * [ADS-B :smile:](#ads-b-smile)                                                                                                                                                                    
+  * [VHF Data Link mode 2 (VDL2) :smile:](#vhf-data-link-mode-2-vdl2-smile)                                                                                                                          
+  * [ACARS :smile:](#acars-smile)                                                                                                                                                                    
   * [FLARM :x:](#flarm-x)
 * [Inne](#inne)
-  * [AFSK1200 :white_check_mark:](#afsk1200-white_check_mark)
+  * [AFSK1200 :smile:](#afsk1200-smile)
   * [APRS na CB :x:](#aprs-na-cb-x)
   * [APRS przez satelitę :x:](#aprs-przez-satelitę-x)
   * [SSTV](#sstv)
@@ -66,7 +67,6 @@ Table of Contents
   * [Skanowanie częstotliwości](#skanowanie-częstotliwości)
   * [Inne](#inne)
 * [Ciekawe do rozkminienia](#ciekawe-do-rozkminienia)
-
 # Użyty sprzęt i software
 
 - Lokalizacja: Warszawa, QTH locator: [KO02MD54](http://ostol.pl/mapa-qth-lokatorow?qth=KO02MD&from=&t=roadmap)
@@ -81,7 +81,7 @@ Table of Contents
 
 # Satelity
 
-## NOAA :white_check_mark:
+## NOAA :smile:
 
 - software: `gqrx`, `xwxtoimg`
 - alternatywnie: `rtl_fm` wraz ze skryptami https://github.com/DrPaulBrewer/rtlsdr-automated-wxsat-capture - na razie trochę gorsze wyniki niż gqrx ([tutaj próbka](https://github.com/filipsPL/signals/tree/master/sat/noaa/rtl_fm/))
@@ -100,7 +100,7 @@ Wyniki:
 
 - chyba dość trudne, trzeba mieć specjalną/dobrą antenę (?)
 
-## FO-29 :white_check_mark: :x:
+## FO-29 :smile: :x:
 
 - https://dolske.wordpress.com/2014/04/21/satellite-radio/
 - decoding: http://www.dxatlas.com/cwskimmer/ :x:
@@ -117,13 +117,13 @@ to te mizerne punkty po środku widma...
 - nadaje morsem
 - jak na razie bez sukcesu
 
-## ISS :white_check_mark: :x:
+## ISS :smile: :x:
 
 - http://www.rtl-sdr.com/receiving-iss-data-comms-rtl-sdr/
 - f = 145.825 143.625 143.635
 - Voice and SSTV transmissions take place on 145.800 MHz FM, the AX.25 packet may be heard on 437.550 MHz. (https://amsat-uk.org/beginners/how-to-hear-the-iss/)
 
-### Voice :white_check_mark:
+### Voice :smile:
 
 - złapana z pomocą [automatycznej stacji nagrywającej autowx2](https://github.com/filipsPL/autowx2/) w jadącym samochodzie z anteną na dachu ;-)
 - fragment (kilka s) rozmowy po rosyjsku. To prawdopodobnie jeden z dwóch obecnych na stacji rosjan: Commander Alexander Misurkin lub Anton Shkaplerov
@@ -155,7 +155,7 @@ to te mizerne punkty po środku widma...
 - current status: http://www.amsat.org/tlm/health.php?id=1&port=
 - 145.978 MHz (+/- 3 kHz Doppler shift) FM Downlink - nie ma w gpredict! (?)
 
-## Fox-1B :white_check_mark:
+## Fox-1B :smile:
 
 - Fox-1B, AO-91 or AMSAT OSCAR 91
 - 145.960 MHz downlink FM
@@ -179,11 +179,33 @@ to te mizerne punkty po środku widma...
 
 ## Sondy meteorologiczne :x:
 
+- W Polsce sondy startują z Wrocławia, Łeby (403.0 Mhz) i Legionowa (404.5 Mhz) dwa razy dziennie około godziny 12 i 24 (wg https://radiosondy.pl/)
+- https://radiosondy.info/ - baza odnalezionych sond
+
+
 - plus: poszukiwanie "zużytej" sondy
 - http://www.radiosondy.fora.pl/
+- https://www.rtl-sdr.com/receiving-weather-balloon-data-with-rtl-sdr/
 - soft:
  - https://github.com/rs1729/RS
+ - https://github.com/projecthorus/radiosonde_auto_rx/wiki :ok: :memo: :lemon:
+ 
+ ```
+ ~/progs/radiosonde_auto_rx/auto_rx $ python auto_rx.py
+2018-08-28 09:12:46,116 INFO:Reading configuration file...
+2018-08-28 09:12:48,042 INFO:Config - Tested SDR #0 OK
+2018-08-28 09:12:48,045 INFO:Started Flask server on http://0.0.0.0:5000
+2018-08-28 09:12:48,046 INFO:Telemetry Logger - Started Telemetry Logger Thread.
+2018-08-28 09:12:48,048 INFO:APRS-IS - APRS Uploader Started.
+2018-08-28 09:12:48,048 INFO:SDR #0 has been allocated to Scanner.
+2018-08-28 09:12:49,976 INFO:Scanner #0 - Starting Scanner Thread
+2018-08-28 09:12:49,977 INFO:Scanner #0 - Running frequency scan.
+^[[B2018-08-28 09:13:20,207 INFO:Scanner #0 - Running frequency scan.
+2018-08-28 09:13:50,135 INFO:Scanner #0 - Running frequency scan.
+... to be continued
 
+```
+ 
 
 
 ## Radiofax :x:
@@ -251,7 +273,7 @@ POCSAG2400: Address: 2011192  Function: 1
 
 # Nawodne
 
-## AIS
+## AIS :smile:
 
 AIS stands for Automatic Identification System, and is used in the marine industry to broadcast vessel GPS coordinates to one another to work as a collision avoidance radar system.
 - https://www.rtl-sdr.com/new-rtl-sdr-software-rtl_ais/
@@ -324,37 +346,38 @@ Gain: 49.6 dB
 2018-08-27 22:21:22.050  INFO     !AIVDM,1,1,,B,H3ptOn4T1=3PPPPC@Ckloi102120,0*65
 ```
 
+**TODO**: Wizualizacja dekodowanych wiadomości i naniesienie pozycji statków na mapę :memo: :lemon:
 
 # Audio
 
 ## Nasłuch
 
-### Pogotowie Ratunkowe Warszawa :white_check_mark:
+### Pogotowie Ratunkowe Warszawa :smile:
 
 - software used: `gqrx`, mode: Narrow FM, f = 168523800 Hz
 - rtl_sdr: `rtl_fm -p 61 -M fm -s 170k -o 4 -A fast -r 32k -l 40 -E deemp -f 168523800  | play -r 32k -t raw -e s -b 16 -c 1 -V1 -`
 
-### Okęcie Informacje o stanie pasa :white_check_mark:
+### Okęcie Informacje o stanie pasa :smile:
 
 - `gqrx`: f=120450600 Hz, AM
 
-### Wieża Warszawa Okęcie (OKE) :white_check_mark:
+### Wieża Warszawa Okęcie (OKE) :smile:
 
 - `gqrx`: f=118299200 Hz, AM
 
-### Kontrola płyty OKE Warszawa :white_check_mark:
+### Kontrola płyty OKE Warszawa :smile:
 
 - `gqrx`: f=121599300 Hz, AM
 
-### VOLMET - stan pogody dla europejskich portów lotniczych :white_check_mark:
+### VOLMET - stan pogody dla europejskich portów lotniczych :smile:
 
 - `gqrx`: f=127599900 Hz, AM
 
-### Polska ACC TRZ / Warszawa Radar civ :white_check_mark:
+### Polska ACC TRZ / Warszawa Radar civ :smile:
 
 - `gqrx`: f=134874900 Hz, AM
 
-### CB-Radio :white_check_mark:
+### CB-Radio :smile:
 
 ```
 Częstotliwości kanałów CB :
@@ -386,7 +409,7 @@ praktycznie wszystkie radia CB mają ten rodzaj modulacji; moga mieć też inne,
 
 Za: http://radioamator.elektroda.eu/poradycb.html
 
-## Tetra :white_check_mark:
+## Tetra :smile:
 
 - Software: https://github.com/sq5bpf/telive
 - Mój skrypt do uruchomienia telive (jeden skrypt, otwiera wszystkie okienka, 6 kanałów, bez gnuradio): [link](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/runtetra.sh) [link](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/runtetra.sh)
@@ -407,7 +430,7 @@ Za: http://radioamator.elektroda.eu/poradycb.html
  - rozmowy głosowe są szyfrowane/kodowane, więc to co można nasłuchać to raczej bezładne dźwięki
 
  
-### X2-TDMA :white_check_mark:
+### X2-TDMA :smile:
 
 - `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | dsd -i - -w dsd_output.wav`
 
@@ -420,7 +443,7 @@ Sync:  -X2-TDMA   mod: QPSK inlvl: 137% src:        0 tg:     0  slot0  [SLOT1] 
 Sync: (-X2-TDMA)  mod: QPSK inlvl: 130% src:        0 tg:     0 [slot0]  SLOT1   VOICE e:====R========================E======================R
 ```
 
-### NXDN96 :white_check_mark:
+### NXDN96 :smile:
 
 - `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | dsd -i - -w dsd_output.wav`
 
@@ -436,7 +459,7 @@ Sync:  +NXDN96    mod: GFSK inlvl: 42% VOICE e:========
 
 ### D-STAR :x:
 
-### DMR/MotoTRBO :white_check_mark:
+### DMR/MotoTRBO :smile:
 
 ```
 Sync:  +DMR       mod: QPSK inlvl: 108%  slot0  [SLOT1]  VOICE e:=========R====R====R===E====R====R======R=====RM============R======
@@ -453,7 +476,7 @@ Sync:  +DMR       mod: QPSK inlvl: 73%  slot0  [SLOT1]  VOICE e:================
 Sync: (+DMR)      mod: GFSK inlvl: 43% [slot0]  SLOT1   VOICE e:====R======R====R=======R=========================T====R====
 ```
 
-### P25 Phase 1 :white_check_mark:
+### P25 Phase 1 :smile:
 
 - gqrx f = 167187100 i streaming przez UDP: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
 
@@ -496,13 +519,13 @@ Pasma UKF: 144,315 MHz (SSB/USB) 144,600 MHz (FM) [wikipedia](https://pl.wikiped
 
 # Samoloty i inne latające
 
-## ADS-B :white_check_mark:
+## ADS-B :smile:
 
 - Software: `dump1090`
 
 ![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/ads-b/dump1090.png) 
 
-## VHF Data Link mode 2 (VDL2) :white_check_mark:
+## VHF Data Link mode 2 (VDL2) :smile:
 
 - http://www.rtl-sdr.com/dumpvdl2-lightweight-vdl2-decoder/
 - https://github.com/szpajder/dumpvdl2
@@ -515,7 +538,7 @@ spektrogram z gqrx:
 
 ![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/VDL2/dumpvdl2.png)
 
-## ACARS :white_check_mark:
+## ACARS :smile:
 
 > ACARS  is an acronym for Aircraft Communications Addressing and Reporting System which is a digital communications system that aircraft use to send and receive short messages to and from ground stations.
 
@@ -538,12 +561,12 @@ spektrogram z gqrx:
 - mapy:
   - http://live.glidernet.org/ - co i gdzie lata
   - http://ognrange.onglide.com/ - odbiorniki
-- jak na razie nie udało mi się zaobserwować żadnych obiektów :x:, ale system działa i stacja nasłuchowa się wyświetla :white_check_mark:
+- jak na razie nie udało mi się zaobserwować żadnych obiektów :x:, ale system działa i stacja nasłuchowa się wyświetla :smile:
 
 
 # Inne
 
-## AFSK1200 :white_check_mark:
+## AFSK1200 :smile:
 
 > Audio frequency-shift keying (AFSK). Used by amateur radio hams for packet radio, Automatic Packet Reporting System (APRS) and telemetry.
 

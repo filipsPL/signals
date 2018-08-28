@@ -1,25 +1,394 @@
-czw, 3 maj 2018, 19:55:01 CEST
+pon, 27 sie 2018, 22:31:02 CEST
+*** f=912201180
+   --- scm
+22:31:02.430614 decode.go:82: CenterFreq: 912201180
+22:31:02.432558 decode.go:83: SampleRate: 2359296
+22:31:02.432568 decode.go:84: DataRate: 32768
+22:31:02.432576 decode.go:85: ChipLength: 72
+22:31:02.432583 decode.go:86: PreambleSymbols: 21
+22:31:02.432591 decode.go:87: PreambleLength: 3024
+22:31:02.432598 decode.go:88: PacketSymbols: 96
+22:31:02.432605 decode.go:89: PacketLength: 13824
+22:31:02.432613 decode.go:90: Preamble: 111110010101001100000
+22:31:02.432621 main.go:94: GainCount: 29
+   --- scm+
+22:31:32.532005 decode.go:82: CenterFreq: 912201180
+22:31:32.532154 decode.go:83: SampleRate: 2359296
+22:31:32.532162 decode.go:84: DataRate: 32768
+22:31:32.532168 decode.go:85: ChipLength: 72
+22:31:32.532174 decode.go:86: PreambleSymbols: 16
+22:31:32.532180 decode.go:87: PreambleLength: 2304
+22:31:32.532186 decode.go:88: PacketSymbols: 128
+22:31:32.532192 decode.go:89: PacketLength: 18432
+22:31:32.532199 decode.go:90: Preamble: 0001011010100011
+22:31:32.532205 main.go:94: GainCount: 29
+   --- idm
+22:32:02.540477 decode.go:82: CenterFreq: 912201180
+22:32:02.540611 decode.go:83: SampleRate: 2359296
+22:32:02.540618 decode.go:84: DataRate: 32768
+22:32:02.540625 decode.go:85: ChipLength: 72
+22:32:02.540631 decode.go:86: PreambleSymbols: 32
+22:32:02.540637 decode.go:87: PreambleLength: 4608
+22:32:02.540643 decode.go:88: PacketSymbols: 736
+22:32:02.540649 decode.go:89: PacketLength: 105984
+22:32:02.540656 decode.go:90: Preamble: 01010101010101010001011010100011
+22:32:02.540668 main.go:94: GainCount: 29
+   --- r900
+22:32:32.548881 decode.go:82: CenterFreq: 912201180
+22:32:32.549028 decode.go:83: SampleRate: 2359296
+22:32:32.549036 decode.go:84: DataRate: 32768
+22:32:32.549043 decode.go:85: ChipLength: 72
+22:32:32.549049 decode.go:86: PreambleSymbols: 32
+22:32:32.549055 decode.go:87: PreambleLength: 4608
+22:32:32.549062 decode.go:88: PacketSymbols: 116
+22:32:32.549073 decode.go:89: PacketLength: 16704
+22:32:32.549080 decode.go:90: Preamble: 00000000000000001110010101100100
+22:32:32.549096 main.go:94: GainCount: 29
+   --- r900bcd
+22:33:02.557697 decode.go:82: CenterFreq: 912201180
+22:33:02.557836 decode.go:83: SampleRate: 2359296
+22:33:02.557843 decode.go:84: DataRate: 32768
+22:33:02.557849 decode.go:85: ChipLength: 72
+22:33:02.557855 decode.go:86: PreambleSymbols: 32
+22:33:02.557862 decode.go:87: PreambleLength: 4608
+22:33:02.557868 decode.go:88: PacketSymbols: 116
+22:33:02.557875 decode.go:89: PacketLength: 16704
+22:33:02.557884 decode.go:90: Preamble: 00000000000000001110010101100100
+22:33:02.557897 main.go:94: GainCount: 29
+*** f=912988500
+   --- scm
+22:33:32.566298 decode.go:82: CenterFreq: 912988500
+22:33:32.566422 decode.go:83: SampleRate: 2359296
+22:33:32.566429 decode.go:84: DataRate: 32768
+22:33:32.566435 decode.go:85: ChipLength: 72
+22:33:32.566452 decode.go:86: PreambleSymbols: 21
+22:33:32.566471 decode.go:87: PreambleLength: 3024
+22:33:32.566478 decode.go:88: PacketSymbols: 96
+22:33:32.566485 decode.go:89: PacketLength: 13824
+22:33:32.566494 decode.go:90: Preamble: 111110010101001100000
+22:33:32.566501 main.go:94: GainCount: 29
+   --- scm+
+22:34:02.574625 decode.go:82: CenterFreq: 912988500
+22:34:02.574742 decode.go:83: SampleRate: 2359296
+22:34:02.574749 decode.go:84: DataRate: 32768
+22:34:02.574755 decode.go:85: ChipLength: 72
+22:34:02.574761 decode.go:86: PreambleSymbols: 16
+22:34:02.574768 decode.go:87: PreambleLength: 2304
+22:34:02.574774 decode.go:88: PacketSymbols: 128
+22:34:02.574780 decode.go:89: PacketLength: 18432
+22:34:02.574789 decode.go:90: Preamble: 0001011010100011
+22:34:02.574798 main.go:94: GainCount: 29
+   --- idm
+22:34:32.583370 decode.go:82: CenterFreq: 912988500
+22:34:32.583574 decode.go:83: SampleRate: 2359296
+22:34:32.583581 decode.go:84: DataRate: 32768
+22:34:32.583588 decode.go:85: ChipLength: 72
+22:34:32.583594 decode.go:86: PreambleSymbols: 32
+22:34:32.583600 decode.go:87: PreambleLength: 4608
+22:34:32.583606 decode.go:88: PacketSymbols: 736
+22:34:32.583612 decode.go:89: PacketLength: 105984
+22:34:32.583621 decode.go:90: Preamble: 01010101010101010001011010100011
+22:34:32.583633 main.go:94: GainCount: 29
+   --- r900
+22:35:02.591669 decode.go:82: CenterFreq: 912988500
+22:35:02.591810 decode.go:83: SampleRate: 2359296
+22:35:02.591819 decode.go:84: DataRate: 32768
+22:35:02.591825 decode.go:85: ChipLength: 72
+22:35:02.591832 decode.go:86: PreambleSymbols: 32
+22:35:02.591838 decode.go:87: PreambleLength: 4608
+22:35:02.591844 decode.go:88: PacketSymbols: 116
+22:35:02.591850 decode.go:89: PacketLength: 16704
+22:35:02.591856 decode.go:90: Preamble: 00000000000000001110010101100100
+22:35:02.591869 main.go:94: GainCount: 29
+   --- r900bcd
+22:35:32.599790 decode.go:82: CenterFreq: 912988500
+22:35:32.599916 decode.go:83: SampleRate: 2359296
+22:35:32.599924 decode.go:84: DataRate: 32768
+22:35:32.599933 decode.go:85: ChipLength: 72
+22:35:32.599939 decode.go:86: PreambleSymbols: 32
+22:35:32.599945 decode.go:87: PreambleLength: 4608
+22:35:32.599951 decode.go:88: PacketSymbols: 116
+22:35:32.599957 decode.go:89: PacketLength: 16704
+22:35:32.599964 decode.go:90: Preamble: 00000000000000001110010101100100
+22:35:32.599979 main.go:94: GainCount: 29
+*** f=912397800
+   --- scm
+22:36:02.608751 decode.go:82: CenterFreq: 912397800
+22:36:02.608873 decode.go:83: SampleRate: 2359296
+22:36:02.608880 decode.go:84: DataRate: 32768
+22:36:02.608886 decode.go:85: ChipLength: 72
+22:36:02.608893 decode.go:86: PreambleSymbols: 21
+22:36:02.608899 decode.go:87: PreambleLength: 3024
+22:36:02.608905 decode.go:88: PacketSymbols: 96
+22:36:02.608911 decode.go:89: PacketLength: 13824
+22:36:02.608918 decode.go:90: Preamble: 111110010101001100000
+22:36:02.608926 main.go:94: GainCount: 29
+   --- scm+
+22:36:32.617572 decode.go:82: CenterFreq: 912397800
+22:36:32.617721 decode.go:83: SampleRate: 2359296
+22:36:32.617728 decode.go:84: DataRate: 32768
+22:36:32.617732 decode.go:85: ChipLength: 72
+22:36:32.617737 decode.go:86: PreambleSymbols: 16
+22:36:32.617741 decode.go:87: PreambleLength: 2304
+22:36:32.617745 decode.go:88: PacketSymbols: 128
+22:36:32.617750 decode.go:89: PacketLength: 18432
+22:36:32.617753 decode.go:90: Preamble: 0001011010100011
+22:36:32.617760 main.go:94: GainCount: 29
+   --- idm
+22:37:02.626365 decode.go:82: CenterFreq: 912397800
+22:37:02.626470 decode.go:83: SampleRate: 2359296
+22:37:02.626475 decode.go:84: DataRate: 32768
+22:37:02.626479 decode.go:85: ChipLength: 72
+22:37:02.626482 decode.go:86: PreambleSymbols: 32
+22:37:02.626486 decode.go:87: PreambleLength: 4608
+22:37:02.626489 decode.go:88: PacketSymbols: 736
+22:37:02.626493 decode.go:89: PacketLength: 105984
+22:37:02.626497 decode.go:90: Preamble: 01010101010101010001011010100011
+22:37:02.626505 main.go:94: GainCount: 29
+   --- r900
+22:37:32.634948 decode.go:82: CenterFreq: 912397800
+22:37:32.635079 decode.go:83: SampleRate: 2359296
+22:37:32.635087 decode.go:84: DataRate: 32768
+22:37:32.635094 decode.go:85: ChipLength: 72
+22:37:32.635100 decode.go:86: PreambleSymbols: 32
+22:37:32.635107 decode.go:87: PreambleLength: 4608
+22:37:32.635113 decode.go:88: PacketSymbols: 116
+22:37:32.635122 decode.go:89: PacketLength: 16704
+22:37:32.635129 decode.go:90: Preamble: 00000000000000001110010101100100
+22:37:32.635143 main.go:94: GainCount: 29
+   --- r900bcd
+22:38:02.643684 decode.go:82: CenterFreq: 912397800
+22:38:02.643798 decode.go:83: SampleRate: 2359296
+22:38:02.643806 decode.go:84: DataRate: 32768
+22:38:02.643812 decode.go:85: ChipLength: 72
+22:38:02.643819 decode.go:86: PreambleSymbols: 32
+22:38:02.643825 decode.go:87: PreambleLength: 4608
+22:38:02.643834 decode.go:88: PacketSymbols: 116
+22:38:02.643840 decode.go:89: PacketLength: 16704
+22:38:02.643847 decode.go:90: Preamble: 00000000000000001110010101100100
+22:38:02.643860 main.go:94: GainCount: 29
+*** f=912786600
+   --- scm
+22:38:32.651982 decode.go:82: CenterFreq: 912786600
+22:38:32.652098 decode.go:83: SampleRate: 2359296
+22:38:32.652105 decode.go:84: DataRate: 32768
+22:38:32.652112 decode.go:85: ChipLength: 72
+22:38:32.652118 decode.go:86: PreambleSymbols: 21
+22:38:32.652125 decode.go:87: PreambleLength: 3024
+22:38:32.652131 decode.go:88: PacketSymbols: 96
+22:38:32.652141 decode.go:89: PacketLength: 13824
+22:38:32.652147 decode.go:90: Preamble: 111110010101001100000
+22:38:32.652154 main.go:94: GainCount: 29
+   --- scm+
+22:39:02.660346 decode.go:82: CenterFreq: 912786600
+22:39:02.660481 decode.go:83: SampleRate: 2359296
+22:39:02.660489 decode.go:84: DataRate: 32768
+22:39:02.660495 decode.go:85: ChipLength: 72
+22:39:02.660501 decode.go:86: PreambleSymbols: 16
+22:39:02.660508 decode.go:87: PreambleLength: 2304
+22:39:02.660514 decode.go:88: PacketSymbols: 128
+22:39:02.660520 decode.go:89: PacketLength: 18432
+22:39:02.660526 decode.go:90: Preamble: 0001011010100011
+22:39:02.660533 main.go:94: GainCount: 29
+   --- idm
+22:39:32.613625 decode.go:82: CenterFreq: 912786600
+22:39:32.613748 decode.go:83: SampleRate: 2359296
+22:39:32.613755 decode.go:84: DataRate: 32768
+22:39:32.613761 decode.go:85: ChipLength: 72
+22:39:32.613768 decode.go:86: PreambleSymbols: 32
+22:39:32.613774 decode.go:87: PreambleLength: 4608
+22:39:32.613781 decode.go:88: PacketSymbols: 736
+22:39:32.613787 decode.go:89: PacketLength: 105984
+22:39:32.613794 decode.go:90: Preamble: 01010101010101010001011010100011
+22:39:32.613826 main.go:94: GainCount: 29
+   --- r900
+22:40:02.622353 decode.go:82: CenterFreq: 912786600
+22:40:02.622486 decode.go:83: SampleRate: 2359296
+22:40:02.622494 decode.go:84: DataRate: 32768
+22:40:02.622500 decode.go:85: ChipLength: 72
+22:40:02.622506 decode.go:86: PreambleSymbols: 32
+22:40:02.622512 decode.go:87: PreambleLength: 4608
+22:40:02.622518 decode.go:88: PacketSymbols: 116
+22:40:02.622524 decode.go:89: PacketLength: 16704
+22:40:02.622531 decode.go:90: Preamble: 00000000000000001110010101100100
+22:40:02.622542 main.go:94: GainCount: 29
+   --- r900bcd
+22:40:32.630661 decode.go:82: CenterFreq: 912786600
+22:40:32.630764 decode.go:83: SampleRate: 2359296
+22:40:32.630769 decode.go:84: DataRate: 32768
+22:40:32.630772 decode.go:85: ChipLength: 72
+22:40:32.630776 decode.go:86: PreambleSymbols: 32
+22:40:32.630780 decode.go:87: PreambleLength: 4608
+22:40:32.630783 decode.go:88: PacketSymbols: 116
+22:40:32.630786 decode.go:89: PacketLength: 16704
+22:40:32.630790 decode.go:90: Preamble: 00000000000000001110010101100100
+22:40:32.630798 main.go:94: GainCount: 29
+*** f=912958400
+   --- scm
+22:41:02.639335 decode.go:82: CenterFreq: 912958400
+22:41:02.639459 decode.go:83: SampleRate: 2359296
+22:41:02.639466 decode.go:84: DataRate: 32768
+22:41:02.639472 decode.go:85: ChipLength: 72
+22:41:02.639478 decode.go:86: PreambleSymbols: 21
+22:41:02.639484 decode.go:87: PreambleLength: 3024
+22:41:02.639490 decode.go:88: PacketSymbols: 96
+22:41:02.639496 decode.go:89: PacketLength: 13824
+22:41:02.639504 decode.go:90: Preamble: 111110010101001100000
+22:41:02.639515 main.go:94: GainCount: 29
+   --- scm+
+22:41:32.648042 decode.go:82: CenterFreq: 912958400
+22:41:32.648173 decode.go:83: SampleRate: 2359296
+22:41:32.648179 decode.go:84: DataRate: 32768
+22:41:32.648185 decode.go:85: ChipLength: 72
+22:41:32.648191 decode.go:86: PreambleSymbols: 16
+22:41:32.648198 decode.go:87: PreambleLength: 2304
+22:41:32.648204 decode.go:88: PacketSymbols: 128
+22:41:32.648211 decode.go:89: PacketLength: 18432
+22:41:32.648221 decode.go:90: Preamble: 0001011010100011
+22:41:32.648228 main.go:94: GainCount: 29
+   --- idm
+22:42:02.656767 decode.go:82: CenterFreq: 912958400
+22:42:02.656871 decode.go:83: SampleRate: 2359296
+22:42:02.656876 decode.go:84: DataRate: 32768
+22:42:02.656880 decode.go:85: ChipLength: 72
+22:42:02.656884 decode.go:86: PreambleSymbols: 32
+22:42:02.656887 decode.go:87: PreambleLength: 4608
+22:42:02.656891 decode.go:88: PacketSymbols: 736
+22:42:02.656894 decode.go:89: PacketLength: 105984
+22:42:02.656898 decode.go:90: Preamble: 01010101010101010001011010100011
+22:42:02.656906 main.go:94: GainCount: 29
+   --- r900
+22:42:32.665340 decode.go:82: CenterFreq: 912958400
+22:42:32.665450 decode.go:83: SampleRate: 2359296
+22:42:32.665457 decode.go:84: DataRate: 32768
+22:42:32.665463 decode.go:85: ChipLength: 72
+22:42:32.665470 decode.go:86: PreambleSymbols: 32
+22:42:32.665477 decode.go:87: PreambleLength: 4608
+22:42:32.665483 decode.go:88: PacketSymbols: 116
+22:42:32.665490 decode.go:89: PacketLength: 16704
+22:42:32.665497 decode.go:90: Preamble: 00000000000000001110010101100100
+22:42:32.665513 main.go:94: GainCount: 29
+   --- r900bcd
+22:43:02.673709 decode.go:82: CenterFreq: 912958400
+22:43:02.673838 decode.go:83: SampleRate: 2359296
+22:43:02.673846 decode.go:84: DataRate: 32768
+22:43:02.673853 decode.go:85: ChipLength: 72
+22:43:02.673859 decode.go:86: PreambleSymbols: 32
+22:43:02.673865 decode.go:87: PreambleLength: 4608
+22:43:02.673871 decode.go:88: PacketSymbols: 116
+22:43:02.673877 decode.go:89: PacketLength: 16704
+22:43:02.673883 decode.go:90: Preamble: 00000000000000001110010101100100
+22:43:02.673896 main.go:94: GainCount: 29
 *** f=143720000
    --- scm
-19:55:01.694034 decode.go:82: CenterFreq: 143720000
-19:55:01.694281 decode.go:83: SampleRate: 2359296
-19:55:01.694301 decode.go:84: DataRate: 32768
-19:55:01.694319 decode.go:85: ChipLength: 72
-19:55:01.694335 decode.go:86: PreambleSymbols: 21
-19:55:01.694352 decode.go:87: PreambleLength: 3024
-19:55:01.694378 decode.go:88: PacketSymbols: 96
-19:55:01.694394 decode.go:89: PacketLength: 13824
-19:55:01.694411 decode.go:90: Preamble: 111110010101001100000
-19:55:01.694429 main.go:94: GainCount: 29
+22:43:32.681972 decode.go:82: CenterFreq: 143720000
+22:43:32.682086 decode.go:83: SampleRate: 2359296
+22:43:32.682091 decode.go:84: DataRate: 32768
+22:43:32.682095 decode.go:85: ChipLength: 72
+22:43:32.682099 decode.go:86: PreambleSymbols: 21
+22:43:32.682105 decode.go:87: PreambleLength: 3024
+22:43:32.682111 decode.go:88: PacketSymbols: 96
+22:43:32.682117 decode.go:89: PacketLength: 13824
+22:43:32.682123 decode.go:90: Preamble: 111110010101001100000
+22:43:32.682130 main.go:94: GainCount: 29
+   --- scm+
+22:44:02.690999 decode.go:82: CenterFreq: 143720000
+22:44:02.691139 decode.go:83: SampleRate: 2359296
+22:44:02.691147 decode.go:84: DataRate: 32768
+22:44:02.691154 decode.go:85: ChipLength: 72
+22:44:02.691161 decode.go:86: PreambleSymbols: 16
+22:44:02.691168 decode.go:87: PreambleLength: 2304
+22:44:02.691174 decode.go:88: PacketSymbols: 128
+22:44:02.691181 decode.go:89: PacketLength: 18432
+22:44:02.691187 decode.go:90: Preamble: 0001011010100011
+22:44:02.691194 main.go:94: GainCount: 29
+   --- idm
+22:44:32.699222 decode.go:82: CenterFreq: 143720000
+22:44:32.699350 decode.go:83: SampleRate: 2359296
+22:44:32.699358 decode.go:84: DataRate: 32768
+22:44:32.699364 decode.go:85: ChipLength: 72
+22:44:32.699370 decode.go:86: PreambleSymbols: 32
+22:44:32.699377 decode.go:87: PreambleLength: 4608
+22:44:32.699383 decode.go:88: PacketSymbols: 736
+22:44:32.699390 decode.go:89: PacketLength: 105984
+22:44:32.699397 decode.go:90: Preamble: 01010101010101010001011010100011
+22:44:32.699412 main.go:94: GainCount: 29
+   --- r900
+22:45:07.537439 decode.go:82: CenterFreq: 143720000
+22:45:07.537574 decode.go:83: SampleRate: 2359296
+22:45:07.537581 decode.go:84: DataRate: 32768
+22:45:07.537588 decode.go:85: ChipLength: 72
+22:45:07.537594 decode.go:86: PreambleSymbols: 32
+22:45:07.537601 decode.go:87: PreambleLength: 4608
+22:45:07.537607 decode.go:88: PacketSymbols: 116
+22:45:07.537619 decode.go:89: PacketLength: 16704
+22:45:07.537626 decode.go:90: Preamble: 00000000000000001110010101100100
+22:45:07.537644 main.go:94: GainCount: 29
+   --- r900bcd
+22:45:37.542326 decode.go:82: CenterFreq: 143720000
+22:45:37.542474 decode.go:83: SampleRate: 2359296
+22:45:37.542483 decode.go:84: DataRate: 32768
+22:45:37.542489 decode.go:85: ChipLength: 72
+22:45:37.542493 decode.go:86: PreambleSymbols: 32
+22:45:37.542497 decode.go:87: PreambleLength: 4608
+22:45:37.542500 decode.go:88: PacketSymbols: 116
+22:45:37.542504 decode.go:89: PacketLength: 16704
+22:45:37.542508 decode.go:90: Preamble: 00000000000000001110010101100100
+22:45:37.542517 main.go:94: GainCount: 29
 *** f=144880000
    --- scm
-20:45:01.816203 decode.go:82: CenterFreq: 144880000
-20:45:01.816446 decode.go:83: SampleRate: 2359296
-20:45:01.816462 decode.go:84: DataRate: 32768
-20:45:01.816492 decode.go:85: ChipLength: 72
-20:45:01.816507 decode.go:86: PreambleSymbols: 21
-20:45:01.816522 decode.go:87: PreambleLength: 3024
-20:45:01.816536 decode.go:88: PacketSymbols: 96
-20:45:01.816551 decode.go:89: PacketLength: 13824
-20:45:01.816565 decode.go:90: Preamble: 111110010101001100000
-20:45:01.816580 main.go:94: GainCount: 29
+22:46:02.661846 decode.go:82: CenterFreq: 144880000
+22:46:02.661987 decode.go:83: SampleRate: 2359296
+22:46:02.661993 decode.go:84: DataRate: 32768
+22:46:02.661997 decode.go:85: ChipLength: 72
+22:46:02.662003 decode.go:86: PreambleSymbols: 21
+22:46:02.662009 decode.go:87: PreambleLength: 3024
+22:46:02.662016 decode.go:88: PacketSymbols: 96
+22:46:02.662023 decode.go:89: PacketLength: 13824
+22:46:02.662029 decode.go:90: Preamble: 111110010101001100000
+22:46:02.662037 main.go:94: GainCount: 29
+   --- scm+
+22:46:32.670648 decode.go:82: CenterFreq: 144880000
+22:46:32.670791 decode.go:83: SampleRate: 2359296
+22:46:32.670799 decode.go:84: DataRate: 32768
+22:46:32.670805 decode.go:85: ChipLength: 72
+22:46:32.670812 decode.go:86: PreambleSymbols: 16
+22:46:32.670819 decode.go:87: PreambleLength: 2304
+22:46:32.670826 decode.go:88: PacketSymbols: 128
+22:46:32.670832 decode.go:89: PacketLength: 18432
+22:46:32.670839 decode.go:90: Preamble: 0001011010100011
+22:46:32.670846 main.go:94: GainCount: 29
+   --- idm
+22:47:02.678797 decode.go:82: CenterFreq: 144880000
+22:47:02.678908 decode.go:83: SampleRate: 2359296
+22:47:02.678916 decode.go:84: DataRate: 32768
+22:47:02.678921 decode.go:85: ChipLength: 72
+22:47:02.678928 decode.go:86: PreambleSymbols: 32
+22:47:02.678933 decode.go:87: PreambleLength: 4608
+22:47:02.678939 decode.go:88: PacketSymbols: 736
+22:47:02.678946 decode.go:89: PacketLength: 105984
+22:47:02.678953 decode.go:90: Preamble: 01010101010101010001011010100011
+22:47:02.678966 main.go:94: GainCount: 29
+   --- r900
+22:47:32.687438 decode.go:82: CenterFreq: 144880000
+22:47:32.687569 decode.go:83: SampleRate: 2359296
+22:47:32.687577 decode.go:84: DataRate: 32768
+22:47:32.687583 decode.go:85: ChipLength: 72
+22:47:32.687589 decode.go:86: PreambleSymbols: 32
+22:47:32.687595 decode.go:87: PreambleLength: 4608
+22:47:32.687601 decode.go:88: PacketSymbols: 116
+22:47:32.687607 decode.go:89: PacketLength: 16704
+22:47:32.687614 decode.go:90: Preamble: 00000000000000001110010101100100
+22:47:32.687628 main.go:94: GainCount: 29
+   --- r900bcd
+22:48:02.695760 decode.go:82: CenterFreq: 144880000
+22:48:02.695872 decode.go:83: SampleRate: 2359296
+22:48:02.695878 decode.go:84: DataRate: 32768
+22:48:02.695884 decode.go:85: ChipLength: 72
+22:48:02.695889 decode.go:86: PreambleSymbols: 32
+22:48:02.695895 decode.go:87: PreambleLength: 4608
+22:48:02.695901 decode.go:88: PacketSymbols: 116
+22:48:02.695907 decode.go:89: PacketLength: 16704
+22:48:02.695914 decode.go:90: Preamble: 00000000000000001110010101100100
+22:48:02.695929 main.go:94: GainCount: 29
+pon, 27 sie 2018, 22:48:32 CEST
