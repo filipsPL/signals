@@ -58,6 +58,8 @@ Table of Contents
   * [VHF Data Link mode 2 (VDL2) :smile:](#vhf-data-link-mode-2-vdl2-smile)
   * [ACARS :smile:](#acars-smile)
   * [FLARM :x:](#flarm-x)
+  * [VOR :smile:](#vor-smile)
+    * [VOR Darłowo](#vor-darłowo)
 * [Inne](#inne)
   * [AFSK1200 :smile:](#afsk1200-smile)
   * [APRS na CB :x:](#aprs-na-cb-x)
@@ -633,6 +635,21 @@ spektrogram z gqrx:
   - http://live.glidernet.org/ - co i gdzie lata
   - http://ognrange.onglide.com/ - odbiorniki
 - jak na razie nie udało mi się zaobserwować żadnych obiektów :x:, ale system działa i stacja nasłuchowa się wyświetla :smile:
+
+
+## VOR :smile:
+
+- Frequencies: 108 MHz,117.95 MHz
+- https://pl.wikipedia.org/wiki/VOR
+
+### VOR Darłowo
+- ID: DAR (-.. .- .-.) - nadawane alfabetem Morse'a
+- f = 114.2 MHz
+- [mp3](samoloty/vor/vor_dar.mp3)
+
+
+![waterfall](samoloty/vor/vor_darlowo.jpg)
+
 
 
 # Inne
