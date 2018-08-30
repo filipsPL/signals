@@ -648,6 +648,7 @@ spektrogram z gqrx:
 - [mp3](samoloty/vor/vor_dar.mp3)
 
 
+![foto obiektu](samoloty/vor/vor_dar_foto.jpg)
 ![waterfall](samoloty/vor/vor_darlowo.jpg)
 
 
