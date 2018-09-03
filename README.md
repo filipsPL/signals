@@ -497,6 +497,8 @@ Pasma UKF: 144,315 MHz (SSB/USB) 144,600 MHz (FM) [wikipedia](https://pl.wikiped
 
 # Samoloty i inne latające
 
+- nasłuch pasma lotniczego: `rtl_fm -M am -f 118M:137M:25k -s 24k -g 50 -l 35 | play -t raw -r 24k -es -b 16 -c 1 -V1 -` (audio)
+
 ## Sondy meteorologiczne :smile:
 
 - W Polsce sondy startują z Wrocławia, Łeby (403.0 Mhz) i Legionowa (404.5 Mhz) dwa razy dziennie około godziny 12 i 24 (wg https://radiosondy.pl/)
@@ -639,10 +641,11 @@ spektrogram z gqrx:
 
 ## VOR :smile:
 
-- Frequencies: 108 MHz,117.95 MHz
+- Frequencies: 108 MHz to 117.95 MHz
 - https://pl.wikipedia.org/wiki/VOR
 
 ### VOR Darłowo
+- 2018/08/30, ok 2km od stacji VOR
 - ID: DAR (-.. .- .-.) - nadawane alfabetem Morse'a
 - f = 114.2 MHz
 - [mp3](samoloty/vor/vor_dar.mp3)
@@ -779,6 +782,7 @@ average absolute error: 63.170 ppm
 - [rtl_power](http://kmkeen.com/rtl-power/)
   - `rtl_power -p 61 -f 118M:137M:8k -g 50 -i 2 -e 10m airband.csv`
   - `heatmap.py airband.csv airband.png` ([heatmap.py](https://github.com/keenerd/rtl-sdr-misc/blob/master/heatmap/heatmap.py))
+  - nasłuch pasma lotniczego: `rtl_fm -M am -f 118M:137M:25k -s 24k -g 50 -l 35 | play -t raw -r 24k -es -b 16 -c 1 -V1 -`
 
 
 ## Inne
