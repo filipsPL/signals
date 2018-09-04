@@ -644,6 +644,33 @@ spektrogram z gqrx:
 - Frequencies: 108 MHz to 117.95 MHz
 - https://pl.wikipedia.org/wiki/VOR
 
+| ID   | Typ       | Nazwa          | Częstotliwość (MHz) | 
+|------|-----------|----------------|---------------------| 
+| BYZ  | DVOR/DME  | Bydgoszcz      | 112,700             | 
+| CMP  | VOR/DME   | Czempiń        | 114,500             | 
+| DAR  | DVOR/DME  | Darłowo        | 114,200             | 
+| DRE  | VOR/DME   | Drezdenko      | 115,300             | 
+| GRU  | DVOR/DME  | Grudziądz      | 114,600             | 
+| JAB  | VOR/DME   | Jabłonka       | 116,400             | 
+| KMI  | VOR       | Kmiecin        | 116,800             | 
+| KAK  | DVOR/DME  | Kraków Balice  | 112,800             | 
+| LIN  | VOR/DME   | Linin          | 113,100             | 
+| MOL  | DVOR/DME  | Modlin         | 116,600             | 
+| MRA  | DVOR/DME  | Mrągowo        | 117,300             | 
+| OKC  | DVOR/DME  | Okęcie         | 113,450             | 
+| LAW  | DVOR/DME  | Poznań         | 115,800             | 
+| RAD  | DVOR/DME  | Radom          | 113,850             | 
+| RZE  | DVOR/DME  | Rzeszów        | 116,200             | 
+| SIE  | DVOR/DME  | Siedlce        | 114,700             | 
+| RUD  | DVOR/DME  | Skupowo        | 115,100             | 
+| SUI  | VOR/DME   | Słubice        | 116,700             | 
+| SUW  | DVOR/DME  | Suwałki        | 117,700             | 
+| SWI  | DVOR/DME  | Świdnik        | 112,200             | 
+| TRZ  | VOR/DME   | Trzebnica      | 113,600             | 
+| LOZ  | VOR/DME   | Wiączyń Dolny  | 112,400             | 
+| WAR  | VOR/DME   | Zaborówek      | 114,900             | 
+
+
 ### VOR Darłowo
 - 2018/08/30, ok 2km od stacji VOR
 - ID: DAR (-.. .- .-.) - nadawane alfabetem Morse'a
@@ -654,7 +681,10 @@ spektrogram z gqrx:
 ![foto obiektu](samoloty/vor/vor_dar_foto.jpg)
 ![waterfall](samoloty/vor/vor_darlowo.jpg)
 
-
+### VOR Okęcie
+- 2018/09/04, ok 10 km od stacji VOR
+- ID: OKC
+- f = 113,450 MHz
 
 # Inne
 
