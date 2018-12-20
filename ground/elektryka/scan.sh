@@ -4,11 +4,11 @@
 
 #fstart=900000000
 #fstart=902816400
-fstop=914000000
+#fstop=914000000
 
 
 fstart=143002000
-#fstop=447400000
+fstop=447400000
 
 step=1000
 timeout=15s

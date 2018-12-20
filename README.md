@@ -5,73 +5,79 @@ Czyli mój album-notatnik nasłuchowca-radio(bardzo)amatora.
 
 > **Nie wymaga pozwolenia używanie urządzeń radiowych przeznaczonych wyłącznie do odbioru.** Ustawa z dnia 16 lipca 2004 r., Prawo telekomunikacyjne (Dz. U. Nr 171, poz.1800) DZIAŁ VI, Rozdział 2, Art. 144. p. 1.
 
-
-
 Table of Contents
 =================
 
-* [Użyty sprzęt i software](#użyty-sprzęt-i-software)
-* [Satelity](#satelity)
-  * [NOAA :smile:](#noaa-smile)
-  * [Meteor :x:](#meteor-x)
-  * [FO-29 :smile: :x:](#fo-29-smile-x)
-  * [HO-68 :x:](#ho-68-x)
-  * [ISS :smile: :x:](#iss-smile-x)
-    * [Voice :smile:](#voice-smile)
-  * [GPS :x:](#gps-x)
-  * [Iridium :x:](#iridium-x)
-  * [PRATHAM :x:](#pratham-x)
-  * [Fox-01 == AO-85 :x:](#fox-01-==-ao-85-x)
-  * [Fox-1B :smile:](#fox-1b-smile)
-  * [SO-50](#so-50)
-* [Naziemne](#naziemne)
-  * [Radiofax :x:](#radiofax-x)
-  * [Stacja pogodowa 433 MHz :seedling:](#stacja-pogodowa-433-mhz-seedling)
-  * [POCSAG :x:](#pocsag-x)
-  * [STQC :x:](#stqc-x)
-* [Nawodne](#nawodne)
-  * [AIS :smile:](#ais-smile)
-* [Audio](#audio)
-  * [Nasłuch](#nasłuch)
-    * [Pogotowie Ratunkowe Warszawa :smile:](#pogotowie-ratunkowe-warszawa-smile)
-    * [Okęcie Informacje o stanie pasa :smile:](#okęcie-informacje-o-stanie-pasa-smile)
-    * [Wieża Warszawa Okęcie (OKE) :smile:](#wieża-warszawa-okęcie-oke-smile)
-    * [Kontrola płyty OKE Warszawa :smile:](#kontrola-płyty-oke-warszawa-smile)
-    * [VOLMET - stan pogody dla europejskich portów lotniczych :smile:](#volmet-stan-pogody-dla-europejskich-portów-lotniczych-smile)
-    * [Polska ACC TRZ / Warszawa Radar civ :smile:](#polska-acc-trz-warszawa-radar-civ-smile)
-    * [CB-Radio :smile:](#cb-radio-smile)
-  * [Tetra :smile:](#tetra-smile)
-  * [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA ](#d-star-nxdn4800-nxdn9600-dmr-mototrbo-p25-phase-1-x2-tdma)
-    * [X2-TDMA :smile:](#x2-tdma-smile)
-    * [NXDN96 :smile:](#nxdn96-smile)
-    * [D-STAR :x:](#d-star-x)                                                                                                                                                                        
-    * [DMR/MotoTRBO :smile:](#dmr-mototrbo-smile)                                                                                                                                                    
-    * [P25 Phase 1 :smile:](#p25-phase-1-smile)                                                                                                                                                      
-  * [PSK31, 62 :x:](#psk31-62-x)                                                                                                                                                                     
-  * [DECT :x:](#dect-x)                                                                                                                                                                              
-* [Samoloty i inne latające](#samoloty-i-inne-latające)                                                                                                                                              
-  * [Sondy meteorologiczne :smile:](#sondy-meteorologiczne-smile)                                                                                                                                    
-    * [Web interface](#web-interface)                                                                                                                                                                
-    * [Logi](#logi)                                                                                                                                                                                  
-    * [Mapa z APRS.fi](#mapa-z-aprs.fi)                                                                                                                                                              
-  * [ADS-B :smile:](#ads-b-smile)                                                                                                                                                                    
-  * [VHF Data Link mode 2 (VDL2) :smile:](#vhf-data-link-mode-2-vdl2-smile)
-  * [ACARS :smile:](#acars-smile)
-  * [FLARM :x:](#flarm-x)
-  * [VOR :smile:](#vor-smile)
-    * [VOR Darłowo](#vor-darłowo)
-* [Inne](#inne)
-  * [AFSK1200 :smile:](#afsk1200-smile)
-  * [APRS na CB :x:](#aprs-na-cb-x)
-  * [APRS przez satelitę :x:](#aprs-przez-satelitę-x)
-  * [SSTV](#sstv)
-* [Przydatny software](#przydatny-software)
-  * [pomiar ppm](#pomiar-ppm)
-    * [rtl_test](#rtl_test)
-    * [kalibrate](#kalibrate)
-  * [Skanowanie częstotliwości](#skanowanie-częstotliwości)
-  * [Inne](#inne)
-* [Ciekawe do rozkminienia](#ciekawe-do-rozkminienia)
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Użyty sprzęt i software](#uyty-sprzt-i-software)
+- [Satelity](#satelity)
+	- [NOAA :smile:](#noaa-smile)
+	- [Meteor :x:](#meteor-x)
+	- [FO-29 :smile: :x:](#fo-29-smile-x)
+	- [HO-68 :x:](#ho-68-x)
+	- [ISS :smile: :x:](#iss-smile-x)
+		- [Voice :smile:](#voice-smile)
+	- [GPS :x:](#gps-x)
+	- [Iridium :x:](#iridium-x)
+	- [PRATHAM :x:](#pratham-x)
+	- [Fox-01 == AO-85 :x:](#fox-01-ao-85-x)
+	- [Fox-1B :smile:](#fox-1b-smile)
+	- [SO-50](#so-50)
+- [Naziemne](#naziemne)
+	- [Radiofax :x:](#radiofax-x)
+	- [Stacja pogodowa 433 MHz :seedling:](#stacja-pogodowa-433-mhz-seedling)
+	- [LoRa WAN](#lora-wan)
+	- [POCSAG :x:](#pocsag-x)
+	- [STQC :x:](#stqc-x)
+- [Nawodne](#nawodne)
+	- [AIS :smile:](#ais-smile)
+- [Audio](#audio)
+	- [Nasłuch](#nasuch)
+		- [Pogotowie Ratunkowe Warszawa :smile:](#pogotowie-ratunkowe-warszawa-smile)
+		- [Okęcie Informacje o stanie pasa :smile:](#okcie-informacje-o-stanie-pasa-smile)
+		- [Wieża Warszawa Okęcie (OKE) :smile:](#wiea-warszawa-okcie-oke-smile)
+		- [Kontrola płyty OKE Warszawa :smile:](#kontrola-pyty-oke-warszawa-smile)
+		- [VOLMET - stan pogody dla europejskich portów lotniczych :smile:](#volmet-stan-pogody-dla-europejskich-portw-lotniczych-smile)
+		- [Polska ACC TRZ / Warszawa Radar civ :smile:](#polska-acc-trz-warszawa-radar-civ-smile)
+		- [CB-Radio :smile:](#cb-radio-smile)
+	- [Tetra :smile:](#tetra-smile)
+	- [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA](#d-star-nxdn4800-nxdn9600-dmrmototrbo-p25-phase-1-x2-tdma)
+		- [X2-TDMA :smile:](#x2-tdma-smile)
+		- [NXDN96 :smile:](#nxdn96-smile)
+		- [D-STAR :x:](#d-star-x)
+		- [DMR/MotoTRBO :smile:](#dmrmototrbo-smile)
+		- [P25 Phase 1 :smile:](#p25-phase-1-smile)
+	- [PSK31, 62 :x:](#psk31-62-x)
+	- [DECT :x:](#dect-x)
+- [Samoloty i inne latające](#samoloty-i-inne-latajce)
+	- [Sondy meteorologiczne :smile:](#sondy-meteorologiczne-smile)
+		- [Web interface](#web-interface)
+		- [Logi](#logi)
+		- [Mapa z APRS.fi](#mapa-z-aprsfi)
+	- [ADS-B :smile:](#ads-b-smile)
+	- [VHF Data Link mode 2 (VDL2) :smile:](#vhf-data-link-mode-2-vdl2-smile)
+	- [ACARS :smile:](#acars-smile)
+	- [FLARM :x:](#flarm-x)
+	- [VOR :smile:](#vor-smile)
+		- [VOR Darłowo](#vor-darowo)
+		- [VOR Okęcie](#vor-okcie)
+		- [VOR - azymut](#vor-azymut)
+- [Inne](#inne)
+	- [AFSK1200 :smile:](#afsk1200-smile)
+			- [Nagrywanie i dekodowanie](#nagrywanie-i-dekodowanie)
+	- [APRS na CB :x:](#aprs-na-cb-x)
+	- [APRS przez satelitę :x:](#aprs-przez-satelit-x)
+	- [SSTV](#sstv)
+- [Przydatny software](#przydatny-software)
+	- [pomiar ppm](#pomiar-ppm)
+		- [rtl_test](#rtltest)
+		- [kalibrate](#kalibrate)
+	- [Skanowanie częstotliwości](#skanowanie-czstotliwoci)
+	- [Inne](#inne)
+- [Ciekawe do rozkminienia](#ciekawe-do-rozkminienia)
+
+<!-- /TOC -->
 
 
 # Użyty sprzęt i software
@@ -98,7 +104,7 @@ Wyniki:
 ![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx.png)
 ![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/NOAA15.png)
 
-![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx_20170217_170354_137620000_sox-norm.jpg) 
+![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx_20170217_170354_137620000_sox-norm.jpg)
 ![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx_20170217_170354_137620000_sox-norm_termal.jpg)
 ![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/noaa-18-gqrx_20170217_163600_137912800_sox-norm-mcir.jpg)
 ![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/noaa-18-gqrx_20170217_163600_137912800_sox-norm-no.jpg)
@@ -170,7 +176,7 @@ to te mizerne punkty po środku widma...
 
 ![fox-spectrogram](sat/FOX-1B/20180827-1226_FOX-1B-spectrogram.png)
 
-[mp3](sat/FOX-1B/20180827-1226_FOX-1B.mp3) 
+[mp3](sat/FOX-1B/20180827-1226_FOX-1B.mp3)
 
 
 
@@ -201,6 +207,10 @@ to te mizerne punkty po środku widma...
 - złapane ale nie zdekodowane
 - może będzie łatwiej, bo sam budowałem tą stację i programowałem atmegę ;)
 
+## LoRa WAN
+
+- [howto](https://www.radiojitter.com/decoding-of-lorawan-packets/)
+
 ## POCSAG :x:
 
 - pagery
@@ -215,7 +225,7 @@ to te mizerne punkty po środku widma...
 
 ```
 POCSAG512: Address:    2468  Function: 0
-POCSAG512: Numeric: 3046 
+POCSAG512: Numeric: 3046
 POCSAG512: Alpha: <ETX>H
 POCSAG512: Address:    2468  Function: 0
 
@@ -246,7 +256,7 @@ POCSAG2400: Address: 2011192  Function: 1
 - Readme: https://github.com/sq5bpf/multimon-ng-stqc/blob/master/README_STQC
 
 > częstotliwość nadawcza TX 148.725 kanał 6, odiorcza RX 148.825 kanał 14.
-> 148,8250 MHz to częstotliwość Rx dla syren OSP. 148,7250 MHz to z kolei częstotliwość Tx dla syren OSP. 
+> 148,8250 MHz to częstotliwość Rx dla syren OSP. 148,7250 MHz to z kolei częstotliwość Tx dla syren OSP.
 > Żeby wychwycić kanał wojewódzki, powiatowy i inne kanały pasma PSP musisz skanować zakres 148,6500- 149,3500 MHz.
 
 # Nawodne
@@ -370,7 +380,7 @@ kanał            częstotliwość (MHz)                kanał                cz
 7                     27.030                                  27                     27.270
 8                     27.050                                  28                     27.280
 9                     27.060                                  29                     27.290
-10                   27.070                                  30                     27.300 
+10                   27.070                                  30                     27.300
 11                   27.080                                  31                     27.310
 12                   27.100                                  32                     27.320
 13                   27.110                                  33                     27.330
@@ -382,8 +392,8 @@ kanał            częstotliwość (MHz)                kanał                cz
 19                   27.180                                  39                     27.390
 20                   27.200                                  40                     27.400
 ```
-> AM (modulacja amplitudy) najbardziej popularna modulacja, stosowana w Polsce (i innych krajach tez) , obowiązuje na podstawowej czrterdziestce, ponieważ 
-praktycznie wszystkie radia CB mają ten rodzaj modulacji; moga mieć też inne, ale zawsze mają AM. 
+> AM (modulacja amplitudy) najbardziej popularna modulacja, stosowana w Polsce (i innych krajach tez) , obowiązuje na podstawowej czrterdziestce, ponieważ
+praktycznie wszystkie radia CB mają ten rodzaj modulacji; moga mieć też inne, ale zawsze mają AM.
 
 Za: http://radioamator.elektroda.eu/poradycb.html
 
@@ -398,7 +408,7 @@ Za: http://radioamator.elektroda.eu/poradycb.html
 ![rys-tetra](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/tetra-metro.png)
 
 
-## D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA 
+## D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA
 
 - http://www.rtl-sdr.com/tag/mototrbo/ - pod windowsa :-(
 - DSD: linux: https://github.com/szechyjs/dsd/wiki
@@ -407,7 +417,7 @@ Za: http://radioamator.elektroda.eu/poradycb.html
  - lub nasłuchując przez UDP danych z gqrx: `socat stdout udp-listen:7355 | dsd -i - -w dsd_output.wav`
  - rozmowy głosowe są szyfrowane/kodowane, więc to co można nasłuchać to raczej bezładne dźwięki
 
- 
+
 ### X2-TDMA :smile:
 
 - `rtl_fm -f 139987500 -s 22050 -o 4 -p 61 | dsd -i - -w dsd_output.wav`
@@ -479,7 +489,7 @@ Sync:  +P25p1     mod: QPSK inlvl: 161% nac:  3B0 src:        0 tg:     0  duid:
 
 ## PSK31, 62 :x:
 
-> łączność za pomocą przesyłanego tekstu (podobnie jak RTTY). Bardzo odporna na zakłócenia. Na jednym „kanale” może pracować kilka stacji (z przesuniętą nieznacznie podnośną) nie zakłócając się wzajemnie. Info dla CB radiowców – jest to także na 27.500USB. Ja preferuję 28.120 MHz– oj dzieje się tam.... Programy - Digipan, WINpsk, MixW, itp. 
+> łączność za pomocą przesyłanego tekstu (podobnie jak RTTY). Bardzo odporna na zakłócenia. Na jednym „kanale” może pracować kilka stacji (z przesuniętą nieznacznie podnośną) nie zakłócając się wzajemnie. Info dla CB radiowców – jest to także na 27.500USB. Ja preferuję 28.120 MHz– oj dzieje się tam.... Programy - Digipan, WINpsk, MixW, itp.
 
 Pasma UKF: 144,315 MHz (SSB/USB) 144,600 MHz (FM) [wikipedia](https://pl.wikipedia.org/wiki/PSK31)
 
@@ -598,7 +608,7 @@ Screen z flaskowego interfejsu programu:
 
 - Software: `dump1090`
 
-![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/ads-b/dump1090.png) 
+![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/ads-b/dump1090.png)
 
 ## VHF Data Link mode 2 (VDL2) :smile:
 
@@ -627,7 +637,7 @@ spektrogram z gqrx:
 ## FLARM :x:
 
 > FLARM is an EASA-approved[1] electronic system used to selectively alert pilots to potential collisions between aircraft. It is not formally an implementation of ADS-B, as it is optimized for the specific needs of light aircraft, not for long-range communication or ATC interaction. FLARM is a portmanteau of "flight" and "alarm".
-- http://wiki.glidernet.org/ - Open Glider Network 
+- http://wiki.glidernet.org/ - Open Glider Network
  - Software: http://wiki.glidernet.org/links#toc7
 - uruchomienie:
   - edycja `conf.conf` wg załączonoego template
@@ -643,32 +653,33 @@ spektrogram z gqrx:
 
 - Frequencies: 108 MHz to 117.95 MHz
 - https://pl.wikipedia.org/wiki/VOR
+- [Real-Time Decoding of VOR using RTL-SDR](https://www.radiojitter.com/real-time-decoding-of-vor-using-rtl-sdr/)
 
-| ID   | Typ       | Nazwa          | Częstotliwość (MHz) | 
-|------|-----------|----------------|---------------------| 
-| BYZ  | DVOR/DME  | Bydgoszcz      | 112,700             | 
-| CMP  | VOR/DME   | Czempiń        | 114,500             | 
-| DAR  | DVOR/DME  | Darłowo        | 114,200             | 
-| DRE  | VOR/DME   | Drezdenko      | 115,300             | 
-| GRU  | DVOR/DME  | Grudziądz      | 114,600             | 
-| JAB  | VOR/DME   | Jabłonka       | 116,400             | 
-| KMI  | VOR       | Kmiecin        | 116,800             | 
-| KAK  | DVOR/DME  | Kraków Balice  | 112,800             | 
-| LIN  | VOR/DME   | Linin          | 113,100             | 
-| MOL  | DVOR/DME  | Modlin         | 116,600             | 
-| MRA  | DVOR/DME  | Mrągowo        | 117,300             | 
-| OKC  | DVOR/DME  | Okęcie         | 113,450             | 
-| LAW  | DVOR/DME  | Poznań         | 115,800             | 
-| RAD  | DVOR/DME  | Radom          | 113,850             | 
-| RZE  | DVOR/DME  | Rzeszów        | 116,200             | 
-| SIE  | DVOR/DME  | Siedlce        | 114,700             | 
-| RUD  | DVOR/DME  | Skupowo        | 115,100             | 
-| SUI  | VOR/DME   | Słubice        | 116,700             | 
-| SUW  | DVOR/DME  | Suwałki        | 117,700             | 
-| SWI  | DVOR/DME  | Świdnik        | 112,200             | 
-| TRZ  | VOR/DME   | Trzebnica      | 113,600             | 
-| LOZ  | VOR/DME   | Wiączyń Dolny  | 112,400             | 
-| WAR  | VOR/DME   | Zaborówek      | 114,900             | 
+| ID   | Typ       | Nazwa          | Częstotliwość (MHz) |
+|------|-----------|----------------|---------------------|
+| BYZ  | DVOR/DME  | Bydgoszcz      | 112,700             |
+| CMP  | VOR/DME   | Czempiń        | 114,500             |
+| DAR  | DVOR/DME  | Darłowo        | 114,200             |
+| DRE  | VOR/DME   | Drezdenko      | 115,300             |
+| GRU  | DVOR/DME  | Grudziądz      | 114,600             |
+| JAB  | VOR/DME   | Jabłonka       | 116,400             |
+| KMI  | VOR       | Kmiecin        | 116,800             |
+| KAK  | DVOR/DME  | Kraków Balice  | 112,800             |
+| LIN  | VOR/DME   | Linin          | 113,100             |
+| MOL  | DVOR/DME  | Modlin         | 116,600             |
+| MRA  | DVOR/DME  | Mrągowo        | 117,300             |
+| OKC  | DVOR/DME  | Okęcie         | 113,450             |
+| LAW  | DVOR/DME  | Poznań         | 115,800             |
+| RAD  | DVOR/DME  | Radom          | 113,850             |
+| RZE  | DVOR/DME  | Rzeszów        | 116,200             |
+| SIE  | DVOR/DME  | Siedlce        | 114,700             |
+| RUD  | DVOR/DME  | Skupowo        | 115,100             |
+| SUI  | VOR/DME   | Słubice        | 116,700             |
+| SUW  | DVOR/DME  | Suwałki        | 117,700             |
+| SWI  | DVOR/DME  | Świdnik        | 112,200             |
+| TRZ  | VOR/DME   | Trzebnica      | 113,600             |
+| LOZ  | VOR/DME   | Wiączyń Dolny  | 112,400             |
+| WAR  | VOR/DME   | Zaborówek      | 114,900             |
 
 
 ### VOR Darłowo
@@ -685,6 +696,31 @@ spektrogram z gqrx:
 - 2018/09/04, ok 10 km od stacji VOR
 - ID: OKC
 - f = 113,450 MHz
+
+### VOR - azymut
+
+- soft: https://github.com/TLeconte/vortrack
+- blog post: https://www.rtl-sdr.com/an-open-source-vor-receiver-for-airspy-and-rtl-sdr/
+
+```bash
+./vortrack 113.450
+Found Rafael Micro R820T tuner
+Exact sample rate is: 2000000.052982 Hz
+109.9
+110.0
+109.9
+110.0
+110.1
+110.1
+110.0
+110.0
+110.1
+110.0
+110.0
+110.0
+```
+
+- komentarz: w przypadku tego pomiaru prawidłowy azymut wynosi 294 stopnie, a więc znacząco różne od otrzymanego wyniku 110 stopni; z kolei "widoczność" VOR nie jest zbyt dobra. Antena schowana w osiedlowej studni i być może to wpływa na duży błąd pomiaru.
 
 # Inne
 
@@ -722,9 +758,9 @@ rtl_fm -f 144800000 -s 22050 -o 4 -p 61 | multimon-ng -a AFSK1200 -A -t raw - | 
 
 ## APRS przez satelitę :x:
 
-> Na 145.825 „śmiga” nawet satelita NO-44 specjalnie skonstruowany dla APRSu. Programy – UIVIEW , AGWTRACKER współpracują z AGWPE – symulującym modem PR. 
+> Na 145.825 „śmiga” nawet satelita NO-44 specjalnie skonstruowany dla APRSu. Programy – UIVIEW , AGWTRACKER współpracują z AGWPE – symulującym modem PR.
 
-> NO-44 operates in a negative power budget meaning it comes alive in mid-day sun on every orbit but fully runs down its batteries 45 minutes later in the next eclipse. It has to be in sun long enough to get enough charge to be able to provide the peak transmit power for the packet transmitter. 
+> NO-44 operates in a negative power budget meaning it comes alive in mid-day sun on every orbit but fully runs down its batteries 45 minutes later in the next eclipse. It has to be in sun long enough to get enough charge to be able to provide the peak transmit power for the packet transmitter.
 
 http://www.pe0sat.vgnet.nl/satellite/amateur-radio-satellites/no-44/
 
@@ -817,14 +853,14 @@ average absolute error: 63.170 ppm
 
 ## Inne
 
-- https://github.com/jopohl/urh - Universal Radio Hacker: investigate wireless protocols like a boss 
+- https://github.com/jopohl/urh - Universal Radio Hacker: investigate wireless protocols like a boss
 
 
 
 
 # Ciekawe do rozkminienia
 
-> Na zakresie KF pracuje mnóstwo stacji komercyjnych w emisjach RTTY, ARQ, AMTOR, PACTOR, SITOR itp. Super program do dekodowania informacji tego typu to RadioRaft (ok. 40różnych emisji). Jednak jest to program pod DOSA i wymaga zmontowania prostego modemu (koszt ok. 10zł). Automatycznie dostraja się do stacji, znajduje typ emisji cyfrowej oraz prędkość. Innym ciekawym programem jest Sky Sweeper (wykorzystuje kartę dźwiękową). Na KFie można (najczęściej) poczytać teksty z: agencji prasowych, informacje dla okrętów, raporty pogodowe (na bieżąco, z różnych punktów w Europie jak i na świecie – program czasami musi posiadać funkcję dekodowania raportów SYNOP), NATO, wojsko (na przykład sporo się działo podczas bombardowań Iraku). Ciekawym systemem jest także NAVTEX nadawany na 518kHz. Przesyłane są tam raporty (ostrzeżenia) pogodowe dla różnych części świata (dekoduje to między innymi JVcomm32 z możliwością odbioru tylko interesujących rejonów świata). Także emisja FAX nie wymarła. Można odebrać mapy pogodowe (najczęściej przeznaczone dla okrętów) jak i retransmisje zdjęć z satelitów meteo – programy: np. Jvcomm32, MixW itp... 
+> Na zakresie KF pracuje mnóstwo stacji komercyjnych w emisjach RTTY, ARQ, AMTOR, PACTOR, SITOR itp. Super program do dekodowania informacji tego typu to RadioRaft (ok. 40różnych emisji). Jednak jest to program pod DOSA i wymaga zmontowania prostego modemu (koszt ok. 10zł). Automatycznie dostraja się do stacji, znajduje typ emisji cyfrowej oraz prędkość. Innym ciekawym programem jest Sky Sweeper (wykorzystuje kartę dźwiękową). Na KFie można (najczęściej) poczytać teksty z: agencji prasowych, informacje dla okrętów, raporty pogodowe (na bieżąco, z różnych punktów w Europie jak i na świecie – program czasami musi posiadać funkcję dekodowania raportów SYNOP), NATO, wojsko (na przykład sporo się działo podczas bombardowań Iraku). Ciekawym systemem jest także NAVTEX nadawany na 518kHz. Przesyłane są tam raporty (ostrzeżenia) pogodowe dla różnych części świata (dekoduje to między innymi JVcomm32 z możliwością odbioru tylko interesujących rejonów świata). Także emisja FAX nie wymarła. Można odebrać mapy pogodowe (najczęściej przeznaczone dla okrętów) jak i retransmisje zdjęć z satelitów meteo – programy: np. Jvcomm32, MixW itp...
 
 > Działalność nasłuchową można rozpocząć jeszcze przed zbudowaniem odbiornika krótkofalowego. Można po prostu wykorzystać do tego celu domowy odbiornik radiofoniczny, wyposażany w zakres fal krótkich. Odbiornik taki nie umożliwia co prawda prowadzenia nasłuchów we wszystkich pasmach amatorskich, jednakże większość odbiorników radiofonicznych z zakresem fal krótkich umożliwia odbiór w pasmach 40 i 20 metrów. Odbiorniki radiofoniczne przystosowane są do odbioru audycji nadawanych z modulacją amplitudy, czyli do emisji A3. Sprawia to trochę kłopotu przy nasłuchu stacji amatorskich, które obecnie nie używają emisji A3, stosując jako podstawowe: emisję telegraficzną (Al) i jednowstęgową (A3a). Sygnały telegraficzne odbierane za pomocą odbiornika radiofonicznego będą słyszane w głośniku jako bezdźwięczny stukot, zaś sygnały telefonii jednowstęgowej — jako niezrozumiały zbiór dźwięków (kaczor Donald J ). Tym niemniej, szczególnie w paśmie 40 metrów, można odebrać sporo stacji polskich nadających praktycznie przez cały dzień. W każdą niedzielę o godzinie 10.30, również w paśmie 40 metrów, można odbierać półgodzinną audycję dla krótkofalowców, nadawaną przez Centralną Radiostację Polskiego Związku Krótkofalowców, SP5PZK.
 > Odbiór stacji telegraficznych i jednowstęgowych umożliwia proste urządzenie, łatwe do wykonania nawet dla początkującego radioamatora. Tym urządzeniem jest pomocniczy oscylator, pracujący przy częstotliwości zbliżonej do częstotliwości pośredniej odbiornika radiofonicznego (465 kHz). Nie jest przy tym potrzebna żadna przeróbka odbiornika. Schemat oscylatora przedstawiony jest na rys. Jego podstawowymi elementami są: tranzystor npn dowolnego typu (np. BF 520, BC 547) oraz obwód rezonansowy — filtr pośredniej częstotliwości AM (465 kHz). Oscylator można wykonać na małej płytce z materiału izolacyjnego; obudowę można zrobić z polistyrenowego pudełka. Oscylator jest zasilany z małej baterii do urządzeń tranzystorowych, o napięciu 9 V. Na zewnętrznej ściance obudowy należy umieścić wyłącznik baterii oraz wyprowadzić izolowany przewód o długości 20—30 cm, stanowiący antenę oscylatora. Przewód ten należy wprowadzić prze^ otwór w tylnej ściance odbiornika domowego tak, aby jego izolowany koniec był w pobliżu diody detekcyjnej lub końcówek ostatniego filtru pośredniej częstotliwości. Nieraz wystarczy tylko zbliżyć antenę oscylatora do obudowy odbiornika.
@@ -832,6 +868,3 @@ average absolute error: 63.170 ppm
 > To w prostokącie o przerywanych liniach to obwód rezonansowy pośredniej częstotliwości 465kHz – można takie coś wyłowić praktycznie z każdego radia. U mnie działała cewka 7x7 o oznaczeniu 137 wraz z kondensatorem 470pF.
 
 - http://www.elektroda.pl/rtvforum/topic1562028.html
-
-
-
