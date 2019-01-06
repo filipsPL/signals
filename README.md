@@ -8,7 +8,7 @@ Czyli mój album-notatnik nasłuchowca-radio(bardzo)amatora.
 Table of Contents
 =================
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+<!-- TOC depthFrom:1 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Użyty sprzęt i software](#uyty-sprzt-i-software)
 - [Satelity](#satelity)
@@ -17,7 +17,6 @@ Table of Contents
 	- [FO-29 :smile: :x:](#fo-29-smile-x)
 	- [HO-68 :x:](#ho-68-x)
 	- [ISS :smile: :x:](#iss-smile-x)
-		- [Voice :smile:](#voice-smile)
 	- [GPS :x:](#gps-x)
 	- [Iridium :x:](#iridium-x)
 	- [PRATHAM :x:](#pratham-x)
@@ -26,53 +25,32 @@ Table of Contents
 	- [SO-50](#so-50)
 - [Naziemne](#naziemne)
 	- [Radiofax :x:](#radiofax-x)
-	- [Stacja pogodowa 433 MHz :seedling:](#stacja-pogodowa-433-mhz-seedling)
-	- [LoRa WAN](#lora-wan)
+	- [Stacje pogodowe i inne czujniki na 433 MHz :smile:](#stacje-pogodowe-i-inne-czujniki-na-433-mhz-smile)
+	- [LoRa WAN :x:](#lora-wan-x)
 	- [POCSAG :x:](#pocsag-x)
 	- [STQC :x:](#stqc-x)
 - [Nawodne](#nawodne)
 	- [AIS :smile:](#ais-smile)
 - [Audio](#audio)
 	- [Nasłuch](#nasuch)
-		- [Pogotowie Ratunkowe Warszawa :smile:](#pogotowie-ratunkowe-warszawa-smile)
-		- [Okęcie Informacje o stanie pasa :smile:](#okcie-informacje-o-stanie-pasa-smile)
-		- [Wieża Warszawa Okęcie (OKE) :smile:](#wiea-warszawa-okcie-oke-smile)
-		- [Kontrola płyty OKE Warszawa :smile:](#kontrola-pyty-oke-warszawa-smile)
-		- [VOLMET - stan pogody dla europejskich portów lotniczych :smile:](#volmet-stan-pogody-dla-europejskich-portw-lotniczych-smile)
-		- [Polska ACC TRZ / Warszawa Radar civ :smile:](#polska-acc-trz-warszawa-radar-civ-smile)
-		- [CB-Radio :smile:](#cb-radio-smile)
 	- [Tetra :smile:](#tetra-smile)
 	- [D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA](#d-star-nxdn4800-nxdn9600-dmrmototrbo-p25-phase-1-x2-tdma)
-		- [X2-TDMA :smile:](#x2-tdma-smile)
-		- [NXDN96 :smile:](#nxdn96-smile)
-		- [D-STAR :x:](#d-star-x)
-		- [DMR/MotoTRBO :smile:](#dmrmototrbo-smile)
-		- [P25 Phase 1 :smile:](#p25-phase-1-smile)
 	- [PSK31, 62 :x:](#psk31-62-x)
 	- [DECT :x:](#dect-x)
 - [Samoloty i inne latające](#samoloty-i-inne-latajce)
 	- [Sondy meteorologiczne :smile:](#sondy-meteorologiczne-smile)
-		- [Web interface](#web-interface)
-		- [Logi](#logi)
-		- [Mapa z APRS.fi](#mapa-z-aprsfi)
 	- [ADS-B :smile:](#ads-b-smile)
 	- [VHF Data Link mode 2 (VDL2) :smile:](#vhf-data-link-mode-2-vdl2-smile)
 	- [ACARS :smile:](#acars-smile)
 	- [FLARM :x:](#flarm-x)
 	- [VOR :smile:](#vor-smile)
-		- [VOR Darłowo](#vor-darowo)
-		- [VOR Okęcie](#vor-okcie)
-		- [VOR - azymut](#vor-azymut)
 - [Inne](#inne)
 	- [AFSK1200 :smile:](#afsk1200-smile)
-			- [Nagrywanie i dekodowanie](#nagrywanie-i-dekodowanie)
 	- [APRS na CB :x:](#aprs-na-cb-x)
 	- [APRS przez satelitę :x:](#aprs-przez-satelit-x)
 	- [SSTV](#sstv)
 - [Przydatny software](#przydatny-software)
 	- [pomiar ppm](#pomiar-ppm)
-		- [rtl_test](#rtltest)
-		- [kalibrate](#kalibrate)
 	- [Skanowanie częstotliwości](#skanowanie-czstotliwoci)
 	- [Inne](#inne)
 - [Ciekawe do rozkminienia](#ciekawe-do-rozkminienia)
@@ -202,12 +180,29 @@ to te mizerne punkty po środku widma...
 - software: http://arachnoid.com/python/weatherreader/
 - https://ranous.wordpress.com/2015/07/03/how-to-receive-marine-radiofax-charts/
 
-## Stacja pogodowa 433 MHz :seedling:
+## Stacje pogodowe i inne czujniki na 433 MHz :smile:
 
-- złapane ale nie zdekodowane
-- może będzie łatwiej, bo sam budowałem tą stację i programowałem atmegę ;)
+- `rtl_433`: https://github.com/merbanan/rtl_433
 
-## LoRa WAN
+![screenshot](ground/rf443/rf_443-1.jpg)
+
+co ciekawe, można złapać nie tylko typowe stacje pogodowe:
+
+```
+time      : 2019-01-06 19:50:19
+model     : AmbientWeather-TX8300                  id        : 6
+channel   : 1            Battery   : 2             Temperature: -4.5 C       Humidity  : 70 %          MIC       : CHECKSUM
+```
+
+ale i np czujniki samochodowe (z kół):
+
+```
+time      : 2019-01-06 19:53:24
+model     : Toyota       type      : TPMS          id        : xxxxxx
+status    : 128          pressure_PSI: 28.250      temperature_C: -5.000     mic       : CRC
+```
+
+## LoRa WAN :x:
 
 - [howto](https://www.radiojitter.com/decoding-of-lorawan-packets/)
 
