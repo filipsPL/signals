@@ -13,7 +13,7 @@ Table of Contents
 - [Użyty sprzęt i software](#uyty-sprzt-i-software)
 - [Satelity](#satelity)
 	- [NOAA :smile:](#noaa-smile)
-	- [Meteor :x:](#meteor-x)
+	- [Meteor :smile:](#meteor-smile)
 	- [FO-29 :smile: :x:](#fo-29-smile-x)
 	- [HO-68 :x:](#ho-68-x)
 	- [ISS :smile: :x:](#iss-smile-x)
@@ -22,7 +22,7 @@ Table of Contents
 	- [PRATHAM :x:](#pratham-x)
 	- [Fox-01 == AO-85 :x:](#fox-01-ao-85-x)
 	- [Fox-1B :smile:](#fox-1b-smile)
-	- [SO-50](#so-50)
+	- [SO-50 :x:](#so-50-x)
 - [Naziemne](#naziemne)
 	- [Radiofax :x:](#radiofax-x)
 	- [Stacje pogodowe i inne czujniki na 433 MHz :smile:](#stacje-pogodowe-i-inne-czujniki-na-433-mhz-smile)
@@ -72,6 +72,8 @@ Table of Contents
 
 # Satelity
 
+- do automatycznego odbioru sygnałów satelitarnych (i innych także) polecam mój zestaw programów **[autowx2](https://github.com/filipsPL/autowx2/)**.
+
 ## NOAA :smile:
 
 - software: `gqrx`, `xwxtoimg`
@@ -79,17 +81,22 @@ Table of Contents
 
 Wyniki:
 
-![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx.png)
-![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/NOAA15.png)
+![rys1](sat/noaa/gqrx.jpg)
+![rys2](sat/noaa/NOAA15.jpg)
 
-![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx_20170217_170354_137620000_sox-norm.jpg)
-![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/gqrx_20170217_170354_137620000_sox-norm_termal.jpg)
-![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/noaa-18-gqrx_20170217_163600_137912800_sox-norm-mcir.jpg)
-![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/noaa/noaa-18-gqrx_20170217_163600_137912800_sox-norm-no.jpg)
+![rys1](sat/noaa/gqrx_20170217_170354_137620000_sox-norm600.jpg)
+![rys1](sat/noaa/gqrx_20170217_170354_137620000_sox-norm_termal600.jpg)
+![rys1](sat/noaa/noaa-18-gqrx_20170217_163600_137912800_sox-norm-mcir600.jpg)
+![rys1](sat/noaa/noaa-18-gqrx_20170217_163600_137912800_sox-norm-no600.jpg)
 
-## Meteor :x:
+## Meteor :smile:
 
-- chyba dość trudne, trzeba mieć specjalną/dobrą antenę (?)
+- złapane przy użyciu **autowx2**
+- odebrane na mojej antenie szerokopasmowej
+- dekoder: http://5b4az.org/
+
+![meteor1](sat/meteor/29Jan2019-1721-Ch0_600.jpg)
+![meteor2](sat/meteor/30Jan2019-0853-Ch1_600.jpg)
 
 ## FO-29 :smile: :x:
 
@@ -98,7 +105,7 @@ Wyniki:
 
 - udało się bez dekodowania: Mode: USB / CW-L, było słychać morsa (?). f=435,795 MHz (sterowane przez gpredict) (Mode U CW Beacon)
 
-![rys1](https://raw.githubusercontent.com/filipsPL/signals/master/sat/fo-29/fo-29-1.png)
+![rys1](sat/fo-29/fo-29-1.png)
 
 to te mizerne punkty po środku widma...
 
@@ -158,12 +165,12 @@ to te mizerne punkty po środku widma...
 
 
 
-## SO-50
+## SO-50 :x:
 
 - 436.795 MHz downlink; http://www.amsat.org/?page_id=1015
 - złapany, ale nic nie mogłem zrozumieć albo zdekodować.
 
-![so-50](https://raw.githubusercontent.com/filipsPL/signals/master/sat/so-50/SO-50-2.png)
+![so-50](sat/so-50/SO-50-2.png)
 
 
 # Naziemne
@@ -395,12 +402,12 @@ Za: http://radioamator.elektroda.eu/poradycb.html
 ## Tetra :smile:
 
 - Software: https://github.com/sq5bpf/telive
-- Mój skrypt do uruchomienia telive (jeden skrypt, otwiera wszystkie okienka, 6 kanałów, bez gnuradio): [link](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/runtetra.sh) [link](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/runtetra.sh)
-- plik z częstotliwościami - Warszawa:[link](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/telive_frequency_report.txt)
+- Mój skrypt do uruchomienia telive (jeden skrypt, otwiera wszystkie okienka, 6 kanałów, bez gnuradio): [link](ground/TETRA/runtetra.sh) [link](ground/TETRA/runtetra.sh)
+- plik z częstotliwościami - Warszawa:[link](ground/TETRA/telive_frequency_report.txt)
 
-![rys-tetra](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/tetra-waterfall.png)
+![rys-tetra](ground/TETRA/tetra-waterfall.png)
 
-![rys-tetra](https://raw.githubusercontent.com/filipsPL/signals/master/ground/TETRA/tetra-metro.png)
+![rys-tetra](ground/TETRA/tetra-metro.png)
 
 
 ## D-STAR, NXDN4800, NXDN9600, DMR/MotoTRBO, P25 Phase 1, X2-TDMA
@@ -603,7 +610,7 @@ Screen z flaskowego interfejsu programu:
 
 - Software: `dump1090`
 
-![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/ads-b/dump1090.png)
+![rys2](samoloty/ads-b/dump1090.png)
 
 ## VHF Data Link mode 2 (VDL2) :smile:
 
@@ -612,11 +619,11 @@ Screen z flaskowego interfejsu programu:
 
 spektrogram z gqrx:
 
-![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/VDL2/spectro.png)
+![rys2](samoloty/VDL2/spectro.png)
 
 `./dumpvdl2 --rtlsdr 0 --gain 49 --correction 64`
 
-![rys2](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/VDL2/dumpvdl2.png)
+![rys2](samoloty/VDL2/dumpvdl2.png)
 
 ## ACARS :smile:
 
@@ -624,10 +631,10 @@ spektrogram z gqrx:
 
 - http://www.rtl-sdr.com/rtl-sdr-radio-scanner-tutorial-receiving-airplane-data-with-acars/
 - command: `./acarsdeco2 --gain 49.6 --freq-correction 61 --freq 131550000 --freq 131725000`
-- log: [20170304](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/acars/acars-20170304.txt)
+- log: [20170304](samoloty/acars/acars-20170304.txt)
 
 
-![acars](https://raw.githubusercontent.com/filipsPL/signals/master/samoloty/acars/acars.png)
+![acars](samoloty/acars/acars.png)
 
 ## FLARM :x:
 
@@ -731,8 +738,8 @@ Exact sample rate is: 2000000.052982 Hz
 
 Spektrogram gqrx:
 
-![afsk](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200.png)
-![afsk](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200-1.png)
+![afsk](ground/AFSK1200/AFSK1200.png)
+![afsk](ground/AFSK1200/AFSK1200-1.png)
 
 
 #### Nagrywanie i dekodowanie
@@ -743,9 +750,9 @@ Spektrogram gqrx:
 ```
 rtl_fm -f 144800000 -s 22050 -o 4 -p 61 | multimon-ng -a AFSK1200 -A -t raw - | tee -a afsk1200-`date +"%Y%m%d%H%M"`.txt
 ```
-- [log](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200-20170503-log.txt)
+- [log](ground/AFSK1200/AFSK1200-20170503-log.txt)
 
-![afsk](https://raw.githubusercontent.com/filipsPL/signals/master/ground/AFSK1200/AFSK1200-terminal.png)
+![afsk](ground/AFSK1200/AFSK1200-terminal.png)
 
 ## APRS na CB :x:
 
