@@ -261,6 +261,10 @@ POCSAG2400: Address: 2011192  Function: 1
 > 148,8250 MHz to częstotliwość Rx dla syren OSP. 148,7250 MHz to z kolei częstotliwość Tx dla syren OSP.
 > Żeby wychwycić kanał wojewódzki, powiatowy i inne kanały pasma PSP musisz skanować zakres 148,6500- 149,3500 MHz.
 
+## Differential GPS :x:
+
+- Różnicowy GPS - DGPS - technika pomiarów GPS pozwalająca na uzyskanie większej dokładności niż przy standardowym pomiarze jednym odbiornikiem. Metoda ta polega na wykorzystaniu stacji bazowej (tzw. referencyjnej) – odbiornika ustawionego w dokładnie wyznaczonym punkcie (np. przez pomiar geodezyjny), który wyznacza na bieżąco poprawki różnicowe dla poszczególnych satelitów, co pozwala na wyeliminowanie większości błędów (gdyż błędy obserwowane na małym obszarze są skorelowane). Drugi odbiornik (ruchomy) musi mieć możliwość odbioru tych poprawek, np. przez łącze satelitarne, VHF, GPRS/WLAN. Poprawki są transmitowane w formacie RTCM, CMR lub innym. System ten można stosować zarówno w czasie rzeczywistym, jak i przez późniejsze przetworzenie danych. [wiki](https://pl.wikipedia.org/wiki/R%C3%B3%C5%BCnicowy_GPS)
+
 # Nawodne
 
 ## AIS :smile:
@@ -335,7 +339,6 @@ Gain: 49.6 dB
 2018-08-27 22:21:21.873  INFO     !AIVDM,1,1,,B,H3ptOn1<tIDr0TV222222222220,0*4D
 2018-08-27 22:21:22.050  INFO     !AIVDM,1,1,,B,H3ptOn4T1=3PPPPC@Ckloi102120,0*65
 ```
-
 **TODO**: Wizualizacja dekodowanych wiadomości i naniesienie pozycji statków na mapę :memo: :lemon:
 
 # Audio
